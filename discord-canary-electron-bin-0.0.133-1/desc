@@ -1,0 +1,73 @@
+%FILENAME%
+discord-canary-electron-bin-0.0.133-1-x86_64.pkg.tar.xz
+
+%NAME%
+discord-canary-electron-bin
+
+%BASE%
+discord-canary-electron-bin
+
+%VERSION%
+0.0.133-1
+
+%DESC%
+Discord Canary (popular voice + video app) using the system provided electron for increased security and performance
+
+%CSIZE%
+1727056
+
+%ISIZE%
+11529935
+
+%MD5SUM%
+2e1db92c7ea81f4a6ed3954dc8a79b21
+
+%SHA256SUM%
+423ed7c1a5e6e59adf912cd2979f14fffb84b70dd6903db2a55584aebe2ed630
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIX+AsACgkQemZGpsFGkMAdxgv6AyE4OPpnGrhfgRxYHt1uMNg4ILoaWd/7/9nLAnW8EcLE+9quyRVfBAcTXLToPIrzD5Zq2fDOljE74cJdl0g0htHMW7eUCvk0uQa57g02Ewl8XfZoKHYqnNPQGKZVTDexmSQBtOMDmMBjVPNPvjpv3bovsdEVsrthT4znrBJF3p1AXrGKG9IXY9Xm1gkJn/dVWUb1AoYqWxl+eHc/bzMONXZhVeyrF4J7q90DreaYPyn4wb/dB7FDwYKunFL8TPekgd5SqPpG/n494EkJTtGIO5mx0LFv3SD1sv/ZDxmMmLH59OuMW0oCq8JY8vZSOcwO7S4rlfVowXS1OIYU44SxsRLa+9rL2jbKxXZqova/PtKaKrym5eijO2jQSUsGThbGdW+OShH32BcaoFi2qvRJUknvCyLkzqzv5PgIPKMWB/Qw1FDQwOTFfLoLpsOe8WjKW98eBwBbo40ruerm7212+S+Eha85LbsLP6OF5yCBnP/fNCwBsRHNzttRUKqYwbI7
+
+%URL%
+https://canary.discordapp.com
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645737922
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+discord-canary
+
+%PROVIDES%
+discord-canary
+
+%DEPENDS%
+electron
+gtk3
+libnotify
+libxss
+glibc
+alsa-lib
+nspr
+nss
+xdg-utils
+libcups
+
+%OPTDEPENDS%
+libpulse: Pulseaudio support
+xdg-utils: Open files
+noto-fonts-emoji: Google font for emoji support.
+ttf-symbola: Font for emoji support.
+noto-fonts-cjk: Font for special characters such as /shrug face.
+
+%MAKEDEPENDS%
+asar
+
