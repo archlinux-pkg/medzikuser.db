@@ -1,0 +1,9 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/chromium-extension-web-store/
+usr/lib/chromium-extension-web-store/chromium-extension-web-store-1.4.4.crx
+usr/share/
+usr/share/chromium/
+usr/share/chromium/extensions/
+usr/share/chromium/extensions/ocaahdebbfolfmndjeplogmgcagdmblk.json

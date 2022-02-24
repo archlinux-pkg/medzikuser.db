@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/discordrpc
+usr/share/
+usr/share/licenses/
+usr/share/licenses/discordrpc/
+usr/share/licenses/discordrpc/LICENSE

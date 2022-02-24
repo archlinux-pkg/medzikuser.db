@@ -1,0 +1,46 @@
+%FILENAME%
+uasm-2.52.r1.c612f83d97-3-x86_64.pkg.tar.xz
+
+%NAME%
+uasm
+
+%BASE%
+uasm
+
+%VERSION%
+2.52.r1.c612f83d97-3
+
+%DESC%
+A free MASM-compatible assembler based on JWasm
+
+%CSIZE%
+331480
+
+%ISIZE%
+957054
+
+%MD5SUM%
+54dbbd04214ba651d0f99dc0b8e78a87
+
+%SHA256SUM%
+dedbbffc133f98f1e68b3a6b4df05644bdb03e29ed7b85d33ef3c7f3807e3777
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIDu0kACgkQemZGpsFGkMCq+QwAyXMn4WwFn1PKoQ0oFmNQEax/m4/pKVA4fCgwJJo4G7M6I40Q1bCFTYQDScFpO6JXN3DaJ/XG5tXMOsxjcvmLlyyvpclWnABrTPtbztfKt9vNYRyT+LsVLvudpqj42ydM5NLgEizpkhacyCz5ywjehDAl/K6SBIlciK5cDVEKCNJKXDVLN2i+UDm9pGPA/RBKEieV2ktHCuJzmArZx00FxlqI6Rot01iGGFBjYBb4ou6sJQEQstbksJ/TV7bjRwv5bRZljYTX6zFqgtlNraSuVkz2qhy98fnLUBnnABFmJU0cLrkQ0oczYMbLgZurA8xHbawd7/w2Ijhj1bJ0blZH9H5SHWZZYKr95z+prtNkG+9LhklLDLmlhMxZHOd+8jyiXssDBJGQy972hVL7AoACfMG6ICPzZNPfXYlKSK4D8vQy/Xsw5iKpm059WcoVY2QUntvlNTIMMBdLNkXUrp4HChbT6We945n/qhoNgF/5lEIHywfMPNc63PZno6ALjtuM
+
+%URL%
+http://www.terraspace.co.uk/uasm.html
+
+%LICENSE%
+custom:JWasm License
+custom:Sybase Open Watcom Public License
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644411522
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+

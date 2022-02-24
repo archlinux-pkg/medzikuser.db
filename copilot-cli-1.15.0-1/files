@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/copilot-cli
+usr/share/
+usr/share/licenses/
+usr/share/licenses/copilot-cli/
+usr/share/licenses/copilot-cli/LICENSE

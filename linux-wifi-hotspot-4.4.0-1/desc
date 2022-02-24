@@ -1,0 +1,67 @@
+%FILENAME%
+linux-wifi-hotspot-4.4.0-1-any.pkg.tar.xz
+
+%NAME%
+linux-wifi-hotspot
+
+%BASE%
+linux-wifi-hotspot
+
+%VERSION%
+4.4.0-1
+
+%DESC%
+A wrapper that does winetricks things for Proton enabled games, requires Winetricks
+
+%CSIZE%
+86332
+
+%ISIZE%
+207701
+
+%MD5SUM%
+84e8853b773419d4382c4448f885ed34
+
+%SHA256SUM%
+3ea44f02255625667d5badb8d9440d628d4266ad94165c2e381dfb3bf231c9b0
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIENGAACgkQemZGpsFGkMBdLgwAlLz2dvYfmIIZCAWIa+YnFo8QIrlgQMIb4gfvQKZ4URoRGm2wpq+7/041UZms/riU7EA/RxvL4+Gv3fc8yxpbTYxnm5aRIUfgG6balgr8FtS+ZyTjzRVkPAOXNQIqtOSsiy32rrP+WgGvhxls6lq3X+Et3dcsMfXM1y+rb3r/C2HsxH1jBhNx1riW4ehBq+HblhJHZecjH87YhHlQ7imRPV3/UqQqT08xkmITW3apVN1Vj4wxvd4NBivHxkZxvKHLIYv04OJ7b3QzdPJUplR7bmGwQGuVIUyXHa70ZhMY9JB4ik3vyxNrOJdPkNogyvQvVx5ODfHhDEXk8zMETiu7vO0qE9FE+snqkMy26hH1YnVZ7RxaGDGb5RkrReA20cZc3inH4ZwIrva8aNA8iubb1DmpJ5OyK9rJlMYFuizF2bU/j6rxfhXn7UPoLgmP6WE8gE6Lqu5tv33ujC/Zg751L++6FrUEJV+JtC7qkDpiSFvGezcUdreRZYMtQaYBS4Vj
+
+%URL%
+https://github.com/lakinduakash/linux-wifi-hotspot
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1644442682
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+wihotspot
+create_ap
+
+%PROVIDES%
+wihotspot
+create_ap
+
+%DEPENDS%
+dnsmasq
+gtk3
+hostapd
+iproute2
+iw
+procps-ng
+qrencode
+
+%OPTDEPENDS%
+haveged: For random MAC generation
+wireless_tools: if iw cannot recognize your adapter
+bash-completion: for bash completions
+

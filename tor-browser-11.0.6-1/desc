@@ -1,0 +1,68 @@
+%FILENAME%
+tor-browser-11.0.6-1-x86_64.pkg.tar.xz
+
+%NAME%
+tor-browser
+
+%BASE%
+tor-browser
+
+%VERSION%
+11.0.6-1
+
+%DESC%
+Tor Browser Bundle: anonymous browsing using Firefox and Tor (international PKGBUILD)
+
+%CSIZE%
+86348952
+
+%ISIZE%
+86345473
+
+%MD5SUM%
+570c0d6ad0844984b3106ef17ed4db15
+
+%SHA256SUM%
+16aa8843cb3c017671f3a6f4eada819f4993a08f2a5cab9d9d331c1acb432625
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIHrJYACgkQemZGpsFGkMB37Qv/T2l4BBQpoWvnNCHBsJd5dxNV7NYEUt5BcK3dhG6VXV6l5D7RFlZcBlRn1JJrLzgxSAcNmWtFdPw4oYu2b+gm8qUo7SYbcE3y7UqRg2eh7LrWEi3yU2Jju03JeRwdmQ2GrgydIn/Lrb1Sgqg2nL46k0wkHdDP3tsU3ADxAhbkLV3UU6ob/gbKsPU4jM4SUlNopSkfzUby7QfYvD3evb9xTisWgRXRgSsAK6iPXQBneqFp4cIeQ64ECGVASz+xap+h2ikaraaSyOWA0r2euilnfW73E+w9cTwBqw+jQpLZb8EEqEUmYeDAQ5PeudrHVtZ4NobMkreCIuIX1rsTm8X1qsKjsyi6d+0ByWw8wHBVGjZBh/wLui0t1a0Yr9AZ2MJp85OndWo3QaMezRfH8AktwQY6W+hnml0cIDcx4Irn8dp3mQhxvkrI7LWGFvcBKUGU2nSOfjYI8vfauIBQeb5MWEcbXCBSegTaQuLs85GjI/RaeWR1Shf+4EUzFXEfdRRj
+
+%URL%
+https://www.torproject.org/projects/torbrowser.html
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644670057
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+libxt
+startup-notification
+mime-types
+dbus-glib
+alsa-lib
+desktop-file-utils
+hicolor-icon-theme
+libvpx
+icu
+libevent
+nss
+hunspell
+sqlite
+
+%OPTDEPENDS%
+zenity: simple dialog boxes
+kdialog: KDE dialog boxes
+gst-plugins-good: H.264 video
+gst-libav: H.264 video
+libpulse: PulseAudio audio driver
+libnotify: Gnome dialog boxes
+

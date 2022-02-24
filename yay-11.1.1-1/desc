@@ -1,0 +1,56 @@
+%FILENAME%
+yay-11.1.1-1-x86_64.pkg.tar.xz
+
+%NAME%
+yay
+
+%BASE%
+yay
+
+%VERSION%
+11.1.1-1
+
+%DESC%
+Yet another yogurt. Pacman wrapper and AUR helper written in go.
+
+%CSIZE%
+2282452
+
+%ISIZE%
+8157295
+
+%MD5SUM%
+e327aec2ffcefc2879ca0c268aefb3ba
+
+%SHA256SUM%
+c2cd7cc6b3bec832b27f21f2bb3d3bba5680f92fd7a30efadaaecc2646e1be2e
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIDwIkACgkQemZGpsFGkMC84QwAhlg05x1XEySEsvGjtg28fv2z8pkMn0CXSVye48HxK1J59vYYWS4iTqU/MiGGs643QUA0KA+XzkVlxqgoQ5aYUT2RjvkytOs0PyHEnPOCoh+COogjtToHLL9oqkWVrpPASnYnqXn9qoUcm0s0I9m0iruSj2mDIlWRd39hPCGlZ4Ei31uZp+q0gxenV51rUnOVo8iW8AWThtrf8oIb/XBl8Qmau71Q9Tg4UqmrHqga4WeXwhzKDsclPRlvVmI3kSf+YEIhXa1luyqKoY0uksPdtNDXrBlLhZFKXPxuzlLHSlaIYx8/+bqEsYCy+5pstLjw7Sbs7x0Eg2DTBHZzp9NlSIHtuagip7aBoIT03LG8Lb0yH6CvET9+agRwaUWLwfRb9mqDXu1hXf3Djx0o1rQuofxvizRP4b/ebN3xgSUI7U3ndZt/ZXUzLFsBQxi6Q9m1qDV1Ko9jvEb2QJajb1SbVzdUnaxtraCDOHcbObiaA3i5Jkma5NLr2NxhCZXuTUVK
+
+%URL%
+https://github.com/Jguer/yay
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644413026
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+pacman>5
+git
+
+%OPTDEPENDS%
+sudo: privilege elevation
+doas: privilege elevation
+
+%MAKEDEPENDS%
+go>=1.17
+

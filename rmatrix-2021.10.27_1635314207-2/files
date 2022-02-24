@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/rmatrix
+usr/share/
+usr/share/licenses/
+usr/share/licenses/rmatrix/
+usr/share/licenses/rmatrix/LICENSE

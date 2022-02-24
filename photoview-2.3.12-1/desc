@@ -1,0 +1,73 @@
+%FILENAME%
+photoview-2.3.12-1-x86_64.pkg.tar.xz
+
+%NAME%
+photoview
+
+%BASE%
+photoview
+
+%VERSION%
+2.3.12-1
+
+%DESC%
+Photo gallery for self-hosted personal servers
+
+%CSIZE%
+34237036
+
+%ISIZE%
+61645004
+
+%MD5SUM%
+4508bf0619c5427f31d9b8a354e5fd89
+
+%SHA256SUM%
+ff13b2c3b0f6a464fac7a3bc8bb32ec6d0ad109632dd8024fdbd1c755c3ea53f
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIHlVEACgkQemZGpsFGkMCEEQwAk7tIX2sFx65uW2wUyPIt76nTrA4WJcAyp5TnsrHNUJLs0lseDwlW5RqiNYLKDuuQbi/HER6iulGeQP3mSKHwaXYJmtLGdojITbb2gKK8eNWz+ZgIenn6qoFJtGTuWgwvKXssdJIOoiC9XUPwY2OV/cloSVtpyJhRdyGC6QQhktzwVdqtgt1Y+R2iXQHj75oxlHgfvNk28Ls22L004G3KBOLXjfYL84MkHeEP2Uddt93VUyUcpiCcw+YJmMaRb/tbJqrAfuSiPn4EMsMHUpZmoE3TV0tp28W5MsETGn5JFRUPkrxux/2BPBgX5HshhZrNWlfn5oM82t7VJ9ueCi2bMadeu67sGPivb+hI72Od2BNOA1PAY5KbD5Zm/owrzpbLsHvb7bFIV6kKyClI/skvORxYDpDvvzH/5gsOggzysfSOimMdIJQXSTcCzzaPVKuIkS0WHESXEj3+YDr2ujFLDlTo7VXyoDCwSp408UmxkpvMX8cysjx4zVbVWCzjU921
+
+%URL%
+https://github.com/photoview/photoview
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644663917
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%REPLACES%
+golang-photoview
+
+%CONFLICTS%
+golang-photoview
+
+%DEPENDS%
+nodejs
+libjpeg-turbo
+libheif
+blas
+cblas
+lapack
+dlib
+
+%OPTDEPENDS%
+mariadb: for mysql database backend
+postgresql: for database backend
+sqlite: for database backend
+darktable: for RAW image support
+ffmpeg: for video file playback in the browser
+perl-image-exiftool: for faster and more reliable EXIF metadata parsing
+
+%MAKEDEPENDS%
+git
+go
+npm
+

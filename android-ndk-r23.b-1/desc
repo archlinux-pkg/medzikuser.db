@@ -1,0 +1,58 @@
+%FILENAME%
+android-ndk-r23.b-1-x86_64.pkg.tar.xz
+
+%NAME%
+android-ndk
+
+%BASE%
+android-ndk
+
+%VERSION%
+r23.b-1
+
+%DESC%
+Android C/C++ developer kit
+
+%CSIZE%
+472148956
+
+%ISIZE%
+2387131534
+
+%MD5SUM%
+cfe1c53e4f2f5448a37f2b0b03d0d320
+
+%SHA256SUM%
+4d7b87f5beedecc88735d8a932e77dd8db1e9a2549cd24f13bada3d63329219b
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIE/uEACgkQemZGpsFGkMB74gv8D5rU5Q2b5ej6nIsTVVqtE+HLiI6u0ihNcOTwsnkBHnnuYbVhYhBoA0j1wBHC2AwOF7pOVulHO89hqg8KYGej+cc9EL+dR9sywPPbD43o2R5Yb1oCsSnlMz4Waux0P997ol6qFpHSPYCIb4lkJHnxhZt52JLVnNs4ComQw4V87NsB+2YqZyEjVOSCc0q8I6jINsTwUN1QGKVWpNT4PE4N1N2peCyyVbDtoW37nyK2CBYFpZ2gv8OW9059qUceCMeK84HEBaWQOcWJC9ZnFTjoD/gbOszmNpZq3lduFAzmtxPLm44L4ZMRafM8AFGa4EtUnooMK84U2IBbIEw9oU0DPJ9E0IgUI6YuEzERXVeE9j9TXg3c4PY1PJcWSCWpA0N4rj8cirgxerHepwwl25fLQQAAJUCRS4/6nyKTjlcyEjQXHlge+u1E3TRN+5NeimLuJD+XaR81toLpIJ4zpnCfMiRzNnN8DMRfM7QS6HUrT2XkhWQQDH0cqnpTCDTt6Aov
+
+%URL%
+https://developer.android.com/ndk/
+
+%LICENSE%
+GPL
+LGPL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644493590
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%REPLACES%
+android-ndk64
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+ncurses5-compat-libs: for using gdb
+python2: various helper scripts
+python: various helper scripts
+

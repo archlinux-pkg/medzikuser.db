@@ -1,0 +1,13 @@
+%FILES%
+opt/
+opt/tlauncher/
+opt/tlauncher/tlauncher.jar
+usr/
+usr/share/
+usr/share/applications/
+usr/share/applications/tlauncher.desktop
+usr/share/icons/
+usr/share/icons/hicolor/
+usr/share/icons/hicolor/symbolic/
+usr/share/icons/hicolor/symbolic/apps/
+usr/share/icons/hicolor/symbolic/apps/tlauncher.svg

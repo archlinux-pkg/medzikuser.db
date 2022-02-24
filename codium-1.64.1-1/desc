@@ -1,0 +1,72 @@
+%FILENAME%
+codium-1.64.1-1-x86_64.pkg.tar.xz
+
+%NAME%
+codium
+
+%BASE%
+codium
+
+%VERSION%
+1.64.1-1
+
+%DESC%
+Free/Libre Open Source Software Binaries of VSCode
+
+%CSIZE%
+17592928
+
+%ISIZE%
+104261742
+
+%MD5SUM%
+ebafc100fab6ede1f7e99879ce8bd92b
+
+%SHA256SUM%
+a848471799372e6014210b33d2428839670576032b3e5b77c8db46ab6eaf88fe
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIDtt4ACgkQemZGpsFGkMDHpQwA4KGtyUUkc4wmQ33gOaRloBloyv5C90ujL5AWkwvW/o8vthINXJsvVqQrI10tFNIaQO5XG3gCkEHdK99YFh4y0xP/i/ncoaGR1iOUAnn/DeGMDbnWuMyJxE0ZfJ8Uu4922UEDESMjdCNc4TCphy8GWi3yICdeR63UCREqLTLbYee1+4EsIe3pesyQDx0tJG00XtQAjaDYNtGPeS8xhLkbeHHV7ZpopuTRV6WC4B2JKBm6nsn/nHd5E3j8qtl7usuQvRj+BW7gYUXEod9iY5nwnIbYfsjWD2BgHyp7D4DZ2W4boXzrqR18jxOUfRjiq815U+AYTutO+g7gDHsYlZ3hDTp2F2CGnEA7iTfQZSrvMRu+gtSWgYttlR42cdvwSPhxtaf36V/ljUyb3d/MIAM4A/O9pmnq2Jx6xekh8Q+QXWXuBsz8X85OMgDbFCi46EkDFDlKG31qMh7J3l2ESCK4PHj6CNLIVW/R+mhM8LhK6lbSFTNKXGlltkeMjevCKq6Q
+
+%URL%
+https://github.com/VSCodium/vscodium
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644409640
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+electron13
+libsecret
+libx11
+libxkbfile
+ripgrep
+
+%OPTDEPENDS%
+bash-completion: Bash completions
+zsh-completions: ZSH completitons
+x11-ssh-askpass: SSH authentication
+org.freedesktop.secrets: Keyring password store support
+codium-features: Unblock some features in VSCodium
+codium-marketplace: Enable VS-Code marketplace in VSCodium
+
+%MAKEDEPENDS%
+nodejs-lts-gallium
+gulp
+yarn
+npm
+libxdmcp
+git
+git-lfs
+patch
+python
+pkg-config
+

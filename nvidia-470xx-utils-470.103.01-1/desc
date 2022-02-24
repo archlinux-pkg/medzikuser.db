@@ -1,0 +1,65 @@
+%FILENAME%
+nvidia-470xx-utils-470.103.01-1-x86_64.pkg.tar.xz
+
+%NAME%
+nvidia-470xx-utils
+
+%BASE%
+nvidia-470xx-utils
+
+%VERSION%
+470.103.01-1
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+172808332
+
+%ISIZE%
+442565254
+
+%MD5SUM%
+c194cabc461cda6801f57adbb7cf4f88
+
+%SHA256SUM%
+eea0839655cc0f9f99c3fbb6eccdaea70aafd1dbd3965cd26aae2f472b5c2568
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIE/uMACgkQemZGpsFGkMDTnwv/VglEtoN/ZRFT3SzQA8QF5+NnKAk171EXpWwcvEyMMSxlwE+oJR7fk9YC+FyWguZBi8rSB26EjHGNjjK9HT7mSKcoTw60Vid3ngOfrxHmFj8cn/RVVqBM7bQkCUcEN3vOfsamkILzQfSZYzjd/HRPGvgepADlz20GiH2/g/fgymrFi3j1LnPoy99zUbO6lee+EOH/K/SngjjvEC4sQDlyBrMfvkmZoERRZRIc8EpFJiSBaLEobZJBfwvB0RyO689Kmb1q1zd8xP4BOAZbbHGA50ShtDX1v8fH6DnFB36FEqXR/uQP8eR/9GBE/r7ouZFJGKpnf3xNIn6JTplncMvI1+3qUEVl4XwV0v4wxTDM+nyojvt8bMLWMWUMe43t7tXrQdDXOY4a3X0kGyh+eYAOyprygDSAlwwgqnw9BLbb4s9O6Z9xNrNO4s0HMC48cy2gcb9hV6J0hv1e2lIKrvIeqtjn4URtvP7WuKzAjt5wzr/YA11I3F5oxQl+Sjd+sy1b
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644494153
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+nvidia-libgl
+nvidia-utils
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils
+
+%DEPENDS%
+xorg-server
+libglvnd
+egl-wayland
+
+%OPTDEPENDS%
+nvidia-470xx-settings: configuration tool
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia-470xx: OpenCL support
+

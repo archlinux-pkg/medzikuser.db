@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/golangci-lint
+usr/share/
+usr/share/licenses/
+usr/share/licenses/golangci-lint/
+usr/share/licenses/golangci-lint/LICENSE

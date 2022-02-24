@@ -1,0 +1,5 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/medzikuser-dotfiles/
+usr/lib/medzikuser-dotfiles/bash_colors.sh
