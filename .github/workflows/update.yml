@@ -18,14 +18,14 @@ jobs:
 
       - name: Download and unpack
         run: |
-          wget https://arch-repo.magicuser.cf/medzikuser.files -O - | bsdtar xf -
+          wget https://arch-repo.magicuser.cf/medzikuser.files -O - | tar xf -
 
       - name: Commit changes
         run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "awesome-stars"
+          git config --global user.name "MedzikUserBot"
+          git config --global user.email "rm99iv9s@duck.com"
           git add -A
-          git diff-index --quiet HEAD || git commit -m "⭐ Update awesome stars"
+          git diff-index --quiet HEAD || git commit -m "$(date)"
           git pull --rebase
 
       - name: Push changes
