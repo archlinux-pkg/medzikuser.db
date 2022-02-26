@@ -1,0 +1,73 @@
+%FILENAME%
+proton-ge-custom-bin-7.3_GE_1-1-x86_64.pkg.tar.xz
+
+%NAME%
+proton-ge-custom-bin
+
+%BASE%
+proton-ge-custom-bin
+
+%VERSION%
+7.3_GE_1-1
+
+%DESC%
+A fancy custom distribution of Valves Proton with various patches
+
+%CSIZE%
+741004076
+
+%ISIZE%
+1620204462
+
+%MD5SUM%
+0c0f168b6a15da6cf8b681bf4e67ac58
+
+%SHA256SUM%
+3775093e62138bad727b3482f4b78b2b08d4cc4c141e7acdf384f9ff5b8b51eb
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIaCKEACgkQemZGpsFGkMBs6gv5AWzWz1dw5l0BGZgj6CMBjGH+YmLp4S1wya+hMH7QNpB5wICXCKc4cIoALY+f8fR9nvmtJWLx+zLmFyyCLNSA4TVRlk2izDxOj+eP05csohLBqjp1gQ2ORAErj3ggHiD/evayDGvRHk1e8UmKqkg+y4IS/ldFZ/Ly39Orm3phZ/XG/mGqmDu2zsV6G/zbC/WSmxuO5ANJcQQ2SwtcMTxjZO7ofowegKpAGqI7AdQi668+DQq+8zNBcM6N7fmkSFYK07cklWiNX78occ3U0Oldkof+TdewaBS5Tp0CeNCwamHxCT3x++udSJ38j6eskXRJniPeinF1mUfxPVNyHj6WYn4prDZsTRGc3A8ZrLXv8LTEnODWfcQ6AHrjPDRJPy79GGvDGg4QAXbuYyzVoT6/0V4Na6gTXjmzm0yWPLarC4C635x/rje+sXEW2Gp5H5HMCybQoY15wftmqGCPAyd9o3iav09yBUJnRLh0lS/SiKwzqo0oi8ZpAG4uEohA+tA8
+
+%URL%
+https://github.com/GloriousEggroll/proton-ge-custom
+
+%LICENSE%
+BSD
+LGPL
+zlib
+MIT
+MPL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645872954
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+proton-ge-custom-legacy-bin
+proton-ge-custom
+
+%PROVIDES%
+proton
+proton-ge-custom=7.3.GE_1
+
+%DEPENDS%
+python
+vulkan-icd-loader
+
+%OPTDEPENDS%
+kdialog: KDE splash dialog support
+zenity: GNOME splash dialog support
+python-kivy: splash dialog support (big picture mode)
+steam: use proton with steam like intended
+lib32-vulkan-icd-loader: dxvk dependency for 32bit prefixes
+vulkan-driver: actually have a vulkan driver installed
+winetricks: protonfixes backend - highly recommended
+wine: support for 32bit prefixes
+xboxdrv: gamepad driver service
+
