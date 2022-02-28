@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/cargo-add
+usr/bin/cargo-rm
+usr/bin/cargo-upgrade
+usr/share/
+usr/share/doc/
+usr/share/doc/cargo-edit-git/
+usr/share/doc/cargo-edit-git/README.md
+usr/share/licenses/
+usr/share/licenses/cargo-edit-git/
+usr/share/licenses/cargo-edit-git/LICENSE
