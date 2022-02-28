@@ -1,0 +1,89 @@
+%FILENAME%
+proton-ge-custom-bin-1_GE_Proton7_3-1-x86_64.pkg.tar.xz
+
+%NAME%
+proton-ge-custom-bin
+
+%BASE%
+proton-ge-custom-bin
+
+%VERSION%
+1:GE_Proton7_3-1
+
+%DESC%
+A fancy custom distribution of Valves Proton with various patches
+
+%CSIZE%
+272112112
+
+%ISIZE%
+1161571590
+
+%MD5SUM%
+a2baa2c733ecfcca35ca5c41ff814602
+
+%SHA256SUM%
+bb37aadef0e7dfa287477df7775c7e7134fddcdce5eaed989ab1495990bf0bc0
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIdABEACgkQemZGpsFGkMD7QwwA2olWcLPcO1xBvKpe2884sJuaO++ufWQIHsBv55Bl1cxiDqS/OWuNgZkLP6O2T5aYugO7fAoBFmKkMGF7brSAHTKTe1a3Cm9hwfrTQ1KjGhqQocQ5Bj1Gwcz57ZdLj4VZPeQDvaMCYE3sghU/NMy942klh0Q3YIqpL8oaL7n43SkxPOTQmwWLLtqQ9Cp3H8jpjnjwbchFBgfgvPKqU2Io8lFSfbGw9GQLtPijfDxdUE+ZPKqJyJQ5w4RdM8GmvZAArNu0bosTjaLwaPXI4aO87rmU+EOHGDFpWYp2fBXWdMPlkwZqd30i0ZzK7jAUgGICeAMGaYllE73UzJaM5hNcsW6oLSTk365cFx0yhTUWCQ32ZWTgdhjK20/du6CxhmW9gwylB6xCasr7QzMnw+ckyq2uj755jYsWCo+MCEi+5j0Lto2adTFEAnA2hwC/zd72CZIPoeZYg2TCBpRWjw8BdXbtzo+2OASltAJHKY4V+K192zpg4jaAqONr2r2TAB5z
+
+%URL%
+https://github.com/GloriousEggroll/proton-ge-custom
+
+%LICENSE%
+BSD
+LGPL
+zlib
+MIT
+MPL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646067394
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+proton-ge-custom-legacy-bin
+proton-ge-custom
+
+%PROVIDES%
+proton
+proton-ge-custom=GE.Proton7_3
+
+%DEPENDS%
+python
+vulkan-icd-loader
+lib32-libusb
+lib32-openal
+lib32-sdl2
+lib32-v4l-utils
+lib32-jack
+lib32-libva
+ffmpeg4.4
+lib32-speex
+lib32-libtheora
+gst-plugins-bad-libs
+lib32-gst-plugins-base-libs
+libjpeg6-turbo
+lib32-libjpeg6-turbo
+lib32-libgudev
+lib32-flac
+lib32-mpg123
+
+%OPTDEPENDS%
+kdialog: KDE splash dialog support
+zenity: GNOME splash dialog support
+python-kivy: splash dialog support (big picture mode)
+steam: use proton with steam like intended
+lib32-vulkan-icd-loader: dxvk dependency for 32bit prefixes
+vulkan-driver: driver to be used by dxvk
+winetricks: protonfixes backend - highly recommended
+wine: support for 32bit prefixes
+xboxdrv: gamepad driver service
+
