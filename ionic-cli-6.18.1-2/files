@@ -899,10 +899,6 @@ usr/lib/node_modules/@ionic/cli/node_modules/depd/index.js
 usr/lib/node_modules/@ionic/cli/node_modules/depd/lib/
 usr/lib/node_modules/@ionic/cli/node_modules/depd/lib/browser/
 usr/lib/node_modules/@ionic/cli/node_modules/depd/lib/browser/index.js
-usr/lib/node_modules/@ionic/cli/node_modules/depd/lib/compat/
-usr/lib/node_modules/@ionic/cli/node_modules/depd/lib/compat/callsite-tostring.js
-usr/lib/node_modules/@ionic/cli/node_modules/depd/lib/compat/event-listener-count.js
-usr/lib/node_modules/@ionic/cli/node_modules/depd/lib/compat/index.js
 usr/lib/node_modules/@ionic/cli/node_modules/depd/package.json
 usr/lib/node_modules/@ionic/cli/node_modules/diff/
 usr/lib/node_modules/@ionic/cli/node_modules/diff/CONTRIBUTING.md
@@ -1404,7 +1400,6 @@ usr/lib/node_modules/@ionic/cli/node_modules/has-flag/license
 usr/lib/node_modules/@ionic/cli/node_modules/has-flag/package.json
 usr/lib/node_modules/@ionic/cli/node_modules/has-flag/readme.md
 usr/lib/node_modules/@ionic/cli/node_modules/has-symbols/
-usr/lib/node_modules/@ionic/cli/node_modules/has-symbols/.eslintignore
 usr/lib/node_modules/@ionic/cli/node_modules/has-symbols/.eslintrc
 usr/lib/node_modules/@ionic/cli/node_modules/has-symbols/.github/
 usr/lib/node_modules/@ionic/cli/node_modules/has-symbols/.github/FUNDING.yml
@@ -3142,6 +3137,7 @@ usr/lib/node_modules/@ionic/cli/node_modules/raw-body/
 usr/lib/node_modules/@ionic/cli/node_modules/raw-body/HISTORY.md
 usr/lib/node_modules/@ionic/cli/node_modules/raw-body/LICENSE
 usr/lib/node_modules/@ionic/cli/node_modules/raw-body/README.md
+usr/lib/node_modules/@ionic/cli/node_modules/raw-body/SECURITY.md
 usr/lib/node_modules/@ionic/cli/node_modules/raw-body/index.d.ts
 usr/lib/node_modules/@ionic/cli/node_modules/raw-body/index.js
 usr/lib/node_modules/@ionic/cli/node_modules/raw-body/package.json

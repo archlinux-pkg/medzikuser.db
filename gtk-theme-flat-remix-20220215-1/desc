@@ -14,19 +14,19 @@ gtk-theme-flat-remix
 Flat Remix is a GTK application theme inspired by material design. It is mostly flat using a colorful palette with some shadows, highlights, and gradients for some depth.
 
 %CSIZE%
-3757424
+3756816
 
 %ISIZE%
 81451291
 
 %MD5SUM%
-ae664a99605cbed028a4c8206aa6bce5
+f04965ebd7ba0820c6152d3193315ba0
 
 %SHA256SUM%
-99ad54d60381732abacccb4a4261f34e4293ff3cf20337e20789272c789f1b28
+53bd282e0cb15deb84f0914ae8e577a433b68846b6f70af762a3fe36ed7e63a9
 
 %PGPSIG%
-iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIL+uMACgkQemZGpsFGkMDMJQv/fF6wCUFTGbnhTZbJD77T+frNkFl0R/HYQTWuBInP/7RguX6ADtYi24zl+pHHdtHY9Ga5w4y6RGlSy5oBCi5WgnyOKUdxM9yAMk92slZsHwCHRNPizgKQ3EAR6SgfnnHgJmSa7lGcoZzqqC1KF7PU/cqqWdsvSQDwXjGDQfb/cYnJUlct+zVUEKlLJbb9kwuruf5prXZDLxdvie2BM/lkXk2oyTxWy750j1zNFTPTbdO8q7f9HrU4wOF+jc4UwYbwDaUfZOPfHqp9XZE1UvcMuz68PkZBWgsOISnXlzhqKc8Z4wwxy8NlD86PSn5lI0/g+7L1mp8rRPlISqGeE7pc+CeDsMlS2yXcH8/EAdU7741KbFEICG/pl1XZ6QjaInNYXsYMYvdsCf5nbbnvG0Ei87mq9jCHtrNnHrAkaLJp6XULJA4qohFANHJJY+cOPWW/7OrXFbom505dpmXsgml/uvBruF/IRk192I0b29OZmZag0xkVPeDLYDEOox6/kCLO
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIen5QACgkQemZGpsFGkMBlvwwAkpgXKjf+23Aag2sNfoL8ma1RuL0eOANg41aS2q0orF8SCKIxu8hButiAFxd/vUKQKj2CO4Cq6GWPayzR5fdQnoOrquww9d51nGBXwvRcLS05aM5N43kW/CrhOdM9n8/079YoMyaEBOhAX2hota6ASqEXTk1b5kcxPfS7FdcOd90MzdCq87CzOIDPCxGcwBYbC5tjasOF0g5zeD8GuhDRgoyI9QJtoFdVjNcypIXNFCI4R43DfFWO8TeOfdeusNiXvMQnRJu1MUKa+0Tmznm4isut3sN7bqJzNc8x15P6P5hrMkxWYSCKGAyXqxWY3365aEoWb/bqzlGBRIHqpUXfuLvZTP3DNkx7oKxtUaAglqEV9JVIvj7gn4vBZ0IeeZ5rJpcmwtoeUPm/sdIYaymk+QzqfWN+NoNsaCqOi0vLgqDPvl9VIB38eLj1gCWvJ0U+U3Irul710sZHmKMB6ImrE6/0FA9T0ka/LvD6EBMH2/hI4CUPYh4M5HrZw/wib4jj
 
 %URL%
 https://github.com/daniruiz/flat-remix-gtk
@@ -38,7 +38,7 @@ GPL3
 any
 
 %BUILDDATE%
-1644952060
+1646172623
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
