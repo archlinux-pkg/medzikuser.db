@@ -1,0 +1,86 @@
+%FILENAME%
+proton-ge-custom-bin-1_GE_Proton7_5-1-x86_64.pkg.tar.xz
+
+%NAME%
+proton-ge-custom-bin
+
+%BASE%
+proton-ge-custom-bin
+
+%VERSION%
+1:GE_Proton7_5-1
+
+%DESC%
+A fancy custom distribution of Valves Proton with various patches
+
+%CSIZE%
+261760108
+
+%ISIZE%
+1135696310
+
+%MD5SUM%
+3d54707c7a02aa6113151d0e2797048a
+
+%SHA256SUM%
+59a8d30965a74bf0acba5d62a5ddd616d211b3d39a119fa294dd7d54e7d2ffc2
+
+%PGPSIG%
+iQGzBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIfDXIACgkQemZGpsFGkMC+EwwAgF2d784+5i5vAzZxMH9aGDzCSF4dOa8Kv7WTgJPzKrD2idQSjyVDfLtTSI3C3hTR8fsJPDTwD9qOUDHq8gtsWzno8blCmDAyIIUgPjlNwJL9ZNAGPRO3qN2zDImWMOvEeI3n9DGDdXg7iNhenxVPV5YrFwPZymDwGCUleO98vEyQkJ2u6TTf62qy1w1H/zXXTWLkRnx5Gm6Jl+rUiXObMNS+m93OAU2iPXg6cJTpbtf3qdxD+6gmEcwvnVT/AGj/dvX/cQB1s89YBE20PTcY42DAVhOzISiAONKksJquDCVa9UjGCq8rIiVMA/T6bJrCqY/B83qTgf2i6IT2VW2BZa7t0v1YRGiB4O4dBbgYCiT6l6+jCjQZG2uVm2mbik0hp4ViiaUVOpeKH9tCbYrTMkMgmf6NIWG4/OeW96uQj/+so5AVg8n+YaJy3nJMRfz22/GBl+XcqLY1cCKorGY9poGo9Ezdn9I5XacEK0X1/1hZWvoWCU2Sh1MbTfvXqMWz
+
+%URL%
+https://github.com/GloriousEggroll/proton-ge-custom
+
+%LICENSE%
+BSD
+LGPL
+zlib
+MIT
+MPL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646201926
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+proton-ge-custom
+
+%PROVIDES%
+proton
+proton-ge-custom=GE.Proton7_5
+
+%DEPENDS%
+python
+vulkan-icd-loader
+lib32-libusb
+lib32-openal
+lib32-libva
+ffmpeg4.4
+lib32-speex
+lib32-libtheora
+lib32-libvdpau
+gst-plugins-bad-libs
+lib32-gst-plugins-base-libs
+libjpeg6-turbo
+lib32-libjpeg6-turbo
+lib32-libgudev
+lib32-flac
+lib32-mpg123
+
+%OPTDEPENDS%
+kdialog: KDE splash dialog support
+zenity: GNOME splash dialog support
+python-kivy: splash dialog support (big picture mode)
+steam: use proton with steam like intended
+lib32-vulkan-icd-loader: dxvk dependency for 32bit prefixes
+vulkan-driver: driver to be used by dxvk
+winetricks: protonfixes backend - highly recommended
+wine: support for 32bit prefixes
+xboxdrv: gamepad driver service
+
