@@ -19,7 +19,7 @@ jobs:
       - name: Download and unpack
         run: |
           rm -rf *-*
-          wget https://arch-repo.magicuser.cf/medzikuser.files -O - | tar xJf -
+          wget https://arch-repo.magicuser.cf/x86_64/medzikuser.files -O - | tar xJf -
 
       - name: Commit changes
         run: |
