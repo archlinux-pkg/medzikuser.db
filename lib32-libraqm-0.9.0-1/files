@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/lib32/
+usr/lib32/libraqm.so
+usr/lib32/libraqm.so.0
+usr/lib32/libraqm.so.0.9.0
+usr/lib32/pkgconfig/
+usr/lib32/pkgconfig/raqm.pc
+usr/share/
+usr/share/licenses/
+usr/share/licenses/lib32-libraqm/
+usr/share/licenses/lib32-libraqm/LICENSE
