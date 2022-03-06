@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/lib32/
+usr/lib32/libhdr10plus.so
+usr/lib32/libx265.so
+usr/lib32/libx265.so.199
+usr/lib32/pkgconfig/
+usr/lib32/pkgconfig/x265.pc

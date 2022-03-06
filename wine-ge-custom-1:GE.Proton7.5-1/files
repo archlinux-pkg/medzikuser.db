@@ -121,6 +121,7 @@ usr/include/wine/windows/amstream.h
 usr/include/wine/windows/amstream.idl
 usr/include/wine/windows/amvideo.h
 usr/include/wine/windows/amvideo.idl
+usr/include/wine/windows/apiset.h
 usr/include/wine/windows/appcompatapi.h
 usr/include/wine/windows/appmgmt.h
 usr/include/wine/windows/appmodel.h
@@ -228,6 +229,7 @@ usr/include/wine/windows/ctxtcall.h
 usr/include/wine/windows/ctxtcall.idl
 usr/include/wine/windows/cuda.h
 usr/include/wine/windows/custcntl.h
+usr/include/wine/windows/cuviddec.h
 usr/include/wine/windows/cvconst.h
 usr/include/wine/windows/cvttyp.idl
 usr/include/wine/windows/d2d1.h
@@ -742,6 +744,8 @@ usr/include/wine/windows/ntsecpkg.h
 usr/include/wine/windows/ntstatus.h
 usr/include/wine/windows/ntuser.h
 usr/include/wine/windows/nvapi.h
+usr/include/wine/windows/nvcuvid.h
+usr/include/wine/windows/nvencodeapi.h
 usr/include/wine/windows/oaidl.h
 usr/include/wine/windows/oaidl.idl
 usr/include/wine/windows/objbase.h
@@ -1036,6 +1040,10 @@ usr/include/wine/windows/windows.media.h
 usr/include/wine/windows/windows.media.idl
 usr/include/wine/windows/windows.media.speechsynthesis.h
 usr/include/wine/windows/windows.media.speechsynthesis.idl
+usr/include/wine/windows/windows.networking.connectivity.h
+usr/include/wine/windows/windows.networking.connectivity.idl
+usr/include/wine/windows/windows.networking.h
+usr/include/wine/windows/windows.networking.idl
 usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.h
 usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.idl
 usr/include/wine/windows/windows.storage.streams.h
@@ -1180,6 +1188,8 @@ usr/lib/wine/x86_64-unix/netapi32.so
 usr/lib/wine/x86_64-unix/nsiproxy.so
 usr/lib/wine/x86_64-unix/ntdll.so
 usr/lib/wine/x86_64-unix/nvcuda.dll.so
+usr/lib/wine/x86_64-unix/nvcuvid.dll.so
+usr/lib/wine/x86_64-unix/nvencodeapi64.dll.so
 usr/lib/wine/x86_64-unix/odbc32.so
 usr/lib/wine/x86_64-unix/openal32.dll.so
 usr/lib/wine/x86_64-unix/opencl.so
@@ -1619,6 +1629,8 @@ usr/lib/wine/x86_64-windows/dx8vb.dll
 usr/lib/wine/x86_64-windows/dxdiag.exe
 usr/lib/wine/x86_64-windows/dxdiagn.dll
 usr/lib/wine/x86_64-windows/dxgi.dll
+usr/lib/wine/x86_64-windows/dxgkrnl.sys
+usr/lib/wine/x86_64-windows/dxgmms1.sys
 usr/lib/wine/x86_64-windows/dxtrans.dll
 usr/lib/wine/x86_64-windows/dxva2.dll
 usr/lib/wine/x86_64-windows/eject.exe
@@ -1627,6 +1639,7 @@ usr/lib/wine/x86_64-windows/evr.dll
 usr/lib/wine/x86_64-windows/expand.exe
 usr/lib/wine/x86_64-windows/explorer.exe
 usr/lib/wine/x86_64-windows/explorerframe.dll
+usr/lib/wine/x86_64-windows/ext-ms-win-appmodel-usercontext-l1-1-0.dll
 usr/lib/wine/x86_64-windows/ext-ms-win-authz-context-l1-1-0.dll
 usr/lib/wine/x86_64-windows/ext-ms-win-domainjoin-netjoin-l1-1-0.dll
 usr/lib/wine/x86_64-windows/ext-ms-win-dwmapi-ext-l1-1-0.dll
@@ -1679,6 +1692,7 @@ usr/lib/wine/x86_64-windows/ext-ms-win-shell-comctl32-init-l1-1-0.dll
 usr/lib/wine/x86_64-windows/ext-ms-win-shell-comdlg32-l1-1-0.dll
 usr/lib/wine/x86_64-windows/ext-ms-win-shell-shell32-l1-2-0.dll
 usr/lib/wine/x86_64-windows/ext-ms-win-uxtheme-themes-l1-1-0.dll
+usr/lib/wine/x86_64-windows/ext-ms-win-xaml-pal-l1-1-0.dll
 usr/lib/wine/x86_64-windows/extrac32.exe
 usr/lib/wine/x86_64-windows/faultrep.dll
 usr/lib/wine/x86_64-windows/fc.exe
@@ -1717,6 +1731,7 @@ usr/lib/wine/x86_64-windows/icinfo.exe
 usr/lib/wine/x86_64-windows/icmp.dll
 usr/lib/wine/x86_64-windows/ieframe.dll
 usr/lib/wine/x86_64-windows/ieproxy.dll
+usr/lib/wine/x86_64-windows/iertutil.dll
 usr/lib/wine/x86_64-windows/iexplore.exe
 usr/lib/wine/x86_64-windows/imaadp32.acm
 usr/lib/wine/x86_64-windows/imagehlp.dll
@@ -1880,6 +1895,8 @@ usr/lib/wine/x86_64-windows/ntoskrnl.exe
 usr/lib/wine/x86_64-windows/ntprint.dll
 usr/lib/wine/x86_64-windows/nvapi64.dll
 usr/lib/wine/x86_64-windows/nvcuda.dll
+usr/lib/wine/x86_64-windows/nvcuvid.dll
+usr/lib/wine/x86_64-windows/nvencodeapi64.dll
 usr/lib/wine/x86_64-windows/objsel.dll
 usr/lib/wine/x86_64-windows/odbc32.dll
 usr/lib/wine/x86_64-windows/odbcbcp.dll
@@ -2056,12 +2073,14 @@ usr/lib/wine/x86_64-windows/where.exe
 usr/lib/wine/x86_64-windows/whoami.exe
 usr/lib/wine/x86_64-windows/wiaservc.dll
 usr/lib/wine/x86_64-windows/wimgapi.dll
+usr/lib/wine/x86_64-windows/win32k.sys
 usr/lib/wine/x86_64-windows/win32u.dll
 usr/lib/wine/x86_64-windows/windows.devices.enumeration.dll
 usr/lib/wine/x86_64-windows/windows.gaming.input.dll
 usr/lib/wine/x86_64-windows/windows.globalization.dll
 usr/lib/wine/x86_64-windows/windows.media.devices.dll
 usr/lib/wine/x86_64-windows/windows.media.speech.dll
+usr/lib/wine/x86_64-windows/windows.networking.connectivity
 usr/lib/wine/x86_64-windows/windowscodecs.dll
 usr/lib/wine/x86_64-windows/windowscodecsext.dll
 usr/lib/wine/x86_64-windows/winealsa.drv
@@ -2196,6 +2215,8 @@ usr/lib32/wine/i386-unix/netapi32.so
 usr/lib32/wine/i386-unix/nsiproxy.so
 usr/lib32/wine/i386-unix/ntdll.so
 usr/lib32/wine/i386-unix/nvcuda.dll.so
+usr/lib32/wine/i386-unix/nvcuvid.dll.so
+usr/lib32/wine/i386-unix/nvencodeapi.dll.so
 usr/lib32/wine/i386-unix/odbc32.so
 usr/lib32/wine/i386-unix/openal32.dll.so
 usr/lib32/wine/i386-unix/opencl.so
@@ -2634,6 +2655,8 @@ usr/lib32/wine/i386-windows/dx8vb.dll
 usr/lib32/wine/i386-windows/dxdiag.exe
 usr/lib32/wine/i386-windows/dxdiagn.dll
 usr/lib32/wine/i386-windows/dxgi.dll
+usr/lib32/wine/i386-windows/dxgkrnl.sys
+usr/lib32/wine/i386-windows/dxgmms1.sys
 usr/lib32/wine/i386-windows/dxtrans.dll
 usr/lib32/wine/i386-windows/dxva2.dll
 usr/lib32/wine/i386-windows/eject.exe
@@ -2642,6 +2665,7 @@ usr/lib32/wine/i386-windows/evr.dll
 usr/lib32/wine/i386-windows/expand.exe
 usr/lib32/wine/i386-windows/explorer.exe
 usr/lib32/wine/i386-windows/explorerframe.dll
+usr/lib32/wine/i386-windows/ext-ms-win-appmodel-usercontext-l1-1-0.dll
 usr/lib32/wine/i386-windows/ext-ms-win-authz-context-l1-1-0.dll
 usr/lib32/wine/i386-windows/ext-ms-win-domainjoin-netjoin-l1-1-0.dll
 usr/lib32/wine/i386-windows/ext-ms-win-dwmapi-ext-l1-1-0.dll
@@ -2694,6 +2718,7 @@ usr/lib32/wine/i386-windows/ext-ms-win-shell-comctl32-init-l1-1-0.dll
 usr/lib32/wine/i386-windows/ext-ms-win-shell-comdlg32-l1-1-0.dll
 usr/lib32/wine/i386-windows/ext-ms-win-shell-shell32-l1-2-0.dll
 usr/lib32/wine/i386-windows/ext-ms-win-uxtheme-themes-l1-1-0.dll
+usr/lib32/wine/i386-windows/ext-ms-win-xaml-pal-l1-1-0.dll
 usr/lib32/wine/i386-windows/extrac32.exe
 usr/lib32/wine/i386-windows/faultrep.dll
 usr/lib32/wine/i386-windows/fc.exe
@@ -2731,6 +2756,7 @@ usr/lib32/wine/i386-windows/icinfo.exe
 usr/lib32/wine/i386-windows/icmp.dll
 usr/lib32/wine/i386-windows/ieframe.dll
 usr/lib32/wine/i386-windows/ieproxy.dll
+usr/lib32/wine/i386-windows/iertutil.dll
 usr/lib32/wine/i386-windows/iexplore.exe
 usr/lib32/wine/i386-windows/imaadp32.acm
 usr/lib32/wine/i386-windows/imagehlp.dll
@@ -2894,6 +2920,8 @@ usr/lib32/wine/i386-windows/ntoskrnl.exe
 usr/lib32/wine/i386-windows/ntprint.dll
 usr/lib32/wine/i386-windows/nvapi.dll
 usr/lib32/wine/i386-windows/nvcuda.dll
+usr/lib32/wine/i386-windows/nvcuvid.dll
+usr/lib32/wine/i386-windows/nvencodeapi.dll
 usr/lib32/wine/i386-windows/objsel.dll
 usr/lib32/wine/i386-windows/odbc32.dll
 usr/lib32/wine/i386-windows/odbcbcp.dll
@@ -3070,12 +3098,14 @@ usr/lib32/wine/i386-windows/where.exe
 usr/lib32/wine/i386-windows/whoami.exe
 usr/lib32/wine/i386-windows/wiaservc.dll
 usr/lib32/wine/i386-windows/wimgapi.dll
+usr/lib32/wine/i386-windows/win32k.sys
 usr/lib32/wine/i386-windows/win32u.dll
 usr/lib32/wine/i386-windows/windows.devices.enumeration.dll
 usr/lib32/wine/i386-windows/windows.gaming.input.dll
 usr/lib32/wine/i386-windows/windows.globalization.dll
 usr/lib32/wine/i386-windows/windows.media.devices.dll
 usr/lib32/wine/i386-windows/windows.media.speech.dll
+usr/lib32/wine/i386-windows/windows.networking.connectivity
 usr/lib32/wine/i386-windows/windowscodecs.dll
 usr/lib32/wine/i386-windows/windowscodecsext.dll
 usr/lib32/wine/i386-windows/winealsa.drv
@@ -3233,9 +3263,11 @@ usr/share/man/pl.UTF-8/man1/
 usr/share/man/pl.UTF-8/man1/wine.1.gz
 usr/share/wine/
 usr/share/wine/fonts/
+usr/share/wine/fonts/arial.ttf
 usr/share/wine/fonts/coue1255.fon
 usr/share/wine/fonts/coue1256.fon
 usr/share/wine/fonts/coue1257.fon
+usr/share/wine/fonts/cour.ttf
 usr/share/wine/fonts/coure.fon
 usr/share/wine/fonts/couree.fon
 usr/share/wine/fonts/coureg.fon
@@ -3247,6 +3279,7 @@ usr/share/wine/fonts/jsmalle.fon
 usr/share/wine/fonts/jvgafix.fon
 usr/share/wine/fonts/jvgasys.fon
 usr/share/wine/fonts/marlett.ttf
+usr/share/wine/fonts/msyh.ttf
 usr/share/wine/fonts/smae1255.fon
 usr/share/wine/fonts/smae1256.fon
 usr/share/wine/fonts/smae1257.fon
@@ -3277,6 +3310,7 @@ usr/share/wine/fonts/svgasys.fon
 usr/share/wine/fonts/symbol.ttf
 usr/share/wine/fonts/tahoma.ttf
 usr/share/wine/fonts/tahomabd.ttf
+usr/share/wine/fonts/times.ttf
 usr/share/wine/fonts/vgafix.fon
 usr/share/wine/fonts/vgas1255.fon
 usr/share/wine/fonts/vgas1256.fon

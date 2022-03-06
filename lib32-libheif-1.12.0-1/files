@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/lib32/
+usr/lib32/gdk-pixbuf-2.0/
+usr/lib32/gdk-pixbuf-2.0/2.10.0/
+usr/lib32/gdk-pixbuf-2.0/2.10.0/loaders/
+usr/lib32/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so
+usr/lib32/libheif.so
+usr/lib32/libheif.so.1
+usr/lib32/libheif.so.1.12.0
+usr/lib32/pkgconfig/
+usr/lib32/pkgconfig/libheif.pc

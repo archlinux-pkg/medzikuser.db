@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/lib32/
+usr/lib32/libgd.so
+usr/lib32/libgd.so.3
+usr/lib32/libgd.so.3.0.11
+usr/lib32/pkgconfig/
+usr/lib32/pkgconfig/gdlib.pc
+usr/share/
+usr/share/licenses/
+usr/share/licenses/lib32-gd/
+usr/share/licenses/lib32-gd/LICENSE
