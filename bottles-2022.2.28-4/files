@@ -38,6 +38,7 @@ usr/share/bottles/bottles/backend/managers/manager.py
 usr/share/bottles/bottles/backend/managers/notifications.py
 usr/share/bottles/bottles/backend/managers/repository.py
 usr/share/bottles/bottles/backend/managers/runtime.py
+usr/share/bottles/bottles/backend/managers/steam.py
 usr/share/bottles/bottles/backend/managers/template.py
 usr/share/bottles/bottles/backend/managers/versioning.py
 usr/share/bottles/bottles/backend/models/
@@ -59,6 +60,7 @@ usr/share/bottles/bottles/backend/utils/generic.py
 usr/share/bottles/bottles/backend/utils/gpu.py
 usr/share/bottles/bottles/backend/utils/manager.py
 usr/share/bottles/bottles/backend/utils/snake.py
+usr/share/bottles/bottles/backend/utils/steam.py
 usr/share/bottles/bottles/backend/utils/terminal.py
 usr/share/bottles/bottles/backend/utils/vulkan.py
 usr/share/bottles/bottles/backend/utils/wine.py
@@ -84,6 +86,7 @@ usr/share/bottles/bottles/backend/wine/winebridge.py
 usr/share/bottles/bottles/backend/wine/winecfg.py
 usr/share/bottles/bottles/backend/wine/winecommand.py
 usr/share/bottles/bottles/backend/wine/winedbg.py
+usr/share/bottles/bottles/backend/wine/winepath.py
 usr/share/bottles/bottles/backend/wine/wineprogram.py
 usr/share/bottles/bottles/backend/wine/wineserver.py
 usr/share/bottles/bottles/dialogs/
