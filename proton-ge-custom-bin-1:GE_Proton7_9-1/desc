@@ -1,5 +1,5 @@
 %FILENAME%
-proton-ge-custom-bin-1_GE_Proton7_8-1-x86_64.pkg.tar.xz
+proton-ge-custom-bin-1_GE_Proton7_9-1-x86_64.pkg.tar.xz
 
 %NAME%
 proton-ge-custom-bin
@@ -8,25 +8,25 @@ proton-ge-custom-bin
 proton-ge-custom-bin
 
 %VERSION%
-1:GE_Proton7_8-1
+1:GE_Proton7_9-1
 
 %DESC%
 A fancy custom distribution of Valves Proton with various patches
 
 %CSIZE%
-264730812
+264770548
 
 %ISIZE%
-1143668942
+1143715681
 
 %MD5SUM%
-9a47d91b838a278bcfa4b98eb319036e
+cec53ea46f750b13b6d49535b39daf09
 
 %SHA256SUM%
-45cdd03438d8d466710fb2a20fe8b7ca837586b28fa71079b5aa00c9d390e96a
+7db9f4d7f7635b67c8a0574551aeaa28b4c10e083ba014fb10be1158623bb110
 
 %PGPSIG%
-iQGyBAABCAAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIjcbYACgkQemZGpsFGkMBx/Qv48EOta53lvTYbUGQdoOJoXbeaMJoGrcMlV15lCsAr//qqNCycvJwtMxE5x8D2l3XpdJ0jl0EU3kt2vU068TwGgxj3LK0PThSPPHIo0BsDreTWKD9g3WiW0JU+Q3HeIKfdtQAs/h0tr5c6F73+5mMSOT9bXonN1yOlJchywQRng6r6noGAx7oRcOOBo2jy5THkvwreYMj0IRIItma2XDLhrW75new+rK0ITtHCFq/MAb3N4AWRPrPvGPqQIUDRVu/63M+CUYGtevJB5In3N3IHlo3ene0eEvAG2kTdz9vLPloB8kEh59nEAm16AJODQ5V8j0gRaLC+heOYKa1e/zp4FVVRafJQyeal2pgTPSPUJb/i/nuxBnxzAr6yNP7DdBrXN9F5aOY1+yzAOuQZ4qn4ntF1siOsAD7OUkbLTRGjMKLLzDh10hd/E/xyzz/nhRn9KSHD7ZtKhCMJBtWESvvTeJn4fi893/g9YNxCllMQNWBGg4puHs2ugSPpIiLyE6I=
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmInO3gACgkQemZGpsFGkMDQvAv+Imo04sMdqqYhMgR8h1BgSzjUv7F2BvBKL9Fz+JbMCxtSxWtop2Mhj7Dt/Grxr+t+0oWU9Qe31yHvQ6nfs3Cz+UWdkfSbHt73q3G1J1kmcQ1mjvtNrS4EaFkn+kuxIveABa0GiA2sh7Gz/OrjtY0yHdYdXnB6qDksA7lfecQfxEDEjLoS/Pu49yffAbQtFPEsOec/1ZAkolydhuNR+0VQ/0S4DNK3axF2NPUXIS5TlwaG3hsMWHm+w+0KztwcU306l8kjFfWF3BWtyTdUFYiIfoTmCx0vepPZwrlkiAbPCsZMAytfddfU3B58lFw0onG0O6LuH9dATbFbNLVzQbZx8QV0wFZkBgPsL8cMJgomNbE7c5SJlRMQcn2cAkfUE3e7W2eXqvxakd1R4P2kTQhLPQDE+jvVSnO+5GoFCB5U9HipQqqb2rN0wwA9rXTHQGbj16BthCRCmvus3HQUlJSh3mL5HhTenN5dn05nvV8tIl4j2OqJaYTk4edZrRu6HQP5
 
 %URL%
 https://github.com/GloriousEggroll/proton-ge-custom
@@ -43,7 +43,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1646489700
+1646737987
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -53,7 +53,7 @@ proton-ge-custom
 
 %PROVIDES%
 proton
-proton-ge-custom=GE.Proton7_8
+proton-ge-custom=GE.Proton7_9
 
 %DEPENDS%
 python
