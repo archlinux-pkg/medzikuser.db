@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/uad_gui
+usr/bin/uad_gui-opengl
+usr/share/
+usr/share/applications/
+usr/share/applications/uad_gui-opengl.desktop
+usr/share/applications/uad_gui.desktop
+usr/share/licenses/
+usr/share/licenses/universal-android-debloater/
+usr/share/licenses/universal-android-debloater/LICENSE
