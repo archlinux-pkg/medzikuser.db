@@ -1,0 +1,53 @@
+%FILENAME%
+imgurs-0.5.1-1-x86_64.pkg.tar.xz
+
+%NAME%
+imgurs
+
+%BASE%
+imgurs
+
+%VERSION%
+0.5.1-1
+
+%DESC%
+CLI for Imgur API written in Rust
+
+%CSIZE%
+1837908
+
+%ISIZE%
+5516403
+
+%MD5SUM%
+79260a972b6def037aa6b4485f9feb3e
+
+%SHA256SUM%
+d9b06236ef73d6ccd2f31858e4d84f73b2abfa12e047430a19b4ac8ef132ba5f
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmInzBEACgkQemZGpsFGkMB1swv7Bs8jaxZ7goG1TL3u/xZvo2yizH9G0aTzXvtFZDTQSA0QDGW1wS0cIUFEiT5UNwUGFEqTyRYRwUBU31FldACRu1F+eV80vrQXs+86v0y/9YnC4tZNp5wyeoZZJk0OHpz6uZOkgJhCLkY94ma/a9XqEQ38O2BhY0tZEZzThI0VUT74OwtQ++NsgPlqjnGYNGGqnZN+VYRhFSd4MmGGNS9PSYsp6/PsRfFPLIfFi9TmI3golbSmFYj5zqGLBOQzr1HVvj/qN0ig6W/TzArY3m/mnupEnzz269YHUIhPkTv9V6+rc6wj3zcq5fX2+MgxSdqaITR3KHZvaNH/9hXNkSvoq45/ayBtmrTyul7h6lVeSInHOc0HHTcfYKLt1NzhXNuL6to4b0qoeXttJyh49X//n4Sf0xpBEWZTapMm29ISaXdLEhR5q0PLA2w7MyUtFF2ZIw9rj9xioj5o30Xm2LKd4uBXnQvpSbHVVyqB6KzTKu8odqAbeiQ2C/H+hQl2HEwD
+
+%URL%
+https://github.com/MedzikUser/imgurs
+
+%LICENSE%
+BSD3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646774791
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%OPTDEPENDS%
+libnotify: Notification support
+xsel: Clipboard support
+
+%MAKEDEPENDS%
+git
+cargo
+
