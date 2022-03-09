@@ -2465,6 +2465,7 @@ usr/lib/webcord/node_modules/yallist/iterator.js
 usr/lib/webcord/node_modules/yallist/package.json
 usr/lib/webcord/node_modules/yallist/yallist.js
 usr/lib/webcord/package.json
+usr/lib/webcord/run.sh
 usr/lib/webcord/sources/
 usr/lib/webcord/sources/app/
 usr/lib/webcord/sources/app/global/
@@ -2504,7 +2505,6 @@ usr/lib/webcord/sources/app/renderer/preload/main.js
 usr/lib/webcord/sources/app/renderer/preload/settings.js
 usr/lib/webcord/sources/assets/
 usr/lib/webcord/sources/assets/icons/
-usr/lib/webcord/sources/assets/icons/app.png
 usr/lib/webcord/sources/assets/icons/symbols/
 usr/lib/webcord/sources/assets/icons/symbols/checkmark.svg
 usr/lib/webcord/sources/assets/icons/symbols/close.svg
