@@ -1,0 +1,69 @@
+%FILENAME%
+polymc-1.0.6-2-x86_64.pkg.tar.xz
+
+%NAME%
+polymc
+
+%BASE%
+polymc
+
+%VERSION%
+1.0.6-2
+
+%DESC%
+Minecraft launcher with ability to manage multiple instances.
+
+%CSIZE%
+2596108
+
+%ISIZE%
+7620492
+
+%MD5SUM%
+939c4b2b3be18c4a4c45ace3e8963093
+
+%SHA256SUM%
+ff0b41910cff46ac75f1e7d64ef65bbdaa918250dc9e666d8b56fe2339150fc9
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIo+SYACgkQemZGpsFGkMCRWgv/Q2lAyHhVl7bvdKhLW4Oxit5AynMZYKXNPLM/s++e2RxSRSO9AaNM1D+0jWCZqCDPCJ1EAoMcInTTLpijFO3xGjdfm1uTumj1vKOQgWtfzL7itePFtmIAcODDoaNJq5cHcq/OzDZWh2cu1NcVtum8oscXtRMFzx6U0i3AwlcEUQnrzQQH3y3S7cqv8VQLV2oi8c0BS+lc2jNjPf8SND7ZOR25aC3U37MSUOKukOMWc9pIVOEkFGadmfbOtafHs1lyKzSruFCZnmvbPXmD22DXwDFMijmBLu3/5A7rY0hORLZfE0F6WM/PjMxEfL0NP6xzUVDS/CB+xfMJ3DBqvywFGmJoFl8d8LEiS63c2r5l1DA83jk9eJoLrzCmZxY2CEt9dYPdbsbyJe7LCfDBxrP/n6Th+6UXXrJ7jnAZoJ7Hyr/PmP8xG9SB2erUs74/Mfja8VG83CBR3H3cAwu1+FYPrxoD9U6hpYtCi+rMwlxhwjvEN4IrU9Qego9Z07k2PXMI
+
+%URL%
+https://github.com/PolyMC/PolyMC
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646851952
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+polymc
+multimc
+
+%PROVIDES%
+polymc
+
+%DEPENDS%
+java-runtime
+libgl
+qt5-base
+zlib
+
+%OPTDEPENDS%
+glfw: to use system GLFW libraries
+openal: to use system OpenAL libraries
+visualvm: Profiling support
+xorg-xrandr: for older minecraft versions
+
+%MAKEDEPENDS%
+cmake
+git
+java-environment
+
