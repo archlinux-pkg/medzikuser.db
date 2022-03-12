@@ -1,12 +1,9 @@
 %FILES%
 usr/
 usr/bin/
-usr/bin/polymc
+usr/bin/PolyMC
 usr/lib/
-usr/lib/libLauncher_iconfix.so
-usr/lib/libLauncher_nbt++.so
-usr/lib/libLauncher_quazip.so
-usr/lib/libLauncher_rainbow.so
+usr/lib/libPolyMC_rainbow.so
 usr/share/
 usr/share/applications/
 usr/share/applications/org.polymc.PolyMC.desktop
@@ -15,9 +12,8 @@ usr/share/icons/hicolor/
 usr/share/icons/hicolor/scalable/
 usr/share/icons/hicolor/scalable/apps/
 usr/share/icons/hicolor/scalable/apps/org.polymc.PolyMC.svg
+usr/share/jars/
+usr/share/jars/JavaCheck.jar
+usr/share/jars/NewLaunch.jar
 usr/share/metainfo/
 usr/share/metainfo/org.polymc.PolyMC.metainfo.xml
-usr/share/polymc/
-usr/share/polymc/jars/
-usr/share/polymc/jars/JavaCheck.jar
-usr/share/polymc/jars/NewLaunch.jar
