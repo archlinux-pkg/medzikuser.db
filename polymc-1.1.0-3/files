@@ -1,7 +1,7 @@
 %FILES%
 usr/
 usr/bin/
-usr/bin/PolyMC
+usr/bin/polymc
 usr/lib/
 usr/lib/libPolyMC_rainbow.so
 usr/share/
