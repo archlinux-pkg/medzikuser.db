@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/create-react-native-app
+usr/lib/
+usr/lib/node_modules/
+usr/lib/node_modules/create-react-native-app/
+usr/lib/node_modules/create-react-native-app/LICENSE
+usr/lib/node_modules/create-react-native-app/README.md
+usr/lib/node_modules/create-react-native-app/build/
+usr/lib/node_modules/create-react-native-app/build/gitignore
+usr/lib/node_modules/create-react-native-app/build/index.js
+usr/lib/node_modules/create-react-native-app/package.json
