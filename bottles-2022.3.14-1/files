@@ -17,6 +17,7 @@ usr/share/bottles/bottles/backend/dlls/
 usr/share/bottles/bottles/backend/dlls/__init__.py
 usr/share/bottles/bottles/backend/dlls/dll.py
 usr/share/bottles/bottles/backend/dlls/dxvk.py
+usr/share/bottles/bottles/backend/dlls/latencyflex.py
 usr/share/bottles/bottles/backend/dlls/nvapi.py
 usr/share/bottles/bottles/backend/dlls/vkd3d.py
 usr/share/bottles/bottles/backend/downloader.py
@@ -45,6 +46,7 @@ usr/share/bottles/bottles/backend/models/
 usr/share/bottles/bottles/backend/models/__init__.py
 usr/share/bottles/bottles/backend/models/result.py
 usr/share/bottles/bottles/backend/models/samples.py
+usr/share/bottles/bottles/backend/models/vdict.py
 usr/share/bottles/bottles/backend/repos/
 usr/share/bottles/bottles/backend/repos/__init__.py
 usr/share/bottles/bottles/backend/repos/component.py
@@ -62,6 +64,7 @@ usr/share/bottles/bottles/backend/utils/manager.py
 usr/share/bottles/bottles/backend/utils/snake.py
 usr/share/bottles/bottles/backend/utils/steam.py
 usr/share/bottles/bottles/backend/utils/terminal.py
+usr/share/bottles/bottles/backend/utils/vdf.py
 usr/share/bottles/bottles/backend/utils/vulkan.py
 usr/share/bottles/bottles/backend/utils/wine.py
 usr/share/bottles/bottles/backend/wine/
@@ -144,6 +147,7 @@ usr/share/icons/hicolor/scalable/apps/com.usebottles.bottles.svg
 usr/share/icons/hicolor/symbolic/
 usr/share/icons/hicolor/symbolic/apps/
 usr/share/icons/hicolor/symbolic/apps/bottle-symbolic.svg
+usr/share/icons/hicolor/symbolic/apps/bottles-steam-symbolic.svg
 usr/share/icons/hicolor/symbolic/apps/com.usebottles.bottles-symbolic.svg
 usr/share/locale/
 usr/share/locale/bg/
