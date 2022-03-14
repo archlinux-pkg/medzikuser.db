@@ -27,7 +27,11 @@ usr/lib/go/api/go1.7.txt
 usr/lib/go/api/go1.8.txt
 usr/lib/go/api/go1.9.txt
 usr/lib/go/api/go1.txt
-usr/lib/go/api/next.txt
+usr/lib/go/api/next/
+usr/lib/go/api/next/45754.txt
+usr/lib/go/api/next/46059.txt
+usr/lib/go/api/next/47005.txt
+usr/lib/go/api/next/50601.txt
 usr/lib/go/bin/
 usr/lib/go/bin/go
 usr/lib/go/bin/gofmt
