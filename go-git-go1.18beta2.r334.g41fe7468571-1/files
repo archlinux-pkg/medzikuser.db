@@ -2227,6 +2227,7 @@ usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51472.go2
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51509.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51578.go2
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51593.go2
+usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51658.go2
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue6977.src
 usr/lib/go/src/cmd/compile/internal/types2/testdata/manual.go2
 usr/lib/go/src/cmd/compile/internal/types2/testdata/spec/
@@ -6331,6 +6332,7 @@ usr/lib/go/src/go/types/testdata/fixedbugs/issue51472.go2
 usr/lib/go/src/go/types/testdata/fixedbugs/issue51509.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue51578.go2
 usr/lib/go/src/go/types/testdata/fixedbugs/issue51593.go2
+usr/lib/go/src/go/types/testdata/fixedbugs/issue51658.go2
 usr/lib/go/src/go/types/testdata/fixedbugs/issue6977.src
 usr/lib/go/src/go/types/testdata/manual.go2
 usr/lib/go/src/go/types/testdata/spec/
