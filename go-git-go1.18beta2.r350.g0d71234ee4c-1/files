@@ -6736,6 +6736,7 @@ usr/lib/go/src/internal/cpu/cpu_x86.go
 usr/lib/go/src/internal/cpu/cpu_x86.s
 usr/lib/go/src/internal/cpu/cpu_x86_test.go
 usr/lib/go/src/internal/cpu/export_test.go
+usr/lib/go/src/internal/cpu/export_x86_test.go
 usr/lib/go/src/internal/execabs/
 usr/lib/go/src/internal/execabs/execabs.go
 usr/lib/go/src/internal/execabs/execabs_test.go
