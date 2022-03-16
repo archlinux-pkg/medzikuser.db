@@ -399,6 +399,11 @@ usr/lib/go/misc/cgo/testplugin/testdata/method2/main.go
 usr/lib/go/misc/cgo/testplugin/testdata/method2/p/
 usr/lib/go/misc/cgo/testplugin/testdata/method2/p/p.go
 usr/lib/go/misc/cgo/testplugin/testdata/method2/plugin.go
+usr/lib/go/misc/cgo/testplugin/testdata/method3/
+usr/lib/go/misc/cgo/testplugin/testdata/method3/main.go
+usr/lib/go/misc/cgo/testplugin/testdata/method3/p/
+usr/lib/go/misc/cgo/testplugin/testdata/method3/p/p.go
+usr/lib/go/misc/cgo/testplugin/testdata/method3/plugin.go
 usr/lib/go/misc/cgo/testplugin/testdata/plugin1/
 usr/lib/go/misc/cgo/testplugin/testdata/plugin1/plugin1.go
 usr/lib/go/misc/cgo/testplugin/testdata/plugin2/
