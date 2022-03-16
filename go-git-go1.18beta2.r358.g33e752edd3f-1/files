@@ -859,7 +859,6 @@ usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/tools/internal/analysisintern
 usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/tools/internal/lsp/
 usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/tools/internal/lsp/fuzzy.a
 usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/tools/internal/typeparams.a
-usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/tools/txtar.a
 usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/xerrors.a
 usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/xerrors/
 usr/lib/go/pkg/linux_amd64/cmd/vendor/golang.org/x/xerrors/internal.a
@@ -1015,6 +1014,7 @@ usr/lib/go/pkg/linux_amd64/internal/sysinfo.a
 usr/lib/go/pkg/linux_amd64/internal/testenv.a
 usr/lib/go/pkg/linux_amd64/internal/testlog.a
 usr/lib/go/pkg/linux_amd64/internal/trace.a
+usr/lib/go/pkg/linux_amd64/internal/txtar.a
 usr/lib/go/pkg/linux_amd64/internal/unsafeheader.a
 usr/lib/go/pkg/linux_amd64/internal/xcoff.a
 usr/lib/go/pkg/linux_amd64/io.a
@@ -4726,8 +4726,6 @@ usr/lib/go/src/cmd/vendor/golang.org/x/tools/internal/typeparams/termlist.go
 usr/lib/go/src/cmd/vendor/golang.org/x/tools/internal/typeparams/typeparams_go117.go
 usr/lib/go/src/cmd/vendor/golang.org/x/tools/internal/typeparams/typeparams_go118.go
 usr/lib/go/src/cmd/vendor/golang.org/x/tools/internal/typeparams/typeterm.go
-usr/lib/go/src/cmd/vendor/golang.org/x/tools/txtar/
-usr/lib/go/src/cmd/vendor/golang.org/x/tools/txtar/archive.go
 usr/lib/go/src/cmd/vendor/golang.org/x/xerrors/
 usr/lib/go/src/cmd/vendor/golang.org/x/xerrors/LICENSE
 usr/lib/go/src/cmd/vendor/golang.org/x/xerrors/PATENTS
@@ -7072,6 +7070,8 @@ usr/lib/go/src/internal/trace/testdata/stress_start_stop_1_7_good
 usr/lib/go/src/internal/trace/testdata/stress_start_stop_1_9_good
 usr/lib/go/src/internal/trace/testdata/user_task_span_1_11_good
 usr/lib/go/src/internal/trace/writer.go
+usr/lib/go/src/internal/txtar/
+usr/lib/go/src/internal/txtar/archive.go
 usr/lib/go/src/internal/unsafeheader/
 usr/lib/go/src/internal/unsafeheader/unsafeheader.go
 usr/lib/go/src/internal/unsafeheader/unsafeheader_test.go
