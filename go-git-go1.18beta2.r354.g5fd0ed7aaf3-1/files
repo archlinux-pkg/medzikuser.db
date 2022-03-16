@@ -421,6 +421,9 @@ usr/lib/go/misc/cgo/testsanitizers/testdata/asan2_fail.go
 usr/lib/go/misc/cgo/testsanitizers/testdata/asan3_fail.go
 usr/lib/go/misc/cgo/testsanitizers/testdata/asan4_fail.go
 usr/lib/go/misc/cgo/testsanitizers/testdata/asan5_fail.go
+usr/lib/go/misc/cgo/testsanitizers/testdata/asan_unsafe_fail1.go
+usr/lib/go/misc/cgo/testsanitizers/testdata/asan_unsafe_fail2.go
+usr/lib/go/misc/cgo/testsanitizers/testdata/asan_unsafe_fail3.go
 usr/lib/go/misc/cgo/testsanitizers/testdata/asan_useAfterReturn.go
 usr/lib/go/misc/cgo/testsanitizers/testdata/msan.go
 usr/lib/go/misc/cgo/testsanitizers/testdata/msan2.go
