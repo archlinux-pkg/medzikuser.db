@@ -7879,6 +7879,10 @@ usr/lib/go/src/os/readfrom_stub.go
 usr/lib/go/src/os/removeall_at.go
 usr/lib/go/src/os/removeall_noat.go
 usr/lib/go/src/os/removeall_test.go
+usr/lib/go/src/os/rlimit.go
+usr/lib/go/src/os/rlimit_darwin.go
+usr/lib/go/src/os/rlimit_stub.go
+usr/lib/go/src/os/rlimit_test.go
 usr/lib/go/src/os/signal/
 usr/lib/go/src/os/signal/doc.go
 usr/lib/go/src/os/signal/example_test.go
