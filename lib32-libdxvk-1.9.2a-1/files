@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/dxvk-native-d3d11-example
+usr/bin/dxvk-native-d3d9-example
+usr/lib32/
+usr/lib32/libdxvk_d3d11.so
+usr/lib32/libdxvk_d3d9.so
+usr/lib32/libdxvk_dxgi.so
+usr/share/
+usr/share/licenses/
+usr/share/licenses/lib32-libdxvk/
+usr/share/licenses/lib32-libdxvk/LICENCE
