@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/include/
+usr/include/nvc.h
+usr/lib/
+usr/lib/libnvidia-container-go.so
+usr/lib/libnvidia-container-go.so.1
+usr/lib/libnvidia-container-go.so.1.8.1
+usr/lib/libnvidia-container.so
+usr/lib/libnvidia-container.so.1
+usr/lib/libnvidia-container.so.1.8.1
