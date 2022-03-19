@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/log4jscanner
+usr/share/
+usr/share/licenses/
+usr/share/licenses/log4jscanner/
+usr/share/licenses/log4jscanner/LICENSE
