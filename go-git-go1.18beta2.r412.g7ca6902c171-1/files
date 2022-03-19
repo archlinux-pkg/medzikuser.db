@@ -1987,6 +1987,7 @@ usr/lib/go/src/cmd/compile/internal/types2/interface.go
 usr/lib/go/src/cmd/compile/internal/types2/issues_test.go
 usr/lib/go/src/cmd/compile/internal/types2/labels.go
 usr/lib/go/src/cmd/compile/internal/types2/lookup.go
+usr/lib/go/src/cmd/compile/internal/types2/main_test.go
 usr/lib/go/src/cmd/compile/internal/types2/map.go
 usr/lib/go/src/cmd/compile/internal/types2/methodlist.go
 usr/lib/go/src/cmd/compile/internal/types2/methodlist_test.go
@@ -2912,6 +2913,7 @@ usr/lib/go/src/cmd/go/testdata/script/build_tags_no_comma.txt
 usr/lib/go/src/cmd/go/testdata/script/build_test_only.txt
 usr/lib/go/src/cmd/go/testdata/script/build_trimpath.txt
 usr/lib/go/src/cmd/go/testdata/script/build_trimpath_cgo.txt
+usr/lib/go/src/cmd/go/testdata/script/build_trimpath_goroot.txt
 usr/lib/go/src/cmd/go/testdata/script/build_unsupported_goos.txt
 usr/lib/go/src/cmd/go/testdata/script/build_vendor.txt
 usr/lib/go/src/cmd/go/testdata/script/cache_unix.txt
@@ -3383,6 +3385,7 @@ usr/lib/go/src/cmd/go/testdata/script/test_benchmark_fatal.txt
 usr/lib/go/src/cmd/go/testdata/script/test_benchmark_labels.txt
 usr/lib/go/src/cmd/go/testdata/script/test_benchmark_timeout.txt
 usr/lib/go/src/cmd/go/testdata/script/test_build_failure.txt
+usr/lib/go/src/cmd/go/testdata/script/test_buildvcs.txt
 usr/lib/go/src/cmd/go/testdata/script/test_cache_inputs.txt
 usr/lib/go/src/cmd/go/testdata/script/test_chatty_fail.txt
 usr/lib/go/src/cmd/go/testdata/script/test_chatty_parallel_fail.txt
@@ -6085,6 +6088,7 @@ usr/lib/go/src/go/types/interface.go
 usr/lib/go/src/go/types/issues_test.go
 usr/lib/go/src/go/types/labels.go
 usr/lib/go/src/go/types/lookup.go
+usr/lib/go/src/go/types/main_test.go
 usr/lib/go/src/go/types/map.go
 usr/lib/go/src/go/types/methodlist.go
 usr/lib/go/src/go/types/methodlist_test.go
@@ -9546,6 +9550,7 @@ usr/lib/go/src/time/zoneinfo.go
 usr/lib/go/src/time/zoneinfo_abbrs_windows.go
 usr/lib/go/src/time/zoneinfo_android.go
 usr/lib/go/src/time/zoneinfo_android_test.go
+usr/lib/go/src/time/zoneinfo_goroot.go
 usr/lib/go/src/time/zoneinfo_ios.go
 usr/lib/go/src/time/zoneinfo_js.go
 usr/lib/go/src/time/zoneinfo_plan9.go
