@@ -997,6 +997,8 @@ usr/include/wine/windows/wbemdisp.idl
 usr/include/wine/windows/wbemprov.h
 usr/include/wine/windows/wbemprov.idl
 usr/include/wine/windows/wct.h
+usr/include/wine/windows/weakreference.h
+usr/include/wine/windows/weakreference.idl
 usr/include/wine/windows/webservices.h
 usr/include/wine/windows/werapi.h
 usr/include/wine/windows/wfext.h
@@ -1023,10 +1025,16 @@ usr/include/wine/windows/windns.h
 usr/include/wine/windows/windot11.h
 usr/include/wine/windows/windows.devices.enumeration.h
 usr/include/wine/windows/windows.devices.enumeration.idl
+usr/include/wine/windows/windows.devices.haptics.h
+usr/include/wine/windows/windows.devices.haptics.idl
+usr/include/wine/windows/windows.devices.power.h
+usr/include/wine/windows/windows.devices.power.idl
 usr/include/wine/windows/windows.foundation.collections.h
 usr/include/wine/windows/windows.foundation.collections.idl
 usr/include/wine/windows/windows.foundation.h
 usr/include/wine/windows/windows.foundation.idl
+usr/include/wine/windows/windows.gaming.input.custom.h
+usr/include/wine/windows/windows.gaming.input.custom.idl
 usr/include/wine/windows/windows.gaming.input.forcefeedback.h
 usr/include/wine/windows/windows.gaming.input.forcefeedback.idl
 usr/include/wine/windows/windows.gaming.input.h
@@ -1050,6 +1058,8 @@ usr/include/wine/windows/windows.storage.streams.h
 usr/include/wine/windows/windows.storage.streams.idl
 usr/include/wine/windows/windows.system.h
 usr/include/wine/windows/windows.system.idl
+usr/include/wine/windows/windows.system.power.h
+usr/include/wine/windows/windows.system.power.idl
 usr/include/wine/windows/windows.system.userprofile.h
 usr/include/wine/windows/windows.system.userprofile.idl
 usr/include/wine/windows/windowscontracts.h
@@ -1986,6 +1996,7 @@ usr/lib/wine/x86_64-windows/services.exe
 usr/lib/wine/x86_64-windows/setupapi.dll
 usr/lib/wine/x86_64-windows/sfc.dll
 usr/lib/wine/x86_64-windows/sfc_os.dll
+usr/lib/wine/x86_64-windows/sharedgpures.sys
 usr/lib/wine/x86_64-windows/shcore.dll
 usr/lib/wine/x86_64-windows/shdoclc.dll
 usr/lib/wine/x86_64-windows/shdocvw.dll
@@ -3011,6 +3022,7 @@ usr/lib32/wine/i386-windows/services.exe
 usr/lib32/wine/i386-windows/setupapi.dll
 usr/lib32/wine/i386-windows/sfc.dll
 usr/lib32/wine/i386-windows/sfc_os.dll
+usr/lib32/wine/i386-windows/sharedgpures.sys
 usr/lib32/wine/i386-windows/shcore.dll
 usr/lib32/wine/i386-windows/shdoclc.dll
 usr/lib32/wine/i386-windows/shdocvw.dll
