@@ -5010,6 +5010,7 @@ usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-fir
 usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-fixed.js
 usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-focus-visible.js
 usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-focus-within.js
+usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-font-palette.js
 usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-font-rendering-controls.js
 usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-font-stretch.js
 usr/lib/node_modules/@nestjs/cli/node_modules/caniuse-lite/data/features/css-gencontent.js
