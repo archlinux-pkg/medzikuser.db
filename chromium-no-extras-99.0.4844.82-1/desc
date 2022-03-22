@@ -1,5 +1,5 @@
 %FILENAME%
-chromium-no-extras-99.0.4844.74-1-x86_64.pkg.tar.xz
+chromium-no-extras-99.0.4844.82-1-x86_64.pkg.tar.xz
 
 %NAME%
 chromium-no-extras
@@ -8,25 +8,25 @@ chromium-no-extras
 chromium-no-extras
 
 %VERSION%
-99.0.4844.74-1
+99.0.4844.82-1
 
 %DESC%
 Chromium without hangout services, widevine, pipewire, or chromedriver
 
 %CSIZE%
-83060836
+83063308
 
 %ISIZE%
-266644883
+266645027
 
 %MD5SUM%
-c4faa9bb8d3f2970dc4f2163f74377cd
+e232a9a56bf7305849f7802168de3347
 
 %SHA256SUM%
-2d2b4ee761c7b62e78a36e0a72078dc2df761bf39c5a15f42cae6b54d8763034
+c8c1bff9195a2fe05c16ce743c118b00befa25d02273e31a554500ee6e4022fd
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIzgbQACgkQemZGpsFGkMDcjAv+KsbeUBkuzcsSFBh1+rlkxU8R9OIrKcHMbzTiZySSMadoFVODE+NgJF243jsY3tRCSKmrK8uDFYbDNU+h+BboaWYj/sOahlk48DR85IzGGz1vJHehstgCmOUb4tjp0kHlDqr0G1gZUCHNmIEbepyiIb0HZw4jJyo2YQg9LBrodVZlpT6hDVA1P885hMJyadB7lEZ8dFhiCQrpN+q0wPZEHg8ALJ9Z5kCXIEbWuAj457sNFXRkCYE4Hr3bhZm5cRgVJ9WtMbekFfw9WGRN7u8iiGlDD5GrefLSIF9xlfgTsAkGxiV6llJHHAuczhHxnYHr00+Qjw5drWR/n/ET16MO3mL3/NrG+XqKN/tNav2wMN4v37l3ivhhjDjvqI3awfJsba3SS8h/afj41Cn6V+DdSiu9og2PDy3Fmas+ox8n+xqe0EQMtpW9DgqIkE2hMQiCN2cpCCwkovDeSY0fld3tfZvOaYDhjCfi3KMiQeQHNuvjhMfo87DdDrVHcldndStz
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmI58bYACgkQemZGpsFGkMD2Igv/RS402I+Zto4OF4ISIlDTu2vxhXXZWoxY1LXQRTW/sO3MN3xT5IbWj3WOmiz0bXZymxGw6PQE8caLxB3AM1O7PCHvJw+JQd7/ZtniMhx46A91wz4J4UNz1khYDOjBPF8fTzYaoTumT8vJyybFvc2j0VeW2yciXRuWut6ewd9Tr63JyMtLHMkLItGWrEzr8SLWkEyJBGdEBku88JNSrbFMdla7nksleW/rMaFSpsHJlXrSGpPokb11kHIRyLMFekp+1Zq8e3dPoDzexhMODKi0JjszqpJ69pySPL65+6Zmggv1n458yR/VDPu4fzwdpRxhK3q+VQxcTU4eLF6URyfmOaNxDElHRUgb4Jm+CpLizXiJAEzqMKyTGzAuWWfhIfMx69zgGfBS/vgVp4SCpcfgotIE97ybFWrH8XWbgm1YqF8B8GTTKFEu63BEdGORCI3Z943lhxAjbWhIBIt9KqsJ3eakKnBQcscDY3cgTrVbgf1M5t5G6vK1xexXPgjTa8u2
 
 %URL%
 https://www.chromium.org/Home
@@ -38,7 +38,7 @@ BSD
 x86_64
 
 %BUILDDATE%
-1647466445
+1647888811
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -47,7 +47,7 @@ MedzikUser <nivua1fn@duck.com>
 chromium
 
 %PROVIDES%
-chromium=99.0.4844.74
+chromium=99.0.4844.82
 
 %DEPENDS%
 gtk3
