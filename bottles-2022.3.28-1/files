@@ -2,6 +2,7 @@
 usr/
 usr/bin/
 usr/bin/bottles
+usr/bin/bottles-cli
 usr/share/
 usr/share/applications/
 usr/share/applications/com.usebottles.bottles.desktop
@@ -107,6 +108,7 @@ usr/share/bottles/bottles/dialogs/rename.py
 usr/share/bottles/bottles/dialogs/runargs.py
 usr/share/bottles/bottles/main.py
 usr/share/bottles/bottles/operation.py
+usr/share/bottles/bottles/operation_cli.py
 usr/share/bottles/bottles/params.py
 usr/share/bottles/bottles/utils.py
 usr/share/bottles/bottles/views/
@@ -204,6 +206,9 @@ usr/share/locale/ja/LC_MESSAGES/bottles.mo
 usr/share/locale/ko/
 usr/share/locale/ko/LC_MESSAGES/
 usr/share/locale/ko/LC_MESSAGES/bottles.mo
+usr/share/locale/ms/
+usr/share/locale/ms/LC_MESSAGES/
+usr/share/locale/ms/LC_MESSAGES/bottles.mo
 usr/share/locale/nb_NO/
 usr/share/locale/nb_NO/LC_MESSAGES/
 usr/share/locale/nb_NO/LC_MESSAGES/bottles.mo
