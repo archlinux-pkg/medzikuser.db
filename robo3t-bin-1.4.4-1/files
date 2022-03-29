@@ -1,0 +1,15 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/robo3t
+usr/share/
+usr/share/applications/
+usr/share/applications/robo3t.desktop
+usr/share/doc/
+usr/share/doc/robo3t/
+usr/share/doc/robo3t/COPYRIGHT
+usr/share/licenses/
+usr/share/licenses/robo3t/
+usr/share/licenses/robo3t/LICENSE
+usr/share/pixmaps/
+usr/share/pixmaps/robo3t.png
