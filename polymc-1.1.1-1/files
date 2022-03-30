@@ -2,8 +2,6 @@
 usr/
 usr/bin/
 usr/bin/polymc
-usr/lib/
-usr/lib/libPolyMC_rainbow.so
 usr/share/
 usr/share/applications/
 usr/share/applications/org.polymc.PolyMC.desktop
