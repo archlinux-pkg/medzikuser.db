@@ -1,0 +1,72 @@
+%FILENAME%
+goverlay-0.8.1-2-x86_64.pkg.tar.xz
+
+%NAME%
+goverlay
+
+%BASE%
+goverlay
+
+%VERSION%
+0.8.1-2
+
+%DESC%
+A GUI to help manage Vulkan/OpenGL overlays
+
+%CSIZE%
+3677432
+
+%ISIZE%
+7700990
+
+%MD5SUM%
+ccf4a91ecdf073bb4ee5f383045ab50f
+
+%SHA256SUM%
+cc17e79b2756ee74d264fb3a34c774f43c12deb003aae31b29fd0847d190f2b9
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJG7jcACgkQemZGpsFGkMC5hgwA0sMNrEY/34EIVLqhNIp2UAlLjSokFZbryiP+dZ2Dh2GTQt0xZpyp91Z45Ws8i6AlfuLJ7b9H0z+ADq5/taIw6grQ/GHpYZEXBXEI2cvqUygLQVkwbMhiQjaMDqKAyYJl/Uf/6JxZqpgsy50RoYlJ99j+as8dllhN6jQPWmJOwjN1VFfsSm925R1Frl/CWlboWTzZYo/cplG7uDzAZCWk6OPMkujGdGtsT4Vnkk4Csx1/ONnIAMcEUZL4kyfVNwV9moy9A7auzNJZrSuuawvIQhxky8g3oWVqSNuXMf4Uo/XqJF10Vrodp5FfFpmuu6qwdUaomROOXOUxMEc8XSvazOeM0IpLwdActCB9ioVaS5VVmmDlcQp7Sd6e53BNfOBLpeaP9oPDETWrAfy97Cp8DKtlck32dpmUExzfQ4QXcJKpvMCcyGyKjnh/CdRVBDjHYRdUWsaFnkPIaydwXq6zxS2arutcnB9eqZx7Dg7hDrroVwGRgh6Ys2DjGad0BVu0
+
+%URL%
+https://github.com/benjamimgois/goverlay
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648815527
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+goverlay
+goverlay
+
+%DEPENDS%
+qt5pas
+qt5-base
+mangohud
+breeze
+
+%OPTDEPENDS%
+vkbasalt: Configure vkBasalt
+mesa-utils: OpenGL preview
+vulkan-tools: Vulkan preview
+git: Clone reshade repository
+replay-sorcery: Instant replay solution
+breeze: First choice for theme
+oxygen: Second choice for theme
+
+%MAKEDEPENDS%
+git
+lazarus
+
+%CHECKDEPENDS%
+appstream
+desktop-file-utils
+
