@@ -1,0 +1,14 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/stripe
+usr/share/
+usr/share/doc/
+usr/share/doc/stripe-cli/
+usr/share/doc/stripe-cli/README.md
+usr/share/doc/stripe-cli/docs/
+usr/share/doc/stripe-cli/docs/cli.svg
+usr/share/doc/stripe-cli/docs/demo.gif
+usr/share/doc/stripe-cli/docs/rpc/
+usr/share/doc/stripe-cli/docs/rpc/commands.md
+usr/share/doc/stripe-cli/docs/terminal.svg
