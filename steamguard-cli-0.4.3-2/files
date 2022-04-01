@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/steamguard
+usr/share/
+usr/share/bash-completion/
+usr/share/bash-completion/completions/
+usr/share/bash-completion/completions/steamguard-cli
+usr/share/zsh/
+usr/share/zsh/site-functions/
+usr/share/zsh/site-functions/_steamguard-cli

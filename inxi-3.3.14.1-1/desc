@@ -1,0 +1,82 @@
+%FILENAME%
+inxi-3.3.14.1-1-any.pkg.tar.xz
+
+%NAME%
+inxi
+
+%BASE%
+inxi
+
+%VERSION%
+3.3.14.1-1
+
+%DESC%
+Full featured CLI system information tool
+
+%CSIZE%
+280012
+
+%ISIZE%
+1115060
+
+%MD5SUM%
+80371dbaa18219d7aa1ee08192052bde
+
+%SHA256SUM%
+da5003f2a35eb6d47199ba0b7fe757f3e19170f1042183fe720bad48ee97bcde
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJG6noACgkQemZGpsFGkMCoGAv/UtZyW4MXkI3yHR+RLLDQjNm9zdka/S2OCPHOgydbmCZrTDcZ1Tn2JW1mh4vv3d44mxKnhEnleWdT9Yc2StqlKVzUiFaGtOjpDUkYxO1a8vfgbRl1Srw5CXRYNogu2CE+oj42vl6PoTWrtzrF2XVDAiDcvfalnvkZbICMazOtHa0QU0Sj6bVb3G58VzeDY2F29jBuDn64Mk5kqAtrE/PbuLgENgHATTmkdoezWLwjs5nUPq2306K/MUm0zlxRRuQ71jCzcSOu7S8AV85cxiDOxs+DCu3vEFoWFtQucT/VDQnUqnbUEgsYPCHYuQAo7jQOwbEedsVaH2IfwtygI02HCOoAO3pyrYSEta7CQevRV117Pj6uwPKyfazeqsj/UfIPdfX+8EP/9r3YrkieD0L2I7EBn9oxQPsu83SyfO4PEWS6RYrQSoDqweDX7/cT8IHQAgb+zVzlzoku76sySFXpzsDX+1QZPonZ3up2G6DTMJdhLRjihfa8cRomLuMYQFZK
+
+%URL%
+https://smxi.org/docs/inxi.htm
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1648814682
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+coreutils
+pciutils
+perl
+procps-ng
+
+%OPTDEPENDS%
+bluez-tools: bt-adapter: -E bluetooth data (if no hciconfig)
+bluez-utils-compat: hciconfig: -E bluetooth HCI data
+bind: -i wlan IP
+dmidecode: inxi -M if no sys machine data
+file: inxi -o unmounted file system
+freeipmi: ipmi-sensors: -s IPMI sensors
+hddtemp: inxi -Dx show hdd temp
+iproute2: inxi -i ip lan
+ipmitool: -s IPMI sensors
+kmod: inxi -Ax,-Nx module version
+lm_sensors: inxi -s sensors output
+mesa-utils: inxi -G glx info
+net-tools: inxi -i ip lan-deprecated
+perl-io-socket-ssl: -U; -w,-W; -i (if dig not installed)
+perl-cpanel-json-xs: --output json - required for export
+perl-json-xs: --output json - required for export (legacy)
+perl-xml-dumper: --output xml - Crude and raw
+systemd-sysvcompat: inxi -I runlevel
+sudo: inxi -Dx hddtemp-user;-o file-user
+tree: --debugger 20,21 /sys tree
+upower: -sx attached device battery info
+usbutils: inxi -A usb audio;-N usb networking
+wmctrl: -S active window manager (not all wm)
+xorg-xdpyinfo: inxi -G multi screen resolution
+xorg-xprop: inxi -S desktop data
+xorg-xrandr: inxi -G single screen resolution
+
+%MAKEDEPENDS%
+git
+

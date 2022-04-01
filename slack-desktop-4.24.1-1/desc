@@ -1,0 +1,56 @@
+%FILENAME%
+slack-desktop-4.24.1-1-x86_64.pkg.tar.xz
+
+%NAME%
+slack-desktop
+
+%BASE%
+slack-desktop
+
+%VERSION%
+4.24.1-1
+
+%DESC%
+Slack Desktop (Beta) for Linux
+
+%CSIZE%
+65519544
+
+%ISIZE%
+223954414
+
+%MD5SUM%
+26dd07f79e89266adb254dffc5fd84a1
+
+%SHA256SUM%
+933dbb74618c07c5008bef9aa32aee4a85d582f4a38fa122f494695447a49bdf
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJG6doACgkQemZGpsFGkMBqZQv8CQX0f6ql9+8vgK6RyHWEwFuhTfWHiK4LvR3IEUkqO4oKV61Pt3fPsNYfkuvWOV+2fE8YJ81/H0J5TxOUnrkH8ehKWr9c1tgSpYt8u5QpwtK52tnbxn1mJn2c5Kebjfo6ADj/Z33Nre4ai53A/ZRrKxZ79oBcJHyqi4jUaBPguJU2bo5EwU8Hkvb8QjOQQheuDzf7eATv1/5RFKv0ylGp5iowNF/F1n5wPJPOUNnxV+b2SxvhTYPBxURE9JJpB4L8BF0x78ayWAmgIXkR4QRaQaG4W4C0wZImID15yg5jJderqGvT99FFpruTO6kCT7bUe9g0Zr8CjWJXewBr9cSaFhgue1v/1UaOOL3H2qeQDC7QpEhoDslfCdmFuZSDsk4aKDVHNUr4LQMg9r+khRLD1mQYsCpWCdUZK4/e2i2xPAPn16dZdIj68YnYhiIftD/Tc0MkNEuBhQ5lsi7LdW+vt1aYORcDofmmWMk8ZH37wQIsPQ0mUKXr1xQewjPyj3um
+
+%URL%
+https://slack.com/downloads
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648814432
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+gtk3
+libsecret
+libxss
+nss
+xdg-utils
+
+%OPTDEPENDS%
+libappindicator-gtk3: Systray indicator support
+org.freedesktop.secrets: Keyring password store support
+
