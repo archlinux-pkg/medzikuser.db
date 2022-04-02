@@ -1,5 +1,5 @@
 %FILENAME%
-pi-hole-server-5.9-3-any.pkg.tar.xz
+pi-hole-server-5.9.1-1-any.pkg.tar.xz
 
 %NAME%
 pi-hole-server
@@ -8,25 +8,25 @@ pi-hole-server
 pi-hole-server
 
 %VERSION%
-5.9-3
+5.9.1-1
 
 %DESC%
 The Pi-hole is an advertising-aware DNS/Web server. Arch adaptation for lan wide DNS server.
 
 %CSIZE%
-1940444
+1940636
 
 %ISIZE%
-5325619
+5325627
 
 %MD5SUM%
-4bdd2e55dde397ae1f212149e0fff73f
+233a75b2d37a4cd8e06fc01b41ec7f38
 
 %SHA256SUM%
-e8285adbd13c33e423b7eca2c0cda6673ee7fffeb59cfba710da468c2ecff071
+2996567af4bb5067ad004cb9ae0c1b8e5a7ba028e6285d218c1f7bd0cc0af8ec
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIlBPEACgkQemZGpsFGkMBaaQv+JTvsx1fyD/3Z9anBfYu//HRT8KRvSkqAZDh/AoxWVv10u95wX2Kgxp6qugSJAxoH4ya4GVg23n+dMgCmPZ5duCbZWP0tosLb4NY2+6LCVmvQZQd62RHx/m5rj41p4Nw88n6sq+QQAVq3zVwnMYrNMngAHFPZlWVuagExh/ME4sAJ2zhh9d8nHwHXSZ61vpon1J48VcE2sOavcd6woGxYQeuXvQ7AorWAcMMOwsFm2GI69oq238tzPvYNM5XEOg7hd2N9Q4mydKvBvSZ5OE6hXULWyKCb+WQEMPwNcpVs/gyv/iGORraqSdMRDVNjYBKCHFEndZBuCT2v/7pkD07agc9TWtR75ZvGr8npqhQrLbaGZr1rqFK/ZniCrCN+XjnSXbhXleXCW2nC1+fps/bArLvn2hyUoQfJv+jNPDRqPg4XblV6kCmblg9bQn3SiTxsFschxbx+w9M3z7jMhBGN8FKTKosE9pdZuqpT/mFYFFEsJ3nxqneQjXUMDJO/Yl+b
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJH6wAACgkQemZGpsFGkMAnzwwAwSL8cNAT9rx7h1wTJtucznAtiUfSLKDLs/sW0I9Bh44BGgLy7BVFIg5ndLYpnoxZkGAlLzyvVvJY6O/dGKey12GumpdrS4nPlRNSfyzfxv394TFVSzz2qf7c1cLrE+pqAuSn6xZIfH8h+7AWx9DVUvPzYCWU7k+KY1S5+Nd0krKHGNQWFA2XJvgIbb/0CwpkxFvVwJA7+fR+pOYNh5kz055iptbnGIFGYbhPJpqVGcrLAIDoFY/0JDHnjLz8t80XKNkaE0Rr5fsTFMcNdoQfOaLLBhWtDdcTtfisIAhyb9jcotBnWBWotK/738amW+d+kCgxETPySw9z73rxr9k9C0b6TJfzBorFxoVpavkCMMQ9OnOzLB0xgCIQsxoP5KK7TYzt0Xqd0MdA2Hl2OuEEfYwd8BHPmWHoWryQPkz8+ANqMLexot4XLSVo57TLZqA+oOTa2hHBfrFCHxGKm10hQcMhjR6wO83ohfCdAEqU090YW1h6Xw1aFqobAYUebsT3
 
 %URL%
 https://github.com/pi-hole/pi-hole
@@ -38,7 +38,7 @@ EUPL-1.2
 any
 
 %BUILDDATE%
-1646593245
+1648880349
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
