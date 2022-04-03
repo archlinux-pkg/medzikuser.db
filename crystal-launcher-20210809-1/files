@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/crystal-launcher
+usr/share/
+usr/share/applications/
+usr/share/applications/crystal-launcher.desktop
+usr/share/java/
+usr/share/java/crystal-launcher.jar
+usr/share/pixmaps/
+usr/share/pixmaps/crystal-launcher.png
