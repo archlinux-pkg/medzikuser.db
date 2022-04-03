@@ -1,0 +1,6 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/jvm/
+usr/lib/jvm/java-8-openjdk/
+usr/lib/jvm/java-8-openjdk/javafx-src.zip
