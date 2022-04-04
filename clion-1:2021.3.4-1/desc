@@ -1,0 +1,69 @@
+%FILENAME%
+clion-1_2021.3.4-1-x86_64.pkg.tar.xz
+
+%NAME%
+clion
+
+%BASE%
+clion
+
+%VERSION%
+1:2021.3.4-1
+
+%DESC%
+C/C++ IDE. Free 30-day trial.
+
+%CSIZE%
+316251140
+
+%ISIZE%
+1510507210
+
+%MD5SUM%
+77f146fc171533e26cc02abaefe38b37
+
+%SHA256SUM%
+890d184ad0c9315c955f229ebadff925c86de443852eb507bc7243af57458058
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJLTTMACgkQemZGpsFGkMDXqgwA0kX/4LKvnxAlLqiTGQwG04iiygJ3Ba1mPmyZyNbIYR57UUsifS4qw57UbyPozmA3wqoIAW7yGcBv1Y2Nsnuk4lWoPxNTBvwnYWhUEQCyExFERpUJEm7SY4XNq5axqABRoX+UVudLvYhRraeEwdoi4nbMTGlhiQ95P1NiSchmF1nmPkkrYtQg9O4Tir24ROM1qf6X8RwpaekKoA/reIikhe6KCrsTd5c7tfZpIGtTTfqZ7qc/uX5uHAoBGaM4OyM0tOWsivnvXR5e/UaaXTrUW9vls1Vw6nhAQ5xKm3Do14Vr7TDgTFbd8hzvnTIwepebaYZpx+qnmU0uPbwydKbYlRRJgmsQmqB9wG9N1mKrKD5iQFWvdPt75S17HgYuh9xWutMDFhAZLGM1Gx+sOUuBOoUITpyzw1ViDumG7YteWd7M+5MaI5YC8+rmDMs4Q4fbPVCIEJjyIbxh1aFfHVi1isIwsg0TPTBCepnO3uJL2j6WpNA+p6Uj1/w+oWU8yFk4
+
+%URL%
+http://www.jetbrains.com/clion
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1649101538
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+libdbusmenu-glib
+
+%OPTDEPENDS%
+clion-jre: JetBrains custom Java Runtime (Recommended)
+clion-cmake: JetBrains packaged CMake tools
+clion-gdb: JetBrains packaged GNU debugger
+clion-lldb: JetBrains packaged LLVM debugger
+java-runtime: JRE - Required if clion-jre is not installed
+cmake: Build system - Required if clion-cmake is not installed
+gdb: native GNU debugger
+lldb: native LLVM debugger
+gcc: GNU compiler
+clang: LLVM compiler
+biicode: C/C++ dependency manager
+gtest: C++ testing
+swift-language: Swift programming language support (Also requires the plugin)
+python: Python 3 programming language support
+python2: Python 2 programming language support
+doxygen: Code documentation generation
+
+%MAKEDEPENDS%
+rsync
+
