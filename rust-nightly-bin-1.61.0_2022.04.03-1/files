@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.61.0-nightly.so
-usr/lib/librustc_driver-4710160da74ceb29.so
+usr/lib/librustc_driver-b6679242d16c387a.so
 usr/lib/libstd-1b64d5fe7a3c3d7f.so
 usr/lib/libtest-a2772fbe70d998e8.so
 usr/lib/rustlib/
@@ -28938,6 +28938,8 @@ usr/share/doc/rust/html/core/ptr/fn.eq.html
 usr/share/doc/rust/html/core/ptr/fn.from_raw_parts.html
 usr/share/doc/rust/html/core/ptr/fn.from_raw_parts_mut.html
 usr/share/doc/rust/html/core/ptr/fn.hash.html
+usr/share/doc/rust/html/core/ptr/fn.invalid.html
+usr/share/doc/rust/html/core/ptr/fn.invalid_mut.html
 usr/share/doc/rust/html/core/ptr/fn.metadata.html
 usr/share/doc/rust/html/core/ptr/fn.null.html
 usr/share/doc/rust/html/core/ptr/fn.null_mut.html
@@ -30786,7 +30788,6 @@ usr/share/doc/rust/html/rustc/platform-support.html
 usr/share/doc/rust/html/rustc/platform-support/
 usr/share/doc/rust/html/rustc/platform-support/TEMPLATE.html
 usr/share/doc/rust/html/rustc/platform-support/aarch64-apple-ios-sim.html
-usr/share/doc/rust/html/rustc/platform-support/aarch64-unknown-none-hermitkernel.html
 usr/share/doc/rust/html/rustc/platform-support/armv7-unknown-linux-uclibceabi.html
 usr/share/doc/rust/html/rustc/platform-support/armv7-unknown-linux-uclibceabihf.html
 usr/share/doc/rust/html/rustc/platform-support/kmc-solid.html
@@ -33296,6 +33297,8 @@ usr/share/doc/rust/html/std/ptr/fn.eq.html
 usr/share/doc/rust/html/std/ptr/fn.from_raw_parts.html
 usr/share/doc/rust/html/std/ptr/fn.from_raw_parts_mut.html
 usr/share/doc/rust/html/std/ptr/fn.hash.html
+usr/share/doc/rust/html/std/ptr/fn.invalid.html
+usr/share/doc/rust/html/std/ptr/fn.invalid_mut.html
 usr/share/doc/rust/html/std/ptr/fn.metadata.html
 usr/share/doc/rust/html/std/ptr/fn.null.html
 usr/share/doc/rust/html/std/ptr/fn.null_mut.html
@@ -33941,6 +33944,7 @@ usr/share/doc/rust/html/unstable-book/language-features/fn-align.html
 usr/share/doc/rust/html/unstable-book/language-features/fundamental.html
 usr/share/doc/rust/html/unstable-book/language-features/generators.html
 usr/share/doc/rust/html/unstable-book/language-features/generic-arg-infer.html
+usr/share/doc/rust/html/unstable-book/language-features/generic-associated-types-extended.html
 usr/share/doc/rust/html/unstable-book/language-features/generic-associated-types.html
 usr/share/doc/rust/html/unstable-book/language-features/generic-const-exprs.html
 usr/share/doc/rust/html/unstable-book/language-features/half-open-range-patterns.html
@@ -33974,8 +33978,6 @@ usr/share/doc/rust/html/unstable-book/language-features/naked-functions.html
 usr/share/doc/rust/html/unstable-book/language-features/native-link-modifiers-as-needed.html
 usr/share/doc/rust/html/unstable-book/language-features/native-link-modifiers-bundle.html
 usr/share/doc/rust/html/unstable-book/language-features/native-link-modifiers-verbatim.html
-usr/share/doc/rust/html/unstable-book/language-features/native-link-modifiers-whole-archive.html
-usr/share/doc/rust/html/unstable-book/language-features/native-link-modifiers.html
 usr/share/doc/rust/html/unstable-book/language-features/needs-panic-runtime.html
 usr/share/doc/rust/html/unstable-book/language-features/negative-impls.html
 usr/share/doc/rust/html/unstable-book/language-features/never-type-fallback.html
@@ -34153,7 +34155,6 @@ usr/share/doc/rust/html/unstable-book/library-features/const-pref-align-of.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-as-ref.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-is-null.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-offset-from.html
-usr/share/doc/rust/html/unstable-book/library-features/const-ptr-offset.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-read.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-write.html
 usr/share/doc/rust/html/unstable-book/library-features/const-raw-ptr-comparison.html
@@ -34307,7 +34308,7 @@ usr/share/doc/rust/html/unstable-book/library-features/proc-macro-quote.html
 usr/share/doc/rust/html/unstable-book/library-features/proc-macro-span-shrink.html
 usr/share/doc/rust/html/unstable-book/library-features/proc-macro-span.html
 usr/share/doc/rust/html/unstable-book/library-features/proc-macro-tracked-env.html
-usr/share/doc/rust/html/unstable-book/library-features/process-exitcode-placeholder.html
+usr/share/doc/rust/html/unstable-book/library-features/process-exitcode-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/process-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/process-set-process-group.html
 usr/share/doc/rust/html/unstable-book/library-features/profiler-runtime-lib.html
@@ -34363,14 +34364,13 @@ usr/share/doc/rust/html/unstable-book/library-features/str-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/str-split-as-str.html
 usr/share/doc/rust/html/unstable-book/library-features/str-split-inclusive-as-str.html
 usr/share/doc/rust/html/unstable-book/library-features/str-split-whitespace-as-str.html
+usr/share/doc/rust/html/unstable-book/library-features/strict-provenance.html
 usr/share/doc/rust/html/unstable-book/library-features/string-extend-from-within.html
 usr/share/doc/rust/html/unstable-book/library-features/string-remove-matches.html
 usr/share/doc/rust/html/unstable-book/library-features/tcp-linger.html
 usr/share/doc/rust/html/unstable-book/library-features/tcplistener-into-incoming.html
-usr/share/doc/rust/html/unstable-book/library-features/termination-trait-lib.html
 usr/share/doc/rust/html/unstable-book/library-features/test.html
 usr/share/doc/rust/html/unstable-book/library-features/thread-id-value.html
-usr/share/doc/rust/html/unstable-book/library-features/thread-is-running.html
 usr/share/doc/rust/html/unstable-book/library-features/thread-local-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/thread-spawn-unchecked.html
 usr/share/doc/rust/html/unstable-book/library-features/toowned-clone-into.html
@@ -34400,7 +34400,6 @@ usr/share/doc/rust/html/unstable-book/library-features/utf16-extra-const.html
 usr/share/doc/rust/html/unstable-book/library-features/utf16-extra.html
 usr/share/doc/rust/html/unstable-book/library-features/variant-count.html
 usr/share/doc/rust/html/unstable-book/library-features/vec-into-raw-parts.html
-usr/share/doc/rust/html/unstable-book/library-features/vec-retain-mut.html
 usr/share/doc/rust/html/unstable-book/library-features/vec-split-at-spare.html
 usr/share/doc/rust/html/unstable-book/library-features/waker-getters.html
 usr/share/doc/rust/html/unstable-book/library-features/wasi-ext.html
