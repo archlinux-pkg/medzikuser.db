@@ -1,0 +1,7 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/i686-w64-mingw32-msiexec
+usr/bin/i686-w64-mingw32-wine
+usr/bin/x86_64-w64-mingw32-msiexec
+usr/bin/x86_64-w64-mingw32-wine
