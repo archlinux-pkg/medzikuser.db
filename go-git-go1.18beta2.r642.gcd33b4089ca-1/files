@@ -32,6 +32,7 @@ usr/lib/go/api/next/45628.txt
 usr/lib/go/api/next/45754.txt
 usr/lib/go/api/next/46059.txt
 usr/lib/go/api/next/46121.txt
+usr/lib/go/api/next/46229.txt
 usr/lib/go/api/next/47005.txt
 usr/lib/go/api/next/50601.txt
 usr/lib/go/api/next/51414.txt
@@ -6851,6 +6852,8 @@ usr/lib/go/src/internal/godebug/
 usr/lib/go/src/internal/godebug/godebug.go
 usr/lib/go/src/internal/godebug/godebug_test.go
 usr/lib/go/src/internal/goexperiment/
+usr/lib/go/src/internal/goexperiment/exp_boringcrypto_off.go
+usr/lib/go/src/internal/goexperiment/exp_boringcrypto_on.go
 usr/lib/go/src/internal/goexperiment/exp_fieldtrack_off.go
 usr/lib/go/src/internal/goexperiment/exp_fieldtrack_on.go
 usr/lib/go/src/internal/goexperiment/exp_heapminimum512kib_off.go
