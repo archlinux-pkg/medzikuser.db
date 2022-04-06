@@ -28,13 +28,16 @@ usr/lib/go/api/go1.8.txt
 usr/lib/go/api/go1.9.txt
 usr/lib/go/api/go1.txt
 usr/lib/go/api/next/
+usr/lib/go/api/next/42710.txt
 usr/lib/go/api/next/45628.txt
 usr/lib/go/api/next/45754.txt
+usr/lib/go/api/next/46057.txt
 usr/lib/go/api/next/46059.txt
 usr/lib/go/api/next/46121.txt
 usr/lib/go/api/next/46229.txt
 usr/lib/go/api/next/47005.txt
 usr/lib/go/api/next/50601.txt
+usr/lib/go/api/next/50674.txt
 usr/lib/go/api/next/51414.txt
 usr/lib/go/api/next/51868.txt
 usr/lib/go/api/next/regexpdepth.txt
@@ -1605,6 +1608,7 @@ usr/lib/go/src/cmd/compile/internal/ppc64/opt.go
 usr/lib/go/src/cmd/compile/internal/ppc64/ssa.go
 usr/lib/go/src/cmd/compile/internal/reflectdata/
 usr/lib/go/src/cmd/compile/internal/reflectdata/alg.go
+usr/lib/go/src/cmd/compile/internal/reflectdata/alg_test.go
 usr/lib/go/src/cmd/compile/internal/reflectdata/reflect.go
 usr/lib/go/src/cmd/compile/internal/riscv64/
 usr/lib/go/src/cmd/compile/internal/riscv64/galign.go
@@ -5056,7 +5060,6 @@ usr/lib/go/src/crypto/elliptic/
 usr/lib/go/src/crypto/elliptic/elliptic.go
 usr/lib/go/src/crypto/elliptic/elliptic_test.go
 usr/lib/go/src/crypto/elliptic/export_generate.go
-usr/lib/go/src/crypto/elliptic/fuzz_test.go
 usr/lib/go/src/crypto/elliptic/gen_p256_table.go
 usr/lib/go/src/crypto/elliptic/internal/
 usr/lib/go/src/crypto/elliptic/internal/fiat/
@@ -5352,6 +5355,7 @@ usr/lib/go/src/crypto/tls/tls.go
 usr/lib/go/src/crypto/tls/tls_test.go
 usr/lib/go/src/crypto/x509/
 usr/lib/go/src/crypto/x509/cert_pool.go
+usr/lib/go/src/crypto/x509/cert_pool_test.go
 usr/lib/go/src/crypto/x509/example_test.go
 usr/lib/go/src/crypto/x509/hybrid_pool_test.go
 usr/lib/go/src/crypto/x509/internal/
