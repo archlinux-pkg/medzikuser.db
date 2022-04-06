@@ -6110,6 +6110,12 @@ usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/fs/lib/with-temp-dir.js
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/fs/lib/write-file.js
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/fs/package.json
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/move-file/
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/move-file/LICENSE.md
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/move-file/README.md
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/move-file/lib/
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/move-file/lib/index.js
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@npmcli/move-file/package.json
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@tootallnate/
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@tootallnate/once/
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/@tootallnate/once/LICENSE
@@ -6194,6 +6200,12 @@ usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/m
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/make-fetch-happen/node_modules/minipass-fetch/lib/response.js
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/make-fetch-happen/node_modules/minipass-fetch/package.json
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/make-fetch-happen/package.json
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/ssri/
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/ssri/LICENSE.md
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/ssri/README.md
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/ssri/lib/
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/ssri/lib/index.js
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/ssri/package.json
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/package.json
 usr/lib/node_modules/@angular/cli/node_modules/npmlog/
 usr/lib/node_modules/@angular/cli/node_modules/npmlog/LICENSE.md
