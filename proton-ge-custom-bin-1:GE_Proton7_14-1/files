@@ -2780,7 +2780,7 @@ usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/dr
 usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/
 usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/Fonts/
 usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/Installer/
-usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/Installer/2031.msi
+usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/Installer/bfc9.msi
 usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/Microsoft.NET/
 usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/Microsoft.NET/DirectX for Managed Code/
 usr/share/steam/compatibilitytools.d/proton-ge-custom/files/share/default_pfx/drive_c/windows/Microsoft.NET/Framework/
@@ -8804,6 +8804,7 @@ usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/1030
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/1030840.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/105450.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/1062040.py
+usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/1063730.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/1085660.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/1086940.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/1097840.py
@@ -8849,7 +8850,6 @@ usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/2273
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/230410.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/238960.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/240600.py
-usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/243470.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/244210.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/244850.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/24960.py
@@ -8959,7 +8959,6 @@ usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/8958
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/913740.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/9480.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/952060.py
-usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/960910.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/976310.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/976730.py
 usr/share/steam/compatibilitytools.d/proton-ge-custom/protonfixes/gamefixes/997070.py
