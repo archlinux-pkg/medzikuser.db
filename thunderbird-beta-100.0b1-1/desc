@@ -1,5 +1,5 @@
 %FILENAME%
-thunderbird-beta-99.0b1-1-x86_64.pkg.tar.xz
+thunderbird-beta-100.0b1-1-x86_64.pkg.tar.xz
 
 %NAME%
 thunderbird-beta
@@ -8,25 +8,25 @@ thunderbird-beta
 thunderbird-beta
 
 %VERSION%
-99.0b1-1
+100.0b1-1
 
 %DESC%
 Beta version of standalone mail and news reader from mozilla.org
 
 %CSIZE%
-57100304
+57312736
 
 %ISIZE%
-241465166
+242387607
 
 %MD5SUM%
-6718e1123ed485bdab38501d41ad67a4
+856f8eaf2cd75106ae209f8815562c04
 
 %SHA256SUM%
-152de5266a582aeb8b6adf01175d2d21b7e4aac9b7634d0e6906c63053edde06
+7c458189c822eecbcd485825ba7f33dd0538a32cde9742650972b4727d8bce3d
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmIzy6EACgkQemZGpsFGkMA47Av/dFf9SuIhOUfaMgi3NHAuQo4AltMTXV1Te6VS2HyQ9VLAIs3rk0H1amwcOM5WJR+nsxTupqgNg+BJ7cN2TRkradpHgvs5FS9ErmFVZwJxdMYXP09dTzGThvvdKtf1M3i4EluWyq11sxunWh8TCdbHxNEwD/7bPvjyinD8btQgQ6h9c2No8N7UD3LqcnhEv4uliU+NDdIPOA7l0PTaWuv7TwEUTPechAnwpjFSmwHqo2SJRdWekO4pO4XZ9bj/f4X+4MlplikgZR+dAdz/qTSGx4rb67N36SEnRLsw/ahSegZOKYosbtvPYkczwtNbZpDgYkIDjqtmWMhFtbne8KetiLKCviDXCG0GXeMgZBh9yzgyeT9lge215pkcgd795g4buP1IdcVsDfQRqlat1uo218cVSydulBiyXIwEwgUecrAksmFDd6orIkjzg4+qM0EGdAsTQlw6VmrlwueIl8VynnC7wanh0/SV/nznSOov+sghVlGx3igxe+u5qoV6y8Mv
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJO5kgACgkQemZGpsFGkMB4pgv7BsxKF1KK+9rMeffvkCq/QO+Zud6Xc+5QLnsl66pcSuPza7v9hGT+hLV95zNASixA1jn7rQT7BOw+hGnFWZl5JEgTQl1B2FV2oDq7kDYW8HddE8DRzvGMvN9V/6t7KvFGfGt2YAXoD5yA6gLnwwo69KcpgW4L3CaKkc1VmfsI1Y7IpTx/QlWb1IsLtqgwjmOXYapNuqBPG/aYCD/XKWOHKoo+XJ5wdXY1U++8dNBAhLBc107K96fvrzNX4S/xX9DnTg4mHPN2uLAMKhogxxy5jzM8tyJimP2WwhvlU+tlXX0/Ngun5BeIpgFfsLKplopzPJXa2pmkjuU/8agioHfxD3cN9wkXlsmAWc2yzrmJF9bUWwOHRWd3FiLD7vEeHNE2hnBmwoDhmohXRwNpkNcs0T9nJETUtSuAJf2asTuiyC7J6QPAo7sHCS8z8qnzoznKqahdJP71vfzYqaF3a/G2KITLX7fAvO9OjkS+HguheCvGisEe/ukcfuGP9Mqc50Sz
 
 %URL%
 https://www.thunderbird.net/channel/#beta
@@ -40,13 +40,13 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1647554083
+1649330420
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
 
 %PROVIDES%
-thunderbird=99.0b1
+thunderbird=100.0b1
 
 %DEPENDS%
 gtk3
