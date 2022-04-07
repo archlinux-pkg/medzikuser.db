@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-b6679242d16c387a.so
+usr/lib/librustc_driver-4dc15ebd8072015a.so
 usr/lib/libstd-1b64d5fe7a3c3d7f.so
 usr/lib/libtest-a2772fbe70d998e8.so
 usr/lib/rustlib/
@@ -28936,6 +28936,8 @@ usr/share/doc/rust/html/core/ptr/fn.copy.html
 usr/share/doc/rust/html/core/ptr/fn.copy_nonoverlapping.html
 usr/share/doc/rust/html/core/ptr/fn.drop_in_place.html
 usr/share/doc/rust/html/core/ptr/fn.eq.html
+usr/share/doc/rust/html/core/ptr/fn.from_exposed_addr.html
+usr/share/doc/rust/html/core/ptr/fn.from_exposed_addr_mut.html
 usr/share/doc/rust/html/core/ptr/fn.from_raw_parts.html
 usr/share/doc/rust/html/core/ptr/fn.from_raw_parts_mut.html
 usr/share/doc/rust/html/core/ptr/fn.hash.html
@@ -31491,8 +31493,8 @@ usr/share/doc/rust/html/src/std/sys/unix/futex.rs.html
 usr/share/doc/rust/html/src/std/sys/unix/io.rs.html
 usr/share/doc/rust/html/src/std/sys/unix/kernel_copy.rs.html
 usr/share/doc/rust/html/src/std/sys/unix/locks/
+usr/share/doc/rust/html/src/std/sys/unix/locks/futex.rs.html
 usr/share/doc/rust/html/src/std/sys/unix/locks/mod.rs.html
-usr/share/doc/rust/html/src/std/sys/unix/locks/pthread_condvar.rs.html
 usr/share/doc/rust/html/src/std/sys/unix/locks/pthread_mutex.rs.html
 usr/share/doc/rust/html/src/std/sys/unix/locks/pthread_remutex.rs.html
 usr/share/doc/rust/html/src/std/sys/unix/locks/pthread_rwlock.rs.html
@@ -33296,6 +33298,8 @@ usr/share/doc/rust/html/std/ptr/fn.copy.html
 usr/share/doc/rust/html/std/ptr/fn.copy_nonoverlapping.html
 usr/share/doc/rust/html/std/ptr/fn.drop_in_place.html
 usr/share/doc/rust/html/std/ptr/fn.eq.html
+usr/share/doc/rust/html/std/ptr/fn.from_exposed_addr.html
+usr/share/doc/rust/html/std/ptr/fn.from_exposed_addr_mut.html
 usr/share/doc/rust/html/std/ptr/fn.from_raw_parts.html
 usr/share/doc/rust/html/std/ptr/fn.from_raw_parts_mut.html
 usr/share/doc/rust/html/std/ptr/fn.hash.html
