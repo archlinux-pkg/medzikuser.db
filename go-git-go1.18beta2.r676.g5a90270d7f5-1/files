@@ -36,6 +36,7 @@ usr/lib/go/api/next/46059.txt
 usr/lib/go/api/next/46121.txt
 usr/lib/go/api/next/46229.txt
 usr/lib/go/api/next/47005.txt
+usr/lib/go/api/next/50340.txt
 usr/lib/go/api/next/50601.txt
 usr/lib/go/api/next/50674.txt
 usr/lib/go/api/next/51414.txt
@@ -2248,6 +2249,7 @@ usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51607.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51616.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51658.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51877.go
+usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue52031.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue6977.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/manual.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/spec/
@@ -12584,6 +12586,7 @@ usr/lib/go/test/runtime/README
 usr/lib/go/test/runtime/inlinegcpc.go
 usr/lib/go/test/shift1.go
 usr/lib/go/test/shift2.go
+usr/lib/go/test/shift3.go
 usr/lib/go/test/sieve.go
 usr/lib/go/test/sigchld.go
 usr/lib/go/test/sigchld.out
