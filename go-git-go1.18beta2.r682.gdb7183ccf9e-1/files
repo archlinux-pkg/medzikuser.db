@@ -306,6 +306,8 @@ usr/lib/go/misc/cgo/testcshared/testdata/go2c2go/m1/c.c
 usr/lib/go/misc/cgo/testcshared/testdata/go2c2go/m1/main.go
 usr/lib/go/misc/cgo/testcshared/testdata/go2c2go/m2/
 usr/lib/go/misc/cgo/testcshared/testdata/go2c2go/m2/main.go
+usr/lib/go/misc/cgo/testcshared/testdata/issue36233/
+usr/lib/go/misc/cgo/testcshared/testdata/issue36233/issue36233.go
 usr/lib/go/misc/cgo/testcshared/testdata/libgo/
 usr/lib/go/misc/cgo/testcshared/testdata/libgo/libgo.go
 usr/lib/go/misc/cgo/testcshared/testdata/libgo2/
