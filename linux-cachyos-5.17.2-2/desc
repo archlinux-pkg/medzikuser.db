@@ -1,5 +1,5 @@
 %FILENAME%
-linux-cachyos-5.17.2-1-x86_64.pkg.tar.xz
+linux-cachyos-5.17.2-2-x86_64.pkg.tar.xz
 
 %NAME%
 linux-cachyos
@@ -8,25 +8,25 @@ linux-cachyos
 linux-cachyos
 
 %VERSION%
-5.17.2-1
+5.17.2-2
 
 %DESC%
 The Linux CFS scheduler Kernel by CachyOS and with other patches and improvements kernel and modules
 
 %CSIZE%
-173480700
+172795176
 
 %ISIZE%
-178432392
+172506089
 
 %MD5SUM%
-bcd4443f7577b0c5d5839575b03cc811
+cfb71ba9ea0546083354d3b68f0c7c26
 
 %SHA256SUM%
-2523821e0b231b8e6635016b4821050e5e01ff8abe86b2b44a3a1c7bad16b639
+a3024bfaa38f35f9ae0a4507cd5459d29ba30e7243ee268794c744be6db3ca38
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJQX/MACgkQemZGpsFGkMDtVgv/aLCFv2q8OiHTs/B/4LnYaAAankz2S3cGqQuVmeKJ/MLDR2bdVt8IPubz2KMM4aLDvzXzUL34BPCParOUqDR+uRi5GwGGdoaurWDFDxqaJVbZZQjYW9hSUT0qIff9sz27ZtTn7din5gTXtoyncHggbJ6cB0H+9QRfiANMohhWrQZHCQjQ6LjJyKiNbmvNUhGdeJwTDpjcp0aani2A5Q1/PxfMD3IgyGw0Did490zfSFWZT62Oo3feG9s1DGl/p1/vxh04rakXbKAD0aBp+I04+1bght08VoqoUn8s35W4xkcTIaJHIXYvTA0TR4V13tnW762dzjvSEgXbmiZDCLHlhlMTivQVApz2uB0Bdj2B9fB3oN6QVz0LrrF9tqe9ZMt8z/vF7P2PuELINW3I5HhfGWlU6Bv4gA5XQcNKyx4IQ9WmcjYbt4x4dj07AipS3EXfWa9JtIJBBhC3w0xALZHOo165o1ARvJ3XN9+7C6RLjJZnV41RxT1SMb0pvROJQDGp
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJR8A4ACgkQemZGpsFGkMAy/QwAuRigTaQAoS4aEwVFrnqRqQnCa7MBjhMRwB/7/2mIO5JYLB8zoWmOcW1nUZ/MUEfrzLlhvHWLP11UJFcJ1qibpKhDLUoR2Gg7jT3ZpM09r7NFCMIY3USZJuo2dlV8QRy/G08Im0GDrRy4zKtiv/6WxgcKZyBU9zkm2WI6BYWSu6ntYFcRv/Uj7Jv4Fwdp86B5bfH9znsCe6flkQYJOGSmgDOP3mTDTAfDhCku/exC4wHLFZGnAph8CYl3bQZb04HtLyPhEffSGKtE7jolnoeQMlKRReWu6It/zawnSMbbkVFjnXO4m3OUKurA+gaNDaPPqp+mzXcGhnJ73nXnSb9ukLzJ5AoMbb9/ALKvuz58lHhi5eomq2fbETrnQ4pjA+wwYobKWzFl4ulyloIbpILUIY3Iv0dE3h+7qi0Bn8iZKJTrG65V17/kzr5DVTZVkecCnKKGchdH1J6Ki3WYZhF/r5SJ64p4/9pdvQbCP9+LDgI2APJHKxqvyhDKai8AspSw
 
 %URL%
 https://github.com/CachyOS/linux-cachyos
@@ -38,7 +38,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1649427422
+1649530006
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -60,7 +60,7 @@ modprobed-db: Keeps track of EVERY kernel module that has ever been probed - use
 
 %MAKEDEPENDS%
 bc
-kmod
+texlive-latexextra
 libelf
 pahole
 cpio

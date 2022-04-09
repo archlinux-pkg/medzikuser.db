@@ -1,5 +1,5 @@
 %FILENAME%
-linux-bore-5.17.2-1-x86_64.pkg.tar.xz
+linux-bore-5.17.2-2-x86_64.pkg.tar.xz
 
 %NAME%
 linux-bore
@@ -8,25 +8,25 @@ linux-bore
 linux-bore
 
 %VERSION%
-5.17.2-1
+5.17.2-2
 
 %DESC%
 The Linux BORE scheduler Kernel by CachyOS with other patches and improvements kernel and modules
 
 %CSIZE%
-173013560
+172311168
 
 %ISIZE%
-177990045
+172031567
 
 %MD5SUM%
-ffaa2608ba964f96d1358452e5d6e6b5
+e10c2eca9cb5e1eb33b7113547eae7a4
 
 %SHA256SUM%
-640728ea58ad3b047cf836817b19fc35230076fa40c4d87b7f7f35c0fae77ab5
+7e777c28f80d638cfe89bc0c23e128e95a54cbc40b0c104b7fc11f345a59a1ba
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJQXxAACgkQemZGpsFGkMBTYQwAuW8Dze1jjWZqngm05aGaUOeYPGQwnNrnfEEpw7dk2rqdUlLfwH6wkB1yUAkrbL1rkAceNmQ+mj9Nc5zZ9l27EyCcAaZvLAI2w3Vi0Pc2qjs1NiZGpxoUcTE/mRxFX5jb9Pku4oxdLVpKset6Fb6jSYMKoQHCqxYOnO2+b4F5JrOv/olxWB2Wc3XbJMnwZwfiiz/fRA6fyw63XnTA7XS6/Yoj7ofjU332UgeD/53hM4lJu0TyuMawFgHDidXy8Zwiw8HZ/8zjasj6/1K4P3LliRUtN1GksZ14/Oco8kFmDntuDsK0qWaEI53qPFQuvWyU00CpOe+eheOJJ9zsoDfScGxS4F7YWcaKOr8xaYpKQKgM4wzTxluSLgznQHB4Vz5uL4nL1DDftvffTYMQK3hi4JTaVHkpVQjsOXhJ9hFssqBD3kims23Pzw/KGQeEQsblhmK1qq7BeXA45mVhX5fwc9hUIZeNR0BpZggSs+H0vLg2ax7yRUjqVkIQM894ECKq
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJR7/4ACgkQemZGpsFGkMBj0wv9HddCBeYTW81pM8Z2SA+UgAxTNI/+4v2b5Icf5QIebkQVmoEnljIvC2PBfYaRghXOR7GuObqch0P3PsEZBZDPHtsY5Ni5TWWX8DYFgjtug3dEECV+nNJQnrCc9zdKJeKXi8OCDtbOZE3c+IviSjhX/X0Dl7+SLjMQABu3XKx1U0B5TeuyKQ5fipIVRxWdYKFFWoTW5gov+2ZmokSSfoyBXeSAZ8ABZJ3IrYDJRkbjUERgnghaeAs6t6p9TItBFH8G4XlV4mjZOYmfqUgB1sUN/xeX6XBXfwERTfpNJqnuN0Z5pRaRuO6uNKHobY9EQyHriZ2N1kcD6QDrvWdJ6FDTbQY3v6gG3RO7+pAYL7mhow7qilfVeEa/JzwIUoWqIxF8gLNeQ/4AsP8IjbMfWfkgq60ciPHdnB0+ByaubdpdIl8lYWVVMh89J1HLyMkZjUP7ENsidfmoJoGKPORADxjUtHj+2G3rpMBTSGjj+9oCdQ/56iuKpt94xARyRGHdVBWF
 
 %URL%
 https://github.com/CachyOS/linux-cachyos
@@ -38,7 +38,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1649427421
+1649530001
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -60,7 +60,7 @@ modprobed-db: Keeps track of EVERY kernel module that has ever been probed - use
 
 %MAKEDEPENDS%
 bc
-kmod
+texlive-latexextra
 libelf
 pahole
 cpio
