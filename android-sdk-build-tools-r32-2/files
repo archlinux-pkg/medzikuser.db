@@ -35,6 +35,7 @@ opt/android-sdk/build-tools/32.0.0/mainDexClasses
 opt/android-sdk/build-tools/32.0.0/mainDexClasses.rules
 opt/android-sdk/build-tools/32.0.0/mainDexClassesNoAapt.rules
 opt/android-sdk/build-tools/32.0.0/mipsel-linux-android-ld
+opt/android-sdk/build-tools/32.0.0/package.xml
 opt/android-sdk/build-tools/32.0.0/renderscript/
 opt/android-sdk/build-tools/32.0.0/renderscript/clang-include/
 opt/android-sdk/build-tools/32.0.0/renderscript/clang-include/CMakeLists.txt
@@ -221,3 +222,4 @@ usr/share/
 usr/share/licenses/
 usr/share/licenses/android-sdk-build-tools/
 usr/share/licenses/android-sdk-build-tools/NOTICE.txt
+usr/share/licenses/android-sdk-build-tools/package.xml
