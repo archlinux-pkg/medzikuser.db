@@ -2350,9 +2350,7 @@ usr/lib/jcef-jetbrains/modular-sdk/modules_src/jogl.all/
 usr/lib/jcef-jetbrains/modular-sdk/modules_src/jogl.all/module-info.java
 usr/lib/jcef-jetbrains/resources.pak
 usr/lib/jcef-jetbrains/snapshot_blob.bin
-usr/lib/jcef-jetbrains/swiftshader/
-usr/lib/jcef-jetbrains/swiftshader/libEGL.so
-usr/lib/jcef-jetbrains/swiftshader/libGLESv2.so
+usr/lib/jcef-jetbrains/swiftshader
 usr/lib/jcef-jetbrains/v8_context_snapshot.bin
 usr/lib/jcef-jetbrains/vk_swiftshader_icd.json
 usr/share/
