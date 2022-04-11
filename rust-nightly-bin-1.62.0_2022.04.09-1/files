@@ -168,6 +168,9 @@ usr/share/doc/rust/html/alloc/boxed/
 usr/share/doc/rust/html/alloc/boxed/index.html
 usr/share/doc/rust/html/alloc/boxed/sidebar-items1.62.0.js
 usr/share/doc/rust/html/alloc/boxed/struct.Box.html
+usr/share/doc/rust/html/alloc/boxed/struct.ThinBox.html
+usr/share/doc/rust/html/alloc/boxed/thin/
+usr/share/doc/rust/html/alloc/boxed/thin/struct.ThinBox.html
 usr/share/doc/rust/html/alloc/collections/
 usr/share/doc/rust/html/alloc/collections/binary_heap/
 usr/share/doc/rust/html/alloc/collections/binary_heap/index.html
@@ -30889,6 +30892,8 @@ usr/share/doc/rust/html/src/alloc/
 usr/share/doc/rust/html/src/alloc/alloc.rs.html
 usr/share/doc/rust/html/src/alloc/borrow.rs.html
 usr/share/doc/rust/html/src/alloc/boxed.rs.html
+usr/share/doc/rust/html/src/alloc/boxed/
+usr/share/doc/rust/html/src/alloc/boxed/thin.rs.html
 usr/share/doc/rust/html/src/alloc/collections/
 usr/share/doc/rust/html/src/alloc/collections/binary_heap.rs.html
 usr/share/doc/rust/html/src/alloc/collections/btree/
@@ -31051,6 +31056,7 @@ usr/share/doc/rust/html/src/core/mem/
 usr/share/doc/rust/html/src/core/mem/manually_drop.rs.html
 usr/share/doc/rust/html/src/core/mem/maybe_uninit.rs.html
 usr/share/doc/rust/html/src/core/mem/mod.rs.html
+usr/share/doc/rust/html/src/core/mem/valid_align.rs.html
 usr/share/doc/rust/html/src/core/num/
 usr/share/doc/rust/html/src/core/num/bignum.rs.html
 usr/share/doc/rust/html/src/core/num/dec2flt/
@@ -31698,6 +31704,7 @@ usr/share/doc/rust/html/std/boxed/
 usr/share/doc/rust/html/std/boxed/index.html
 usr/share/doc/rust/html/std/boxed/sidebar-items1.62.0.js
 usr/share/doc/rust/html/std/boxed/struct.Box.html
+usr/share/doc/rust/html/std/boxed/struct.ThinBox.html
 usr/share/doc/rust/html/std/cell/
 usr/share/doc/rust/html/std/cell/index.html
 usr/share/doc/rust/html/std/cell/sidebar-items1.62.0.js
@@ -34024,6 +34031,7 @@ usr/share/doc/rust/html/unstable-book/language-features/staged-api.html
 usr/share/doc/rust/html/unstable-book/language-features/start.html
 usr/share/doc/rust/html/unstable-book/language-features/static-nobundle.html
 usr/share/doc/rust/html/unstable-book/language-features/stmt-expr-attributes.html
+usr/share/doc/rust/html/unstable-book/language-features/strict-provenance.html
 usr/share/doc/rust/html/unstable-book/language-features/structural-match.html
 usr/share/doc/rust/html/unstable-book/language-features/target-feature-11.html
 usr/share/doc/rust/html/unstable-book/language-features/tbm-target-feature.html
@@ -34347,6 +34355,7 @@ usr/share/doc/rust/html/unstable-book/library-features/sgx-platform.html
 usr/share/doc/rust/html/unstable-book/library-features/slice-as-chunks.html
 usr/share/doc/rust/html/unstable-book/library-features/slice-concat-ext.html
 usr/share/doc/rust/html/unstable-book/library-features/slice-concat-trait.html
+usr/share/doc/rust/html/unstable-book/library-features/slice-flatten.html
 usr/share/doc/rust/html/unstable-book/library-features/slice-from-ptr-range.html
 usr/share/doc/rust/html/unstable-book/library-features/slice-group-by.html
 usr/share/doc/rust/html/unstable-book/library-features/slice-index-methods.html
@@ -34369,13 +34378,13 @@ usr/share/doc/rust/html/unstable-book/library-features/str-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/str-split-as-str.html
 usr/share/doc/rust/html/unstable-book/library-features/str-split-inclusive-as-str.html
 usr/share/doc/rust/html/unstable-book/library-features/str-split-whitespace-as-str.html
-usr/share/doc/rust/html/unstable-book/library-features/strict-provenance.html
 usr/share/doc/rust/html/unstable-book/library-features/string-extend-from-within.html
 usr/share/doc/rust/html/unstable-book/library-features/string-remove-matches.html
 usr/share/doc/rust/html/unstable-book/library-features/sync-unsafe-cell.html
 usr/share/doc/rust/html/unstable-book/library-features/tcp-linger.html
 usr/share/doc/rust/html/unstable-book/library-features/tcplistener-into-incoming.html
 usr/share/doc/rust/html/unstable-book/library-features/test.html
+usr/share/doc/rust/html/unstable-book/library-features/thin-box.html
 usr/share/doc/rust/html/unstable-book/library-features/thread-id-value.html
 usr/share/doc/rust/html/unstable-book/library-features/thread-local-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/thread-spawn-unchecked.html
