@@ -1,0 +1,54 @@
+%FILENAME%
+intellij-idea-ultimate-edition-2022.1-1-any.pkg.tar.xz
+
+%NAME%
+intellij-idea-ultimate-edition
+
+%BASE%
+intellij-idea-ultimate-edition
+
+%VERSION%
+2022.1-1
+
+%DESC%
+An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
+
+%CSIZE%
+581429992
+
+%ISIZE%
+2808646112
+
+%MD5SUM%
+c86993a86db80f319d9c992beeaf72c9
+
+%SHA256SUM%
+7040f7f186716d439bd47b347e9b2aa42c3de7c94fee21ca6943534beb05b393
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJVoaUACgkQemZGpsFGkMAXOwv/dK3BSfoF5YL07iymuGDN2PA+r1aYSq0wMDhAR5+wSQJqXvtKaiw2CkKiHIwrGUSzm01yM9L2FKOIdb/9KizTksMuHu0dIOwuV8Cww/gh9mj1BqqMVPqj8Uktz1GWsdSQlBPm0a0I2M2uYUHyoIeDv+VNVsU+g3SyyfywBLevmrpzr+jUgDfjxPgHhLlSvCB5s9cHXGaJ602lPxocnnMhks1JybaCWG93qfeGdwsgUMrtCi6hBM1QiXs9nMQ8JaHnhaLHDwBL69ag4Y8ABOqyxpqptX+z/UN3qVs/5w2bxBGTPIFWEsi6EYrZNajU7hsQLA82/QC/B2otkmd3ToLUHU1TKiaR/vKUoJ1cOpS2PAwdoXWEAGsoS4vxjmAIGHcoUru9Nqd2bqJljjSEfBl02L4IVMlCrvJNAkQ9372i2qSOcFH/RivcjGrhlZgxvglYcmdtrWd+vYwTs/CrIEMI/EO3L1wqcgrt0jWNMk7PLEa/VbBKco9TJCGuzcRmEQ5f
+
+%URL%
+https://www.jetbrains.com/idea/
+
+%LICENSE%
+Commercial
+
+%ARCH%
+any
+
+%BUILDDATE%
+1649778331
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+giflib
+libxtst
+
+%OPTDEPENDS%
+intellij-idea-ultimate-edition-jre: JetBrains custom JRE (Recommended)
+java-environment: Required if intellij-idea-ultimate-edition-jre is not installed
+libdbusmenu-glib: For global menu support
+

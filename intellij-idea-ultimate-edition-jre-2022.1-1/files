@@ -338,14 +338,11 @@ opt/intellij-idea-ultimate-edition/jbr/legal/jogl.all/ADDITIONAL_LICENSE_INFO
 opt/intellij-idea-ultimate-edition/jbr/legal/jogl.all/ASSEMBLY_EXCEPTION
 opt/intellij-idea-ultimate-edition/jbr/legal/jogl.all/LICENSE
 opt/intellij-idea-ultimate-edition/jbr/lib/
-opt/intellij-idea-ultimate-edition/jbr/lib/cef.pak
-opt/intellij-idea-ultimate-edition/jbr/lib/cef_100_percent.pak
-opt/intellij-idea-ultimate-edition/jbr/lib/cef_200_percent.pak
-opt/intellij-idea-ultimate-edition/jbr/lib/cef_extensions.pak
 opt/intellij-idea-ultimate-edition/jbr/lib/chrome-sandbox
+opt/intellij-idea-ultimate-edition/jbr/lib/chrome_100_percent.pak
+opt/intellij-idea-ultimate-edition/jbr/lib/chrome_200_percent.pak
 opt/intellij-idea-ultimate-edition/jbr/lib/classlist
 opt/intellij-idea-ultimate-edition/jbr/lib/ct.sym
-opt/intellij-idea-ultimate-edition/jbr/lib/devtools_resources.pak
 opt/intellij-idea-ultimate-edition/jbr/lib/fonts/
 opt/intellij-idea-ultimate-edition/jbr/lib/fonts/DroidSans-Bold.ttf
 opt/intellij-idea-ultimate-edition/jbr/lib/fonts/DroidSans.ttf
@@ -446,6 +443,8 @@ opt/intellij-idea-ultimate-edition/jbr/lib/libsplashscreen.so
 opt/intellij-idea-ultimate-edition/jbr/lib/libsunec.so
 opt/intellij-idea-ultimate-edition/jbr/lib/libunpack.so
 opt/intellij-idea-ultimate-edition/jbr/lib/libverify.so
+opt/intellij-idea-ultimate-edition/jbr/lib/libvk_swiftshader.so
+opt/intellij-idea-ultimate-edition/jbr/lib/libvulkan.so.1
 opt/intellij-idea-ultimate-edition/jbr/lib/libzip.so
 opt/intellij-idea-ultimate-edition/jbr/lib/locales/
 opt/intellij-idea-ultimate-edition/jbr/lib/locales/am.pak
@@ -504,6 +503,7 @@ opt/intellij-idea-ultimate-edition/jbr/lib/locales/zh-TW.pak
 opt/intellij-idea-ultimate-edition/jbr/lib/modules
 opt/intellij-idea-ultimate-edition/jbr/lib/psfont.properties.ja
 opt/intellij-idea-ultimate-edition/jbr/lib/psfontj2d.properties
+opt/intellij-idea-ultimate-edition/jbr/lib/resources.pak
 opt/intellij-idea-ultimate-edition/jbr/lib/security/
 opt/intellij-idea-ultimate-edition/jbr/lib/security/blocked.certs
 opt/intellij-idea-ultimate-edition/jbr/lib/security/cacerts
@@ -519,4 +519,5 @@ opt/intellij-idea-ultimate-edition/jbr/lib/swiftshader/libEGL.so
 opt/intellij-idea-ultimate-edition/jbr/lib/swiftshader/libGLESv2.so
 opt/intellij-idea-ultimate-edition/jbr/lib/tzdb.dat
 opt/intellij-idea-ultimate-edition/jbr/lib/v8_context_snapshot.bin
+opt/intellij-idea-ultimate-edition/jbr/lib/vk_swiftshader_icd.json
 opt/intellij-idea-ultimate-edition/jbr/release
