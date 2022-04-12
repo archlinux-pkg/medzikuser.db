@@ -18392,14 +18392,11 @@ usr/share/doc/rust/html/core/cell/struct.UnsafeCell.html
 usr/share/doc/rust/html/core/char/
 usr/share/doc/rust/html/core/char/constant.MAX.html
 usr/share/doc/rust/html/core/char/constant.REPLACEMENT_CHARACTER.html
+usr/share/doc/rust/html/core/char/constant.UNICODE_VERSION.html
 usr/share/doc/rust/html/core/char/convert/
-usr/share/doc/rust/html/core/char/convert/fn.from_digit.html
-usr/share/doc/rust/html/core/char/convert/fn.from_u32.html
-usr/share/doc/rust/html/core/char/convert/fn.from_u32_unchecked.html
 usr/share/doc/rust/html/core/char/convert/struct.CharTryFromError.html
 usr/share/doc/rust/html/core/char/convert/struct.ParseCharError.html
 usr/share/doc/rust/html/core/char/decode/
-usr/share/doc/rust/html/core/char/decode/fn.decode_utf16.html
 usr/share/doc/rust/html/core/char/decode/struct.DecodeUtf16.html
 usr/share/doc/rust/html/core/char/decode/struct.DecodeUtf16Error.html
 usr/share/doc/rust/html/core/char/fn.decode_utf16.html
