@@ -1,0 +1,54 @@
+%FILENAME%
+jetbrains-gateway-221.5080.193-1-x86_64.pkg.tar.xz
+
+%NAME%
+jetbrains-gateway
+
+%BASE%
+jetbrains-gateway
+
+%VERSION%
+221.5080.193-1
+
+%DESC%
+An entry point to Remote Development
+
+%CSIZE%
+102901260
+
+%ISIZE%
+697630217
+
+%MD5SUM%
+f8a482685e11e40dcc75f0cb1e93cd89
+
+%SHA256SUM%
+3d9d8aa3359f4b9353beadc8b41aa7854ce8f41d6302a2b1eac49eb11d7d859f
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJW8QgACgkQemZGpsFGkMBTwQv+Lib7aZZTudkUOxgDlYsWKZgdkWfw5Vq+DRH9t2W06MuFn8r9MUAexKS5JA3kr3SKvXN5jbCytTKCQ1Jp1cKKDV9Fz+S4AUjQLsdWZE2N8ILXBDbwNedZ6J2TauF5/LmQug9drMq2M7xMqEcNzaPgU7UnVV69M+NvgdPyRJ40hTadpmqbeijZQtGgngvtB/3TaEsLCpNjemQ5GW5OuBhjxiIEoDt9xcVTDZvf8G4dxUzqUDVM3p7nm/lI9mZrLifMZH1uIJcpgF2KoAvfynbyaKtjQND6oUQz+fS+JzGv4wCdMOMBhHxNsFfRfavhJsgp0I2nbSUv54WBhwDX2EA7JL3u4QWotY/rM0iCNug0cBw/cWviav2Tbi6LIkG18uN6X2GubGp5alXCwc3ewqANXFBiGFttVMq/V2SMNze+fGfRO6vj+wmDA1LFVFAZ7D+DHsI9mfVuvdYwjQ3h3txIiyekILUiiTghyydSfx2BMMtFhXEWaiRWET2wdnt9RxZB
+
+%URL%
+https://www.jetbrains.com/remote-development/gateway/
+
+%LICENSE%
+custom:jetbrains
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1649864717
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+glib2
+
+%OPTDEPENDS%
+jetbrains-gateway-jre: JetBrains custom Java Runtime (Recommended)
+java-runtime: JRE - Required if jetbrains-gateway-jre is not installed
+gnome-keyring: save login/deployment credentials safely
+java-openjfx: rendering Markdown files
+

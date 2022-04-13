@@ -338,14 +338,11 @@ opt/jetbrains-gateway/jbr/legal/jogl.all/ADDITIONAL_LICENSE_INFO
 opt/jetbrains-gateway/jbr/legal/jogl.all/ASSEMBLY_EXCEPTION
 opt/jetbrains-gateway/jbr/legal/jogl.all/LICENSE
 opt/jetbrains-gateway/jbr/lib/
-opt/jetbrains-gateway/jbr/lib/cef.pak
-opt/jetbrains-gateway/jbr/lib/cef_100_percent.pak
-opt/jetbrains-gateway/jbr/lib/cef_200_percent.pak
-opt/jetbrains-gateway/jbr/lib/cef_extensions.pak
 opt/jetbrains-gateway/jbr/lib/chrome-sandbox
+opt/jetbrains-gateway/jbr/lib/chrome_100_percent.pak
+opt/jetbrains-gateway/jbr/lib/chrome_200_percent.pak
 opt/jetbrains-gateway/jbr/lib/classlist
 opt/jetbrains-gateway/jbr/lib/ct.sym
-opt/jetbrains-gateway/jbr/lib/devtools_resources.pak
 opt/jetbrains-gateway/jbr/lib/fonts/
 opt/jetbrains-gateway/jbr/lib/fonts/DroidSans-Bold.ttf
 opt/jetbrains-gateway/jbr/lib/fonts/DroidSans.ttf
@@ -446,6 +443,8 @@ opt/jetbrains-gateway/jbr/lib/libsplashscreen.so
 opt/jetbrains-gateway/jbr/lib/libsunec.so
 opt/jetbrains-gateway/jbr/lib/libunpack.so
 opt/jetbrains-gateway/jbr/lib/libverify.so
+opt/jetbrains-gateway/jbr/lib/libvk_swiftshader.so
+opt/jetbrains-gateway/jbr/lib/libvulkan.so.1
 opt/jetbrains-gateway/jbr/lib/libzip.so
 opt/jetbrains-gateway/jbr/lib/locales/
 opt/jetbrains-gateway/jbr/lib/locales/am.pak
@@ -504,8 +503,9 @@ opt/jetbrains-gateway/jbr/lib/locales/zh-TW.pak
 opt/jetbrains-gateway/jbr/lib/modules
 opt/jetbrains-gateway/jbr/lib/psfont.properties.ja
 opt/jetbrains-gateway/jbr/lib/psfontj2d.properties
+opt/jetbrains-gateway/jbr/lib/resources.pak
 opt/jetbrains-gateway/jbr/lib/security/
-opt/jetbrains-gateway/jbr/lib/security/blacklisted.certs
+opt/jetbrains-gateway/jbr/lib/security/blocked.certs
 opt/jetbrains-gateway/jbr/lib/security/cacerts
 opt/jetbrains-gateway/jbr/lib/security/default.policy
 opt/jetbrains-gateway/jbr/lib/security/public_suffix_list.dat
@@ -519,4 +519,5 @@ opt/jetbrains-gateway/jbr/lib/swiftshader/libEGL.so
 opt/jetbrains-gateway/jbr/lib/swiftshader/libGLESv2.so
 opt/jetbrains-gateway/jbr/lib/tzdb.dat
 opt/jetbrains-gateway/jbr/lib/v8_context_snapshot.bin
+opt/jetbrains-gateway/jbr/lib/vk_swiftshader_icd.json
 opt/jetbrains-gateway/jbr/release
