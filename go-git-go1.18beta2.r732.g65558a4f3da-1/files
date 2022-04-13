@@ -2886,6 +2886,7 @@ usr/lib/go/src/cmd/go/testdata/script/bug.txt
 usr/lib/go/src/cmd/go/testdata/script/build_GOTMPDIR.txt
 usr/lib/go/src/cmd/go/testdata/script/build_acl_windows.txt
 usr/lib/go/src/cmd/go/testdata/script/build_arm.txt
+usr/lib/go/src/cmd/go/testdata/script/build_buildvcs_auto.txt
 usr/lib/go/src/cmd/go/testdata/script/build_cache_arch_mode.txt
 usr/lib/go/src/cmd/go/testdata/script/build_cache_compile.txt
 usr/lib/go/src/cmd/go/testdata/script/build_cache_disabled.txt
@@ -12147,6 +12148,8 @@ usr/lib/go/test/fixedbugs/issue5162.go
 usr/lib/go/test/fixedbugs/issue5172.go
 usr/lib/go/test/fixedbugs/issue51839.go
 usr/lib/go/test/fixedbugs/issue52020.go
+usr/lib/go/test/fixedbugs/issue52127.go
+usr/lib/go/test/fixedbugs/issue52278.go
 usr/lib/go/test/fixedbugs/issue5231.go
 usr/lib/go/test/fixedbugs/issue5244.go
 usr/lib/go/test/fixedbugs/issue5259.dir/
@@ -13078,6 +13081,7 @@ usr/lib/go/test/typeparam/issue51423.go
 usr/lib/go/test/typeparam/issue51521.go
 usr/lib/go/test/typeparam/issue51522a.go
 usr/lib/go/test/typeparam/issue51522b.go
+usr/lib/go/test/typeparam/issue51700.go
 usr/lib/go/test/typeparam/issue51733.go
 usr/lib/go/test/typeparam/issue51765.go
 usr/lib/go/test/typeparam/issue51836.dir/
@@ -13086,6 +13090,7 @@ usr/lib/go/test/typeparam/issue51836.dir/aa.go
 usr/lib/go/test/typeparam/issue51836.dir/p.go
 usr/lib/go/test/typeparam/issue51836.go
 usr/lib/go/test/typeparam/issue52124.go
+usr/lib/go/test/typeparam/issue52228.go
 usr/lib/go/test/typeparam/list.go
 usr/lib/go/test/typeparam/list2.go
 usr/lib/go/test/typeparam/listimp.dir/
