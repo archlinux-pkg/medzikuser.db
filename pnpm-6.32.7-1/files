@@ -676,11 +676,6 @@ usr/lib/node_modules/pnpm/dist/node_modules/semver/internal/debug.js
 usr/lib/node_modules/pnpm/dist/node_modules/semver/internal/identifiers.js
 usr/lib/node_modules/pnpm/dist/node_modules/semver/internal/parse-options.js
 usr/lib/node_modules/pnpm/dist/node_modules/semver/internal/re.js
-usr/lib/node_modules/pnpm/dist/node_modules/semver/node_modules/
-usr/lib/node_modules/pnpm/dist/node_modules/semver/node_modules/lru-cache/
-usr/lib/node_modules/pnpm/dist/node_modules/semver/node_modules/lru-cache/LICENSE
-usr/lib/node_modules/pnpm/dist/node_modules/semver/node_modules/lru-cache/index.js
-usr/lib/node_modules/pnpm/dist/node_modules/semver/node_modules/lru-cache/package.json
 usr/lib/node_modules/pnpm/dist/node_modules/semver/package.json
 usr/lib/node_modules/pnpm/dist/node_modules/semver/preload.js
 usr/lib/node_modules/pnpm/dist/node_modules/semver/range.bnf
