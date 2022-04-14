@@ -338,14 +338,11 @@ opt/clion/jbr/legal/jogl.all/ADDITIONAL_LICENSE_INFO
 opt/clion/jbr/legal/jogl.all/ASSEMBLY_EXCEPTION
 opt/clion/jbr/legal/jogl.all/LICENSE
 opt/clion/jbr/lib/
-opt/clion/jbr/lib/cef.pak
-opt/clion/jbr/lib/cef_100_percent.pak
-opt/clion/jbr/lib/cef_200_percent.pak
-opt/clion/jbr/lib/cef_extensions.pak
 opt/clion/jbr/lib/chrome-sandbox
+opt/clion/jbr/lib/chrome_100_percent.pak
+opt/clion/jbr/lib/chrome_200_percent.pak
 opt/clion/jbr/lib/classlist
 opt/clion/jbr/lib/ct.sym
-opt/clion/jbr/lib/devtools_resources.pak
 opt/clion/jbr/lib/fonts/
 opt/clion/jbr/lib/fonts/DroidSans-Bold.ttf
 opt/clion/jbr/lib/fonts/DroidSans.ttf
@@ -446,6 +443,8 @@ opt/clion/jbr/lib/libsplashscreen.so
 opt/clion/jbr/lib/libsunec.so
 opt/clion/jbr/lib/libunpack.so
 opt/clion/jbr/lib/libverify.so
+opt/clion/jbr/lib/libvk_swiftshader.so
+opt/clion/jbr/lib/libvulkan.so.1
 opt/clion/jbr/lib/libzip.so
 opt/clion/jbr/lib/locales/
 opt/clion/jbr/lib/locales/am.pak
@@ -504,6 +503,7 @@ opt/clion/jbr/lib/locales/zh-TW.pak
 opt/clion/jbr/lib/modules
 opt/clion/jbr/lib/psfont.properties.ja
 opt/clion/jbr/lib/psfontj2d.properties
+opt/clion/jbr/lib/resources.pak
 opt/clion/jbr/lib/security/
 opt/clion/jbr/lib/security/blocked.certs
 opt/clion/jbr/lib/security/cacerts
@@ -519,4 +519,5 @@ opt/clion/jbr/lib/swiftshader/libEGL.so
 opt/clion/jbr/lib/swiftshader/libGLESv2.so
 opt/clion/jbr/lib/tzdb.dat
 opt/clion/jbr/lib/v8_context_snapshot.bin
+opt/clion/jbr/lib/vk_swiftshader_icd.json
 opt/clion/jbr/release
