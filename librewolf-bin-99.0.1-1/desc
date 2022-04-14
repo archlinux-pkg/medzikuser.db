@@ -1,0 +1,71 @@
+%FILENAME%
+librewolf-bin-99.0.1-1-x86_64.pkg.tar.xz
+
+%NAME%
+librewolf-bin
+
+%BASE%
+librewolf-bin
+
+%VERSION%
+99.0.1-1
+
+%DESC%
+Community-maintained fork of Firefox, focused on privacy, security and freedom.
+
+%CSIZE%
+55650996
+
+%ISIZE%
+229521417
+
+%MD5SUM%
+8431b142c41f397f00f05d2b4d8a1eb5
+
+%SHA256SUM%
+1435869fb112033254598ff920f74c457e7d3245dc0821d3fcd378aa19948c1b
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJYWeQACgkQemZGpsFGkMD/DQv+OSjj6L990WfhN0PvIDTmbxTuuPZpzbqidNNNSQMPK8G2SQEUK3LCxtGLE8GlIsOH+ZBAfbb7X62KeNT7PwBPNCMDucQP203wl++d0f6rInBlfBJefJ0+8XEaIEvZKcnqn0E3QnTDIwfQae/I1I5RGzlQ8D2y7uBMyTUgnSh1fwABVE3TMaoJT5E1mPtgzGvbHc4nM/KEdlDbI5/zlerxlnCNX/99Is2vF98uaZ4PA6wIToc1A9D0uvZUenQhdl47E+8wfqjUU22K/JxZwjToyUvd2SBpWuXunEcVVjnThhhfoIHXtpaFd2u+nIOFpuIwnTXG1V7Q4C4N9LWgPtg4/rPreHT+6hXKE9TetnAk2EcpnBqv8+f13s7hLCzH7DqMFt2qpcxkaJ07mt68YKCYpIa91HYK8j9rMgkOScMNDkDxaX3d4sjO+Gw2T3ICuqQQ/gr2GQFbS+wYjB8O8eex9IvzB7y0m/dhBMuXk++3vr84rZiPVQMK8wtB9Pj96c/m
+
+%URL%
+https://librewolf-community.gitlab.io/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1649957199
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+librewolf
+
+%PROVIDES%
+librewolf
+
+%DEPENDS%
+gtk3
+libxt
+startup-notification
+mime-types
+dbus-glib
+nss
+ttf-font
+libpulse
+ffmpeg
+
+%OPTDEPENDS%
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+
