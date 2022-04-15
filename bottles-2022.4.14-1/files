@@ -36,6 +36,7 @@ usr/share/bottles/bottles/backend/managers/dependency.py
 usr/share/bottles/bottles/backend/managers/importer.py
 usr/share/bottles/bottles/backend/managers/installer.py
 usr/share/bottles/bottles/backend/managers/journal.py
+usr/share/bottles/bottles/backend/managers/library.py
 usr/share/bottles/bottles/backend/managers/manager.py
 usr/share/bottles/bottles/backend/managers/notifications.py
 usr/share/bottles/bottles/backend/managers/repository.py
@@ -110,7 +111,11 @@ usr/share/bottles/bottles/main.py
 usr/share/bottles/bottles/operation.py
 usr/share/bottles/bottles/operation_cli.py
 usr/share/bottles/bottles/params.py
-usr/share/bottles/bottles/utils.py
+usr/share/bottles/bottles/utils/
+usr/share/bottles/bottles/utils/__init__.py
+usr/share/bottles/bottles/utils/common.py
+usr/share/bottles/bottles/utils/connection.py
+usr/share/bottles/bottles/utils/threading.py
 usr/share/bottles/bottles/views/
 usr/share/bottles/bottles/views/__init__.py
 usr/share/bottles/bottles/views/bottle_dependencies.py
@@ -122,7 +127,9 @@ usr/share/bottles/bottles/views/bottle_taskmanager.py
 usr/share/bottles/bottles/views/bottle_versioning.py
 usr/share/bottles/bottles/views/details.py
 usr/share/bottles/bottles/views/importer.py
+usr/share/bottles/bottles/views/library.py
 usr/share/bottles/bottles/views/list.py
+usr/share/bottles/bottles/views/loading.py
 usr/share/bottles/bottles/views/new.py
 usr/share/bottles/bottles/views/preferences.py
 usr/share/bottles/bottles/widgets/
@@ -132,6 +139,7 @@ usr/share/bottles/bottles/widgets/dependency.py
 usr/share/bottles/bottles/widgets/executable.py
 usr/share/bottles/bottles/widgets/importer.py
 usr/share/bottles/bottles/widgets/installer.py
+usr/share/bottles/bottles/widgets/library.py
 usr/share/bottles/bottles/widgets/message.py
 usr/share/bottles/bottles/widgets/page.py
 usr/share/bottles/bottles/widgets/program.py
@@ -155,6 +163,9 @@ usr/share/locale/
 usr/share/locale/bg/
 usr/share/locale/bg/LC_MESSAGES/
 usr/share/locale/bg/LC_MESSAGES/bottles.mo
+usr/share/locale/ckb/
+usr/share/locale/ckb/LC_MESSAGES/
+usr/share/locale/ckb/LC_MESSAGES/bottles.mo
 usr/share/locale/cs/
 usr/share/locale/cs/LC_MESSAGES/
 usr/share/locale/cs/LC_MESSAGES/bottles.mo
