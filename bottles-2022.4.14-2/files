@@ -103,6 +103,7 @@ usr/share/bottles/bottles/dialogs/duplicate.py
 usr/share/bottles/bottles/dialogs/envvars.py
 usr/share/bottles/bottles/dialogs/gamescope.py
 usr/share/bottles/bottles/dialogs/generic.py
+usr/share/bottles/bottles/dialogs/generic_cli.py
 usr/share/bottles/bottles/dialogs/launchoptions.py
 usr/share/bottles/bottles/dialogs/onboard.py
 usr/share/bottles/bottles/dialogs/rename.py
@@ -187,6 +188,9 @@ usr/share/locale/es/LC_MESSAGES/bottles.mo
 usr/share/locale/eu/
 usr/share/locale/eu/LC_MESSAGES/
 usr/share/locale/eu/LC_MESSAGES/bottles.mo
+usr/share/locale/fa/
+usr/share/locale/fa/LC_MESSAGES/
+usr/share/locale/fa/LC_MESSAGES/bottles.mo
 usr/share/locale/fi/
 usr/share/locale/fi/LC_MESSAGES/
 usr/share/locale/fi/LC_MESSAGES/bottles.mo
