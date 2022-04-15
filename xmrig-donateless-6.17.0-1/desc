@@ -1,0 +1,66 @@
+%FILENAME%
+xmrig-donateless-6.17.0-1-x86_64.pkg.tar.xz
+
+%NAME%
+xmrig-donateless
+
+%BASE%
+xmrig
+
+%VERSION%
+6.17.0-1
+
+%DESC%
+XMRig is a high performance, open source, cross platform RandomX, KawPow, CryptoNight, AstroBWT and GhostRider unified CPU/GPU miner and RandomX benchmark - No Donate Version
+
+%CSIZE%
+1662304
+
+%ISIZE%
+6080112
+
+%MD5SUM%
+370d720eef5fc2f1ba75dadf307ff853
+
+%SHA256SUM%
+44573249451cc8f43e1f810fd10988ced8732affb5a306e555da97f651bdc9a2
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJZyigACgkQemZGpsFGkMAvAQv6AuW1K1TrWCwq6rlwd8QfRXAsAL7phAVSzBYnLB6l0UTakHK7/i5m0JNkb9vSX6s9FwMVjrelEhcDTZOFCBco7TSGuvMpWujLtUg47cDPZDE6VFUtcAOCvUUY/iSLJ+72UHA/lb0ujMeiYFAkJ4Gof+nSO2FJ32HRK/Rsgr/ch/BTbVIfsXYe5kpzcYCwH5a154XSNCFVpFwfSWQvB6rB1KkMJjsCkV3eiLF1Ls2gZj5QONr69mdnA/ARQBRNMiqGlrUF48pv6QS6e7d+Gj7Y6PU8nHJN1zcuwtQ5qXolkVjaOarnqyV0EPSQ6g4NL3eIZ3RW5fEUebVJY1FiazOo8eOaHKMLfHlfIH6ODPGn6qjkaRx4LESe51/nzW5xy6JkkpHj0uscyFqQ3RLRLunGVMkmL0JKVVDB8R17RyboxI+bT/7NoSzobqXhquI82KspiBBr1qCwpQ7uFoqDst5LSMBoQPqmBYpATR4RTDuLBtNC0xYW+feKyaEbRcYG/nPE
+
+%URL%
+https://github.com/xmrig/xmrig
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1650051249
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+xmrig
+
+%PROVIDES%
+xmrig=6.17.0
+
+%DEPENDS%
+libuv
+libmicrohttpd
+openssl
+hwloc
+
+%OPTDEPENDS%
+ocl-icd: AMD GPU mining
+opencl-headers: AMD GPU mining
+cuda: nVidia GPU mining
+
+%MAKEDEPENDS%
+cmake
+sed
+
