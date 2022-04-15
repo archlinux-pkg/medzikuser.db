@@ -1,0 +1,66 @@
+%FILENAME%
+minigalaxy-1.1.0-4-any.pkg.tar.xz
+
+%NAME%
+minigalaxy
+
+%BASE%
+minigalaxy
+
+%VERSION%
+1.1.0-4
+
+%DESC%
+A simple GOG client for Linux
+
+%CSIZE%
+142904
+
+%ISIZE%
+533889
+
+%MD5SUM%
+325f9f72fad0dbf93ae5f9aa837c8ba0
+
+%SHA256SUM%
+99a362cacf95a9d603211328093b40bb7c5d4569fb05ffad4e0bfefd1370ded3
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJZjV4ACgkQemZGpsFGkMALtgv+NTTMPIFikcfp2XKImVH9dGUVkBv7R48wXJo0Y0dqc4ifPMA8HsxNocVZSw2kkLHfHVdlsMtoLyPCoTqbgq/SSRdXdh2Q2ZZ1J2yKhAWTrvrMCsfM5e+uBe0hKhUIlQotEHq/0WI/oBWEDYaGdgOVrlxHzy+Qy13jLdVnYCUoIgbYE2GoISjAdb0KsnCNyyuA7KOKv/upXqvh4hQbAS0bca5VtEBggUcTeGJtu9Kp/vfWX1SNDiRJnKZm8ViEqj++A4Bxis8fhirbCmizZEwKZ5fwL9FMECIwSD3hga54Nnbna1YDbEUpU1lzDIW7hCMGUbEpgKIv6yanlPtdBIINprGeO/eZhq73wKeMYI/T0cKqD0UG8qY2J8ACwgurnM27vIW8amM/2HbsElWt6BXEo21Qyoksqg1KjxgX/TM05picvHgPJHK9USbGIlSTZHIYdCFDRjPOoqjppXSytFtKIJoo51zwk7cknhpZTmDGAIGNxoLQ39M7xu3gEBPpw6I3
+
+%URL%
+https://sharkwouter.github.io/minigalaxy
+
+%LICENSE%
+GPL3
+CC-BY-3.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1650036002
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+gtk3
+python-gobject
+python-requests
+unzip
+webkit2gtk
+xdg-utils
+
+%OPTDEPENDS%
+dosbox: Use the system DOSBox installation
+innoextract: Extract Windows installers
+scummvm: Use the system ScummVM installation
+wine: Install Windows games
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
