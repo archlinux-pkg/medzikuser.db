@@ -2287,7 +2287,6 @@ usr/share/powercord/src/
 usr/share/powercord/src/Powercord/
 usr/share/powercord/src/Powercord/apis/
 usr/share/powercord/src/Powercord/apis/commands.js
-usr/share/powercord/src/Powercord/apis/commands.js.orig
 usr/share/powercord/src/Powercord/apis/connections.js
 usr/share/powercord/src/Powercord/apis/i18n.js
 usr/share/powercord/src/Powercord/apis/keybinds.js
@@ -2360,7 +2359,6 @@ usr/share/powercord/src/Powercord/index.js
 usr/share/powercord/src/Powercord/managers/
 usr/share/powercord/src/Powercord/managers/apis.js
 usr/share/powercord/src/Powercord/managers/plugins.js
-usr/share/powercord/src/Powercord/managers/plugins.js.orig
 usr/share/powercord/src/Powercord/managers/style.css
 usr/share/powercord/src/Powercord/managers/styles.js
 usr/share/powercord/src/Powercord/modules/
