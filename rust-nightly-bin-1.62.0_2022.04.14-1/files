@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-e85892e12956dd57.so
+usr/lib/librustc_driver-2f50279a74924c66.so
 usr/lib/libstd-443e20b28eeed844.so
 usr/lib/libtest-24c343f7e96c8ea5.so
 usr/lib/rustlib/
