@@ -5801,6 +5801,7 @@ usr/lib/go/src/go/doc/comment/markdown.go
 usr/lib/go/src/go/doc/comment/mkstd.sh
 usr/lib/go/src/go/doc/comment/old_test.go
 usr/lib/go/src/go/doc/comment/parse.go
+usr/lib/go/src/go/doc/comment/parse_test.go
 usr/lib/go/src/go/doc/comment/print.go
 usr/lib/go/src/go/doc/comment/std.go
 usr/lib/go/src/go/doc/comment/std_test.go
