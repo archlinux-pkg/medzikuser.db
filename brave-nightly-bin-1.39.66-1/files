@@ -23,6 +23,7 @@ opt/brave.com/brave-nightly/libGLESv2.so
 opt/brave.com/brave-nightly/libvk_swiftshader.so
 opt/brave.com/brave-nightly/libvulkan.so.1
 opt/brave.com/brave-nightly/locales/
+opt/brave.com/brave-nightly/locales/af.pak
 opt/brave.com/brave-nightly/locales/am.pak
 opt/brave.com/brave-nightly/locales/ar.pak
 opt/brave.com/brave-nightly/locales/bg.pak
@@ -73,6 +74,7 @@ opt/brave.com/brave-nightly/locales/te.pak
 opt/brave.com/brave-nightly/locales/th.pak
 opt/brave.com/brave-nightly/locales/tr.pak
 opt/brave.com/brave-nightly/locales/uk.pak
+opt/brave.com/brave-nightly/locales/ur.pak
 opt/brave.com/brave-nightly/locales/vi.pak
 opt/brave.com/brave-nightly/locales/zh-CN.pak
 opt/brave.com/brave-nightly/locales/zh-TW.pak
@@ -81,6 +83,8 @@ opt/brave.com/brave-nightly/resources.pak
 opt/brave.com/brave-nightly/resources/
 opt/brave.com/brave-nightly/resources/brave_extension/
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/
+opt/brave.com/brave-nightly/resources/brave_extension/_locales/af/
+opt/brave.com/brave-nightly/resources/brave_extension/_locales/af/messages.json
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/am/
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/am/messages.json
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/ar/
@@ -181,6 +185,8 @@ opt/brave.com/brave-nightly/resources/brave_extension/_locales/tr/
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/tr/messages.json
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/uk/
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/uk/messages.json
+opt/brave.com/brave-nightly/resources/brave_extension/_locales/ur/
+opt/brave.com/brave-nightly/resources/brave_extension/_locales/ur/messages.json
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/vi/
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/vi/messages.json
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/zh_CN/
@@ -189,6 +195,8 @@ opt/brave.com/brave-nightly/resources/brave_extension/_locales/zh_TW/
 opt/brave.com/brave-nightly/resources/brave_extension/_locales/zh_TW/messages.json
 opt/brave.com/brave-nightly/resources/brave_rewards/
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/
+opt/brave.com/brave-nightly/resources/brave_rewards/_locales/af/
+opt/brave.com/brave-nightly/resources/brave_rewards/_locales/af/messages.json
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/am/
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/am/messages.json
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/ar/
@@ -289,6 +297,8 @@ opt/brave.com/brave-nightly/resources/brave_rewards/_locales/tr/
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/tr/messages.json
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/uk/
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/uk/messages.json
+opt/brave.com/brave-nightly/resources/brave_rewards/_locales/ur/
+opt/brave.com/brave-nightly/resources/brave_rewards/_locales/ur/messages.json
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/vi/
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/vi/messages.json
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/zh_CN/
