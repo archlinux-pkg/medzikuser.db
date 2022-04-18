@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-2f50279a74924c66.so
+usr/lib/librustc_driver-f91db00e9b018ea0.so
 usr/lib/libstd-202fc93d8ccaebf2.so
 usr/lib/libtest-63a81470565d53b9.so
 usr/lib/rustlib/
@@ -30802,9 +30802,12 @@ usr/share/doc/rust/html/rustc/platform-support.html
 usr/share/doc/rust/html/rustc/platform-support/
 usr/share/doc/rust/html/rustc/platform-support/TEMPLATE.html
 usr/share/doc/rust/html/rustc/platform-support/aarch64-apple-ios-sim.html
+usr/share/doc/rust/html/rustc/platform-support/aarch64-unknown-none-hermitkernel.html
 usr/share/doc/rust/html/rustc/platform-support/armv7-unknown-linux-uclibceabi.html
 usr/share/doc/rust/html/rustc/platform-support/armv7-unknown-linux-uclibceabihf.html
 usr/share/doc/rust/html/rustc/platform-support/kmc-solid.html
+usr/share/doc/rust/html/rustc/platform-support/m68k-unknown-linux-gnu.html
+usr/share/doc/rust/html/rustc/platform-support/mips64-openwrt-linux-musl.html
 usr/share/doc/rust/html/rustc/platform-support/openbsd.html
 usr/share/doc/rust/html/rustc/platform-support/wasm64-unknown-unknown.html
 usr/share/doc/rust/html/rustc/platform-support/x86_64-unknown-none.html
@@ -34157,9 +34160,11 @@ usr/share/doc/rust/html/unstable-book/library-features/const-ipv4.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ipv6.html
 usr/share/doc/rust/html/unstable-book/library-features/const-is-char-boundary.html
 usr/share/doc/rust/html/unstable-book/library-features/const-likely.html
+usr/share/doc/rust/html/unstable-book/library-features/const-maybe-uninit-array-assume-init.html
 usr/share/doc/rust/html/unstable-book/library-features/const-maybe-uninit-as-mut-ptr.html
 usr/share/doc/rust/html/unstable-book/library-features/const-maybe-uninit-assume-init-read.html
 usr/share/doc/rust/html/unstable-book/library-features/const-maybe-uninit-assume-init.html
+usr/share/doc/rust/html/unstable-book/library-features/const-maybe-uninit-uninit-array.html
 usr/share/doc/rust/html/unstable-book/library-features/const-maybe-uninit-write.html
 usr/share/doc/rust/html/unstable-book/library-features/const-maybe-uninit-zeroed.html
 usr/share/doc/rust/html/unstable-book/library-features/const-nonnull-new.html
