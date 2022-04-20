@@ -3,7 +3,7 @@ usr/
 usr/lib32/
 usr/lib32/libaom.so
 usr/lib32/libaom.so.3
-usr/lib32/libaom.so.3.2.0
+usr/lib32/libaom.so.3.3.0
 usr/lib32/pkgconfig/
 usr/lib32/pkgconfig/aom.pc
 usr/share/
