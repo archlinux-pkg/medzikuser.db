@@ -1837,6 +1837,7 @@ usr/lib/go/src/cmd/compile/internal/syntax/testdata/issue47704.go
 usr/lib/go/src/cmd/compile/internal/syntax/testdata/issue48382.go
 usr/lib/go/src/cmd/compile/internal/syntax/testdata/issue49205.go
 usr/lib/go/src/cmd/compile/internal/syntax/testdata/issue49482.go
+usr/lib/go/src/cmd/compile/internal/syntax/testdata/issue52391.go
 usr/lib/go/src/cmd/compile/internal/syntax/testdata/linalg.go
 usr/lib/go/src/cmd/compile/internal/syntax/testdata/map.go
 usr/lib/go/src/cmd/compile/internal/syntax/testdata/map2.go
@@ -2258,6 +2259,7 @@ usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51616.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51658.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51877.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue52031.go
+usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue52401.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue6977.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/manual.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/spec/
@@ -3929,6 +3931,8 @@ usr/lib/go/src/cmd/link/internal/ld/outbuf_test.go
 usr/lib/go/src/cmd/link/internal/ld/outbuf_windows.go
 usr/lib/go/src/cmd/link/internal/ld/pcln.go
 usr/lib/go/src/cmd/link/internal/ld/pe.go
+usr/lib/go/src/cmd/link/internal/ld/stackcheck.go
+usr/lib/go/src/cmd/link/internal/ld/stackcheck_test.go
 usr/lib/go/src/cmd/link/internal/ld/sym.go
 usr/lib/go/src/cmd/link/internal/ld/symtab.go
 usr/lib/go/src/cmd/link/internal/ld/target.go
@@ -3972,6 +3976,9 @@ usr/lib/go/src/cmd/link/internal/ld/testdata/issue39757/
 usr/lib/go/src/cmd/link/internal/ld/testdata/issue39757/issue39757main.go
 usr/lib/go/src/cmd/link/internal/ld/testdata/issue42484/
 usr/lib/go/src/cmd/link/internal/ld/testdata/issue42484/main.go
+usr/lib/go/src/cmd/link/internal/ld/testdata/stackcheck/
+usr/lib/go/src/cmd/link/internal/ld/testdata/stackcheck/main.go
+usr/lib/go/src/cmd/link/internal/ld/testdata/stackcheck/main.s
 usr/lib/go/src/cmd/link/internal/ld/typelink.go
 usr/lib/go/src/cmd/link/internal/ld/util.go
 usr/lib/go/src/cmd/link/internal/ld/xcoff.go
@@ -5136,15 +5143,11 @@ usr/lib/go/src/crypto/md5/md5block_s390x.s
 usr/lib/go/src/crypto/rand/
 usr/lib/go/src/crypto/rand/example_test.go
 usr/lib/go/src/crypto/rand/rand.go
-usr/lib/go/src/crypto/rand/rand_batched.go
 usr/lib/go/src/crypto/rand/rand_batched_test.go
-usr/lib/go/src/crypto/rand/rand_dragonfly.go
-usr/lib/go/src/crypto/rand/rand_freebsd.go
 usr/lib/go/src/crypto/rand/rand_getentropy.go
+usr/lib/go/src/crypto/rand/rand_getrandom.go
 usr/lib/go/src/crypto/rand/rand_js.go
-usr/lib/go/src/crypto/rand/rand_linux.go
 usr/lib/go/src/crypto/rand/rand_plan9.go
-usr/lib/go/src/crypto/rand/rand_solaris.go
 usr/lib/go/src/crypto/rand/rand_test.go
 usr/lib/go/src/crypto/rand/rand_unix.go
 usr/lib/go/src/crypto/rand/rand_windows.go
@@ -6440,6 +6443,7 @@ usr/lib/go/src/go/types/testdata/fixedbugs/issue51616.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue51658.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue51877.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue52031.go
+usr/lib/go/src/go/types/testdata/fixedbugs/issue52401.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue6977.go
 usr/lib/go/src/go/types/testdata/manual.go
 usr/lib/go/src/go/types/testdata/spec/
@@ -12155,6 +12159,7 @@ usr/lib/go/test/fixedbugs/issue52020.go
 usr/lib/go/test/fixedbugs/issue52127.go
 usr/lib/go/test/fixedbugs/issue52278.go
 usr/lib/go/test/fixedbugs/issue5231.go
+usr/lib/go/test/fixedbugs/issue52438.go
 usr/lib/go/test/fixedbugs/issue5244.go
 usr/lib/go/test/fixedbugs/issue5259.dir/
 usr/lib/go/test/fixedbugs/issue5259.dir/bug.go
