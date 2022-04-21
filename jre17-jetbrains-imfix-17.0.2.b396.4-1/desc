@@ -1,5 +1,5 @@
 %FILENAME%
-jre17-jetbrains-imfix-17.0.2.b315.1-2-x86_64.pkg.tar.xz
+jre17-jetbrains-imfix-17.0.2.b396.4-1-x86_64.pkg.tar.xz
 
 %NAME%
 jre17-jetbrains-imfix
@@ -8,25 +8,25 @@ jre17-jetbrains-imfix
 java17-jetbrains-imfix
 
 %VERSION%
-17.0.2.b315.1-2
+17.0.2.b396.4-1
 
 %DESC%
 JetBrains Java 17 full runtime environment
 
 %CSIZE%
-40493676
+40849088
 
 %ISIZE%
-193113964
+195189858
 
 %MD5SUM%
-2e305dab7f2c3aab73e0893f2bc5186e
+0d4444bf3c5c01a9d30e021401a5c0b9
 
 %SHA256SUM%
-fe5692720e3b618765da3456b0800ecac378d49b6f633a5f273d1f6d92492d98
+b5335a1cea714fa3fe438f7241821c6e93acbb22bfcd26af948ff70455fe9ed0
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJJongACgkQemZGpsFGkMDyyAv/T+QtcnrcKAf8YzQRO7WMviDmxQQ2+yIkzOTbAQMRNC4mq2V5dxP/T/HkKmj7KH/IYPrBFA0vPOSgZum/CGZKy3ufX0Um86bJoKvxO7QIzpfBoIgzeoD2ez+JqKSEhajql69mj9/spsVw71rVDbzajONq0m6YHT6wdp8QBkaWM546R5BUvF7scD7XvOGJ8D1g5HyyAB0aN6qy2N8Guq9o4D0lRemEKEF/5c7khb2rPNJMz2bChEfkGy7Gxg26hCmC62jKcynhLydGYPd0fPcfNPfh7D3Uu+04h2qhj81bFzOU9GoRwnn0HyeSGOLxNjaqxriG7AkuH55tC1uIsy04waAULXzGClbRzOHjBVDtbU+jRXXTTQG7n864zWt3lho6JeobT1GPZ7CKPJV1evBFnFSfm2eImsAB2zTcxpyv4fQ1Ld/g6uoicG7i4syn4xmvC6XJT2DS2kqZfzV2vm64K8aCa6tAWBoy50+ctxk+uVrilzkyOIqn37mwZh24mgyA
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJhGf4ACgkQemZGpsFGkMDcTgv9FdLyXg81tTQLShT27NGcrhtnr8pOAYCbRLXvprFb/MZRgcG8ekZCAZMcPOIezUjVCofCryfEKN+keTpYwP49Cw1yueMY/SJJXk2zWO3kdu5s5SmSPF88SyKShWP3CWVmu1v8BEU6OkaqsuU1UO5PbF7x3Rh6DOp1G3fm6MLG7NCvzYnzejXYXPMjT1Ked43ktCd8BsIE07EzwDLr3kZQOg1sj+riQjAt0E+B0LnkmwP0mvV3IPsJFYxgr7623pKZOHbbCkRN4lgSgUuEvGvATmhoTsmFIBXfp0kC01a0e1twu/AJbuSlvdklk9wX+zCXlnSM1KVy/+dv2TVG3galxK7N5lJJNTn2HZ0hvG3BLiOZBaz2lRIz4DaFV0dFgQuGzLYWz+9rvnuVjs+S8BTYWzrPxKbwS1YBFvWbQLZuRcVfofLF6jCC5l46GauV0yyqFi24qIBq39QmvwQzP0hKzZ4RMDF2v9sgxbyXDFz4eMpG3UrfeY/ZxZstzaO/AxSy
 
 %URL%
 https://confluence.jetbrains.com/display/JBR/JetBrains+Runtime
@@ -38,7 +38,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1648991584
+1650529357
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -49,7 +49,7 @@ jre17-jetbrains
 %PROVIDES%
 java-runtime=17
 java-runtime-jetbrains=17
-jre17-jetbrains=17.0.2.b315.1-2
+jre17-jetbrains=17.0.2.b396.4-1
 
 %DEPENDS%
 java-runtime-common>=3
