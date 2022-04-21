@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-f91db00e9b018ea0.so
+usr/lib/librustc_driver-636a696c4cbe1c2e.so
 usr/lib/libstd-202fc93d8ccaebf2.so
 usr/lib/libtest-63a81470565d53b9.so
 usr/lib/rustlib/
@@ -33838,7 +33838,6 @@ usr/share/doc/rust/html/unstable-book/compiler-flags/codegen-backend.html
 usr/share/doc/rust/html/unstable-book/compiler-flags/control-flow-guard.html
 usr/share/doc/rust/html/unstable-book/compiler-flags/debug_info_for_profiling.html
 usr/share/doc/rust/html/unstable-book/compiler-flags/emit-stack-sizes.html
-usr/share/doc/rust/html/unstable-book/compiler-flags/extern-location.html
 usr/share/doc/rust/html/unstable-book/compiler-flags/location-detail.html
 usr/share/doc/rust/html/unstable-book/compiler-flags/move-size-limit.html
 usr/share/doc/rust/html/unstable-book/compiler-flags/no-unique-section-names.html
@@ -34384,6 +34383,7 @@ usr/share/doc/rust/html/unstable-book/library-features/slice-take.html
 usr/share/doc/rust/html/unstable-book/library-features/solid-ext.html
 usr/share/doc/rust/html/unstable-book/library-features/sort-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/split-array.html
+usr/share/doc/rust/html/unstable-book/library-features/split-as-slice.html
 usr/share/doc/rust/html/unstable-book/library-features/std-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/stdsimd.html
 usr/share/doc/rust/html/unstable-book/library-features/step-trait.html
