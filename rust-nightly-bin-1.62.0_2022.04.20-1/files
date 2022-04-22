@@ -11,7 +11,7 @@ usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
 usr/lib/librustc_driver-636a696c4cbe1c2e.so
 usr/lib/libstd-202fc93d8ccaebf2.so
-usr/lib/libtest-63a81470565d53b9.so
+usr/lib/libtest-f14110fc9206b650.so
 usr/lib/rustlib/
 usr/lib/rustlib/etc/
 usr/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
@@ -38,7 +38,7 @@ usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libminiz_oxide-1c5c08d77aa4ee1
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libobject-93491bde8b3642ba.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libpanic_abort-ab64979d3d94b4b1.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libpanic_unwind-1333333cbe389678.json
-usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libproc_macro-f9379957be25ef9e.json
+usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libproc_macro-d4ad3d96db4efeae.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libprofiler_builtins-7ed2dc2b0ff77764.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/librustc_demangle-5543e955d2b2e107.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/librustc_std_workspace_alloc-3ad551729ddf5bdf.json
@@ -46,7 +46,7 @@ usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/librustc_std_workspace_core-2a
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/librustc_std_workspace_std-88c25f15e99c948d.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libstd-202fc93d8ccaebf2.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libstd_detect-a963b8f78c0365f5.json
-usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libtest-63a81470565d53b9.json
+usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libtest-f14110fc9206b650.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libunicode_width-7835218cdcbf32a4.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis/libunwind-46de9b9399df1cae.json
 usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/
@@ -84,7 +84,7 @@ usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-1c5c08d77aa4ee1f.rli
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-93491bde8b3642ba.rlib
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_abort-ab64979d3d94b4b1.rlib
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-1333333cbe389678.rlib
-usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-f9379957be25ef9e.rlib
+usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-d4ad3d96db4efeae.rlib
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-7ed2dc2b0ff77764.rlib
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc-nightly_rt.asan.a
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc-nightly_rt.lsan.a
@@ -97,8 +97,8 @@ usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_std-88c25f15
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-202fc93d8ccaebf2.rlib
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-202fc93d8ccaebf2.so
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-a963b8f78c0365f5.rlib
-usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-63a81470565d53b9.rlib
-usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-63a81470565d53b9.so
+usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-f14110fc9206b650.rlib
+usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-f14110fc9206b650.so
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunicode_width-7835218cdcbf32a4.rlib
 usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-46de9b9399df1cae.rlib
 usr/libexec/
@@ -1150,6 +1150,7 @@ usr/share/doc/rust/html/cargo/book.js
 usr/share/doc/rust/html/cargo/clipboard.min.js
 usr/share/doc/rust/html/cargo/commands/
 usr/share/doc/rust/html/cargo/commands/build-commands.html
+usr/share/doc/rust/html/cargo/commands/cargo-add.html
 usr/share/doc/rust/html/cargo/commands/cargo-bench.html
 usr/share/doc/rust/html/cargo/commands/cargo-build.html
 usr/share/doc/rust/html/cargo/commands/cargo-check.html
@@ -34461,6 +34462,7 @@ usr/share/licenses/rust-nightly-bin/rust/LICENSE-APACHE
 usr/share/licenses/rust-nightly-bin/rust/LICENSE-MIT
 usr/share/man/
 usr/share/man/man1/
+usr/share/man/man1/cargo-add.1.gz
 usr/share/man/man1/cargo-bench.1.gz
 usr/share/man/man1/cargo-build.1.gz
 usr/share/man/man1/cargo-check.1.gz

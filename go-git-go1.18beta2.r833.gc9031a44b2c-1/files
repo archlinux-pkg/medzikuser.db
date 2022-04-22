@@ -38,13 +38,14 @@ usr/lib/go/api/next/46121.txt
 usr/lib/go/api/next/46229.txt
 usr/lib/go/api/next/47005.txt
 usr/lib/go/api/next/50340.txt
+usr/lib/go/api/next/50599.txt
 usr/lib/go/api/next/50601.txt
 usr/lib/go/api/next/50674.txt
 usr/lib/go/api/next/51082.txt
 usr/lib/go/api/next/51414.txt
 usr/lib/go/api/next/51644.txt
+usr/lib/go/api/next/51684.txt
 usr/lib/go/api/next/51868.txt
-usr/lib/go/api/next/regexpdepth.txt
 usr/lib/go/bin/
 usr/lib/go/bin/go
 usr/lib/go/bin/gofmt
@@ -600,10 +601,6 @@ usr/lib/go/misc/swig/stdio/
 usr/lib/go/misc/swig/stdio/file.go
 usr/lib/go/misc/swig/stdio/file.swig
 usr/lib/go/misc/swig/stdio/file_test.go
-usr/lib/go/misc/trace/
-usr/lib/go/misc/trace/README.md
-usr/lib/go/misc/trace/trace_viewer_full.html
-usr/lib/go/misc/trace/webcomponents.min.js
 usr/lib/go/misc/wasm/
 usr/lib/go/misc/wasm/go_js_wasm_exec
 usr/lib/go/misc/wasm/wasm_exec.html
@@ -636,6 +633,7 @@ usr/lib/go/pkg/linux_amd64/cmd/compile/internal/arm.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/arm64.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/base.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/bitvec.a
+usr/lib/go/pkg/linux_amd64/cmd/compile/internal/compare.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/deadcode.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/devirtualize.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/dwarfgen.a
@@ -1484,6 +1482,8 @@ usr/lib/go/src/cmd/compile/internal/base/print.go
 usr/lib/go/src/cmd/compile/internal/base/timings.go
 usr/lib/go/src/cmd/compile/internal/bitvec/
 usr/lib/go/src/cmd/compile/internal/bitvec/bv.go
+usr/lib/go/src/cmd/compile/internal/compare/
+usr/lib/go/src/cmd/compile/internal/compare/compare.go
 usr/lib/go/src/cmd/compile/internal/deadcode/
 usr/lib/go/src/cmd/compile/internal/deadcode/deadcode.go
 usr/lib/go/src/cmd/compile/internal/devirtualize/
@@ -4093,6 +4093,10 @@ usr/lib/go/src/cmd/trace/goroutines.go
 usr/lib/go/src/cmd/trace/main.go
 usr/lib/go/src/cmd/trace/mmu.go
 usr/lib/go/src/cmd/trace/pprof.go
+usr/lib/go/src/cmd/trace/static/
+usr/lib/go/src/cmd/trace/static/README.md
+usr/lib/go/src/cmd/trace/static/trace_viewer_full.html
+usr/lib/go/src/cmd/trace/static/webcomponents.min.js
 usr/lib/go/src/cmd/trace/trace.go
 usr/lib/go/src/cmd/trace/trace_test.go
 usr/lib/go/src/cmd/trace/trace_unix_test.go
@@ -7541,8 +7545,10 @@ usr/lib/go/src/net/dnsclient.go
 usr/lib/go/src/net/dnsclient_test.go
 usr/lib/go/src/net/dnsclient_unix.go
 usr/lib/go/src/net/dnsclient_unix_test.go
+usr/lib/go/src/net/dnsconfig.go
 usr/lib/go/src/net/dnsconfig_unix.go
 usr/lib/go/src/net/dnsconfig_unix_test.go
+usr/lib/go/src/net/dnsconfig_windows.go
 usr/lib/go/src/net/dnsname_test.go
 usr/lib/go/src/net/error_plan9.go
 usr/lib/go/src/net/error_plan9_test.go
@@ -7747,6 +7753,7 @@ usr/lib/go/src/net/net.go
 usr/lib/go/src/net/net_fake.go
 usr/lib/go/src/net/net_test.go
 usr/lib/go/src/net/net_windows_test.go
+usr/lib/go/src/net/netgo.go
 usr/lib/go/src/net/netgo_unix_test.go
 usr/lib/go/src/net/netip/
 usr/lib/go/src/net/netip/export_test.go
@@ -7776,6 +7783,7 @@ usr/lib/go/src/net/rawconn_stub_test.go
 usr/lib/go/src/net/rawconn_test.go
 usr/lib/go/src/net/rawconn_unix_test.go
 usr/lib/go/src/net/rawconn_windows_test.go
+usr/lib/go/src/net/resolverdialfunc_test.go
 usr/lib/go/src/net/rpc/
 usr/lib/go/src/net/rpc/client.go
 usr/lib/go/src/net/rpc/client_test.go
@@ -12575,7 +12583,7 @@ usr/lib/go/test/live.go
 usr/lib/go/test/live1.go
 usr/lib/go/test/live2.go
 usr/lib/go/test/live_regabi.go
-usr/lib/go/test/live_syscall.go
+usr/lib/go/test/live_uintptrkeepalive.go
 usr/lib/go/test/locklinear.go
 usr/lib/go/test/loopbce.go
 usr/lib/go/test/mainsig.go
@@ -13256,6 +13264,7 @@ usr/lib/go/test/uintptrescapes.dir/main.go
 usr/lib/go/test/uintptrescapes.go
 usr/lib/go/test/uintptrescapes2.go
 usr/lib/go/test/uintptrescapes3.go
+usr/lib/go/test/uintptrkeepalive.go
 usr/lib/go/test/undef.go
 usr/lib/go/test/unsafebuiltins.go
 usr/lib/go/test/used.go
