@@ -1,5 +1,5 @@
 %FILENAME%
-proton-ge-custom-bin-1_GE_Proton7_14-1-x86_64.pkg.tar.xz
+proton-ge-custom-bin-1_GE_Proton7_15-1-x86_64.pkg.tar.xz
 
 %NAME%
 proton-ge-custom-bin
@@ -8,25 +8,25 @@ proton-ge-custom-bin
 proton-ge-custom-bin
 
 %VERSION%
-1:GE_Proton7_14-1
+1:GE_Proton7_15-1
 
 %DESC%
 A fancy custom distribution of Valves Proton with various patches
 
 %CSIZE%
-265344312
+266081720
 
 %ISIZE%
-1144336360
+1145666689
 
 %MD5SUM%
-7ab853806e82bdc4e3537ca866967bc0
+ab12c54d720fb6459d1332e0ea36f3ec
 
 %SHA256SUM%
-5bff2776a173fa03070142803cf62a3f76cf960ac0fb328944fd11e99acca4f9
+41102992a84c95aabd822d2dc9888dda8d2affafc9fa3057f6c361ba3fe7afca
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJNwH4ACgkQemZGpsFGkMA9eAwAzKWC18vKlOfLX60JanuZv44luFxUa5cpth+08xzTDf1uBXDBOLC++S1gDzEJUN4895Of1+LuZkHW6e/eAacuWmH5PyFg3mzglY94IQn9cA1b5mBU5+z4Y+wXOpHWMssYiXVDIlJ0688NvV5rtRT+bw5pOLb5Pd2yLILppzMvmwgLb4kiyJuX9SkFtbO5JsHv9mtjrrXA1Tu7gdFQlArB0jg4LbTC33WlYMicn08SUT7gGvq8yh/mnX1d/3BGIJL+8E+cTYLDkkgFaUPcsI+sdAelfidug75jMWqXAy608W18IApTlcaywooYgrBTXn3auvsGzZdMvLwbkAyk8Uhxx49UrX0tGthtbThmA4BxZVCtXQOBf4KaPZGe6lvb33aC9Suf0pmhN8Hqqe/Sz8FGFU2zJ2M9lcYPodtj+Bwg11i2iEERw11+rRvzihp14WzlhYHNeFyx00qsbzJ/25t2USouoaSwNsXZmkMg2cQ24YqpDcSUWysUF4c+t7sZs1KE
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJjAR8ACgkQemZGpsFGkMBAMwwAmUQy1NLNxcyAykoTp/XkIwZGPf/t2pEIQRWT/w+lHk20m1I5ZQhA0H5Vri4a0/2J9bAbQv9fu6/DQG288PAxCIDWvAjqbkFJW8yrNKhShH2aPlqwLXCSXnsv723ZJIj97cwSCsh0Z+1lw2nJi4lJHnaboapniG5cTH7VGBZbgdnDunI4hc2Z9L9/AppOepcEiKWuFuTVeqCBImIGVwXn5JLmqN2g/YMtKlcdz7gfWsLnMugluU7HH5zR+VBDcq0c1n/Bzj0GolCMuJVrtlLalVRiMQEQ+Gy67n144W/LPPWUIfyxReCl1y+DfR7iPh1S64ujEWr4MdjOg8N13NhaVVpv5L+BcWHdNXBFiqOw24OHXf+kZx3qhUobu89SIjXt6miS9VsvBbDiwxTuh6S3Tuqdx1MMPPn5v6VdHP5jWnZZhbNxAZhCh0wCgGjDZSSbu7AmfNf53AYC7q8+PoYcv0HFd+Parlg0FU1Pi1fZfUl1uQuuqTGPwMGQ/xlR0EJZ
 
 %URL%
 https://github.com/GloriousEggroll/proton-ge-custom
@@ -43,7 +43,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1649262328
+1650655122
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -53,7 +53,7 @@ proton-ge-custom
 
 %PROVIDES%
 proton
-proton-ge-custom=GE.Proton7_14
+proton-ge-custom=GE.Proton7_15
 
 %DEPENDS%
 python
@@ -71,6 +71,7 @@ lib32-libjpeg6-turbo
 lib32-libgudev
 lib32-flac
 lib32-mpg123
+lib32-libusb
 
 %OPTDEPENDS%
 kdialog: KDE splash dialog support
@@ -82,5 +83,4 @@ vulkan-driver: driver to be used by dxvk
 winetricks: protonfixes backend - highly recommended
 wine: support for 32bit prefixes
 xboxdrv: gamepad driver service
-lib32-libusb: wine usb support
 
