@@ -426,6 +426,7 @@ usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/avicap32.
 usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/avifil32.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/avrt.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/bcrypt.dll
+usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/belauncher.exe
 usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/bluetoothapis.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/browseui.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib/wine/i386-windows/bthprops.cpl
@@ -1558,6 +1559,7 @@ usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/avica
 usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/avifil32.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/avrt.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/bcrypt.dll
+usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/belauncher.exe
 usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/bluetoothapis.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/browseui.dll
 usr/share/steam/compatibilitytools.d/proton/dist/lib64/wine/x86_64-windows/bthprops.cpl
@@ -2366,7 +2368,7 @@ usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/users
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/Fonts/
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/Installer/
-usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/Installer/380d.msi
+usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/Installer/6786.msi
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/Microsoft.NET/
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/Microsoft.NET/DirectX for Managed Code/
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/Microsoft.NET/Framework/
@@ -2742,6 +2744,7 @@ usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windo
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/system32/avifil32.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/system32/avrt.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/system32/bcrypt.dll
+usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/system32/belauncher.exe
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/system32/bluetoothapis.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/system32/browseui.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/system32/bthprops.cpl
@@ -3804,6 +3807,7 @@ usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windo
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/syswow64/avifil32.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/syswow64/avrt.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/syswow64/bcrypt.dll
+usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/syswow64/belauncher.exe
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/syswow64/bluetoothapis.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/syswow64/browseui.dll
 usr/share/steam/compatibilitytools.d/proton/dist/share/default_pfx/drive_c/windows/syswow64/bthprops.cpl
