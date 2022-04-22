@@ -1,5 +1,5 @@
 %FILENAME%
-proton-ge-custom-2_GE.Proton7.14-1-x86_64.pkg.tar.xz
+proton-ge-custom-2_GE.Proton7.15-2-x86_64.pkg.tar.xz
 
 %NAME%
 proton-ge-custom
@@ -8,25 +8,25 @@ proton-ge-custom
 proton-ge-custom
 
 %VERSION%
-2:GE.Proton7.14-1
+2:GE.Proton7.15-2
 
 %DESC%
 Compatibility tool for Steam Play based on Wine and additional components, GloriousEggroll's custom build
 
 %CSIZE%
-263111512
+263515316
 
 %ISIZE%
-1115091143
+1116308879
 
 %MD5SUM%
-52e48422857be0c613db1d51f646175f
+9a07f96f8155f8812ff0b6d5d4d247e5
 
 %SHA256SUM%
-658c5c75b69f39290f06300afe92728121f17006209a61c7a3c5004b3a03f4f8
+aaffa1a63a9000bfd16168d75c1eb22d55c4174bb8e04a206eac2c02e6aec17e
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJLR9UACgkQemZGpsFGkMDQegwAzFk42Jnwrq9+i49KQ6nbXNHKqvTswL5jCWqP7TP/lE1B6Zi71ynkJAxpAz2GngwM2ZfqGoQTgIu7pSXXX9Zn/siCOTHfFaaX5UM+v94FQLwQJxu8LxXu9sx75DEgVqrS51SAMTyzzINggkZwaZA3AI+qenz8OwnCdmsdCB3LtORWytI5QDj4bNhvNReJ+t3HC6nGPqMJwVKPqQJcgWm30qrRLw3X6UYSeeZAWKOZZLIZY+o05HkJLnI0Xl0Vkjq3scjdZXOs24Qo1Peif1+McDzTLa7+9f0NEQBshvRbndl1wwAXdVKzgVfgQJyZBw0R0Ojjl9U285tfVYWLyTZUJYingRKcHcxxrw86T/qTIoRgJHkU5NNzYq4YKAjE/KQVK4dP+PviusD0/k0xXbfFAo50gf+DnJXb5i9YpRd7qqJqMNZbEOMwrmgrQpLO8YEAgWoDkpLIKi/UGd5OXeyWu2bvyFjw72urzjqkdqRtf7Hj/db914hv1OvknmI1BoXa
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJjMSkACgkQemZGpsFGkMDB8wwAlrtWYI/juZV1msVuVaMhstRxDV/DjJDNYQn9pID8C/SR8KcxL7ewMqm2Sa2ziS+0bfFz58gPSk+NRU1SIshQzlqfjhBIulo+ZxMCo6jCUOBLLvxe0IsI+hFPU6UAdZtTFgk+xOZuZULpUJ8rtPFJSQQismUttd33PsBUIWvXvj/HIheOkPutpIbRd7v6+DHPJdaOsKHWpUbhwgYLKLiv4Pttf2raLJVbTqE1RRm/GDBeoRn6AzNBtJC6GsSkUNynukRiwDuAeODnR94J4pIaVxd6YzBarQMduUNNKVxxL89Noo3YDymXaKIZBhSvSkUxpyR8Dh1a/2iKXo92kCD60ZLipScZyH3cAhKzFoCVKtzFFgc6xu7JkACYqLQ3tBruBW+zMKT4swgTY3X3r0DCcvTla4okLsyhSV0uN9f3f2QNEGLFVhzQhdLSD4ZEWPFV8KlvaR2LfBA16RUgLcGZS+nYTYG+kTpWGF9aUYbV6sJEX+hmpOAX4RyXPEvei5JC
 
 %URL%
 https://github.com/GloriousEggroll/proton-ge-custom
@@ -38,7 +38,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1649093745
+1650660349
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -81,6 +81,8 @@ libxkbcommon
 lib32-libxkbcommon
 faudio
 lib32-faudio
+libvpx
+lib32-libvpx
 sdl2>=2.0.16
 lib32-sdl2>=2.0.16
 desktop-file-utils
@@ -236,6 +238,8 @@ libxkbcommon
 lib32-libxkbcommon
 faudio
 lib32-faudio
+libvpx
+lib32-libvpx
 sdl2>=2.0.16
 lib32-sdl2>=2.0.16
 desktop-file-utils
