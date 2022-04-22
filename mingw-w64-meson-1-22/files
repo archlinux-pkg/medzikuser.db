@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/i686-w64-mingw32-meson
+usr/bin/meson-cross-file-generator
+usr/bin/x86_64-w64-mingw32-meson
+usr/share/
+usr/share/mingw/
+usr/share/mingw/toolchain-i686-w64-mingw32-wine.meson
+usr/share/mingw/toolchain-i686-w64-mingw32.meson
+usr/share/mingw/toolchain-x86_64-w64-mingw32-wine.meson
+usr/share/mingw/toolchain-x86_64-w64-mingw32.meson

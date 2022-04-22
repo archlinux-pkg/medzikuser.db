@@ -1,0 +1,9 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/i686-w64-mingw32-cmake
+usr/bin/x86_64-w64-mingw32-cmake
+usr/share/
+usr/share/mingw/
+usr/share/mingw/toolchain-i686-w64-mingw32.cmake
+usr/share/mingw/toolchain-x86_64-w64-mingw32.cmake
