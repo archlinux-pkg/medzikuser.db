@@ -7545,10 +7545,8 @@ usr/lib/go/src/net/dnsclient.go
 usr/lib/go/src/net/dnsclient_test.go
 usr/lib/go/src/net/dnsclient_unix.go
 usr/lib/go/src/net/dnsclient_unix_test.go
-usr/lib/go/src/net/dnsconfig.go
 usr/lib/go/src/net/dnsconfig_unix.go
 usr/lib/go/src/net/dnsconfig_unix_test.go
-usr/lib/go/src/net/dnsconfig_windows.go
 usr/lib/go/src/net/dnsname_test.go
 usr/lib/go/src/net/error_plan9.go
 usr/lib/go/src/net/error_plan9_test.go
@@ -7753,7 +7751,6 @@ usr/lib/go/src/net/net.go
 usr/lib/go/src/net/net_fake.go
 usr/lib/go/src/net/net_test.go
 usr/lib/go/src/net/net_windows_test.go
-usr/lib/go/src/net/netgo.go
 usr/lib/go/src/net/netgo_unix_test.go
 usr/lib/go/src/net/netip/
 usr/lib/go/src/net/netip/export_test.go
@@ -7783,7 +7780,6 @@ usr/lib/go/src/net/rawconn_stub_test.go
 usr/lib/go/src/net/rawconn_test.go
 usr/lib/go/src/net/rawconn_unix_test.go
 usr/lib/go/src/net/rawconn_windows_test.go
-usr/lib/go/src/net/resolverdialfunc_test.go
 usr/lib/go/src/net/rpc/
 usr/lib/go/src/net/rpc/client.go
 usr/lib/go/src/net/rpc/client_test.go
@@ -8749,6 +8745,7 @@ usr/lib/go/src/runtime/race/race_freebsd_amd64.syso
 usr/lib/go/src/runtime/race/race_linux_amd64.syso
 usr/lib/go/src/runtime/race/race_linux_arm64.syso
 usr/lib/go/src/runtime/race/race_linux_ppc64le.syso
+usr/lib/go/src/runtime/race/race_linux_s390x.syso
 usr/lib/go/src/runtime/race/race_linux_test.go
 usr/lib/go/src/runtime/race/race_netbsd_amd64.syso
 usr/lib/go/src/runtime/race/race_openbsd_amd64.syso
