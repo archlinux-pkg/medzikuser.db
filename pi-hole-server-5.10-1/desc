@@ -1,0 +1,68 @@
+%FILENAME%
+pi-hole-server-5.10-1-any.pkg.tar.xz
+
+%NAME%
+pi-hole-server
+
+%BASE%
+pi-hole-server
+
+%VERSION%
+5.10-1
+
+%DESC%
+The Pi-hole is an advertising-aware DNS/Web server. Arch adaptation for lan wide DNS server.
+
+%CSIZE%
+1837184
+
+%ISIZE%
+5284201
+
+%MD5SUM%
+2883cf021bceb6fb9ae856b44f99d921
+
+%SHA256SUM%
+b225cec7d0369c6af55802846b621605fd9a91da230c7b0e7d3939c2d0ace144
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJjxMsACgkQemZGpsFGkMCczgwAks7DAihwH7ukzCLxIOIh86zWbRtMrLXo4tqHIoy7EkV8w40E6t8Ce5b4Pz5yitRYtvrrHgyqjIXqpwktSZccDrPz9jQdgyaKZj7dsy6ZOWVTOTR9qdR9n0imz3WoyshFxrmEm7uKroNUVE6c0ojUPtF8C/P+1LqvA6oEp4jsEuvABBFW7hTEoLGQmtXZIAXiYeizJbnike7+selpDdJTSS9UKARzteghgNxndaGXYK6mnVVeW/7DGWDmZNvrhIkSplwHuL3NvwsB6nZG0FUSFsWK0HIMUzJnQnK6oiuO1pI8X0yP6GpsGCeap4zlygnZ7JoHk9Lk7PLf2iYNF8HMdUw7u4FMzEngc9NqnPTF5BLd5s2NUaPdF+spUHF+jUZBn4NbVztxM5aQvJMsmMRSiJHwL+WZYaA4YOV/7gZ5/VbWUBudcyYjuvMybV1jvnvu5SC41DooCIc0MXEhV9hbXiR1vjYpej1NGuO9+8M/alX9oKNCBRQ4jPthXo6NBX6t
+
+%URL%
+https://github.com/pi-hole/pi-hole
+
+%LICENSE%
+EUPL-1.2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1650705574
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+pi-hole-standalone
+
+%DEPENDS%
+pi-hole-ftl>=5.0
+bc
+perl
+gnu-netcat
+inetutils
+iproute2
+logrotate
+bind-tools
+sudo
+lsof
+procps-ng
+
+%OPTDEPENDS%
+lighttpd: a secure, fast, compliant and very flexible web-server
+php-cgi: CGI and FCGI SAPI for PHP needed only for lighttpd
+nginx-mainline: lightweight http server
+php-fpm: FastCGI process manager for php needed for nginx
+php-sqlite: sqlite db access for nginx
+

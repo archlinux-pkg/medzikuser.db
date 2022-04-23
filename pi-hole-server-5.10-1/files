@@ -66,9 +66,8 @@ srv/http/pihole/admin/groups-clients.php
 srv/http/pihole/admin/groups-domains.php
 srv/http/pihole/admin/groups.php
 srv/http/pihole/admin/img/
-srv/http/pihole/admin/img/boxed-bg-dark.jpg
-srv/http/pihole/admin/img/boxed-bg.jpg
-srv/http/pihole/admin/img/donate.gif
+srv/http/pihole/admin/img/boxed-bg-dark.png
+srv/http/pihole/admin/img/boxed-bg.png
 srv/http/pihole/admin/img/favicons/
 srv/http/pihole/admin/img/favicons/android-chrome-192x192.png
 srv/http/pihole/admin/img/favicons/android-chrome-512x512.png
@@ -146,7 +145,9 @@ srv/http/pihole/admin/scripts/vendor/bootstrap-select.min.js
 srv/http/pihole/admin/scripts/vendor/bootstrap-select.min.js.map
 srv/http/pihole/admin/scripts/vendor/bootstrap-toggle.min.js
 srv/http/pihole/admin/scripts/vendor/bootstrap-toggle.min.js.map
+srv/http/pihole/admin/scripts/vendor/datatables.buttons.min.js
 srv/http/pihole/admin/scripts/vendor/datatables.min.js
+srv/http/pihole/admin/scripts/vendor/datatables.select.min.js
 srv/http/pihole/admin/scripts/vendor/daterangepicker.min.js
 srv/http/pihole/admin/scripts/vendor/daterangepicker.min.js.map
 srv/http/pihole/admin/scripts/vendor/jquery.confirm.min.js
@@ -197,6 +198,7 @@ srv/http/pihole/admin/style/vendor/bootstrap/fonts/glyphicons-halflings-regular.
 srv/http/pihole/admin/style/vendor/bootstrap/js/
 srv/http/pihole/admin/style/vendor/bootstrap/js/bootstrap.min.js
 srv/http/pihole/admin/style/vendor/datatables.min.css
+srv/http/pihole/admin/style/vendor/datatables_extensions.min.css
 srv/http/pihole/admin/style/vendor/daterangepicker.min.css
 srv/http/pihole/admin/style/vendor/font-awesome/
 srv/http/pihole/admin/style/vendor/font-awesome/js/
