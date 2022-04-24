@@ -8415,8 +8415,8 @@ usr/lib/go/src/runtime/example_test.go
 usr/lib/go/src/runtime/export_aix_test.go
 usr/lib/go/src/runtime/export_arm_test.go
 usr/lib/go/src/runtime/export_darwin_test.go
-usr/lib/go/src/runtime/export_debug_regabiargs_off_test.go
-usr/lib/go/src/runtime/export_debug_regabiargs_on_test.go
+usr/lib/go/src/runtime/export_debug_amd64_test.go
+usr/lib/go/src/runtime/export_debug_arm64_test.go
 usr/lib/go/src/runtime/export_debug_test.go
 usr/lib/go/src/runtime/export_debuglog_test.go
 usr/lib/go/src/runtime/export_linux_test.go
