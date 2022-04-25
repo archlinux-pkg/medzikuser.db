@@ -1033,6 +1033,8 @@ usr/include/wine/windows/windows.foundation.collections.h
 usr/include/wine/windows/windows.foundation.collections.idl
 usr/include/wine/windows/windows.foundation.h
 usr/include/wine/windows/windows.foundation.idl
+usr/include/wine/windows/windows.foundation.metadata.h
+usr/include/wine/windows/windows.foundation.metadata.idl
 usr/include/wine/windows/windows.gaming.input.custom.h
 usr/include/wine/windows/windows.gaming.input.custom.idl
 usr/include/wine/windows/windows.gaming.input.forcefeedback.h
@@ -1378,6 +1380,7 @@ usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-error-l1-1-1.dll
 usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-errorprivate-l1-1-1.dll
 usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-l1-1-0.dll
 usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-registration-l1-1-0.dll
+usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-robuffer-l1-1-0.dll
 usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
 usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-string-l1-1-0.dll
 usr/lib/wine/x86_64-windows/api-ms-win-core-winrt-string-l1-1-1.dll
@@ -2092,6 +2095,7 @@ usr/lib/wine/x86_64-windows/windows.globalization.dll
 usr/lib/wine/x86_64-windows/windows.media.devices.dll
 usr/lib/wine/x86_64-windows/windows.media.speech.dll
 usr/lib/wine/x86_64-windows/windows.networking.connectivity
+usr/lib/wine/x86_64-windows/windows.networking.dll
 usr/lib/wine/x86_64-windows/windowscodecs.dll
 usr/lib/wine/x86_64-windows/windowscodecsext.dll
 usr/lib/wine/x86_64-windows/winealsa.drv
@@ -2128,6 +2132,7 @@ usr/lib/wine/x86_64-windows/winspool.drv
 usr/lib/wine/x86_64-windows/winsta.dll
 usr/lib/wine/x86_64-windows/wintab32.dll
 usr/lib/wine/x86_64-windows/wintrust.dll
+usr/lib/wine/x86_64-windows/wintypes.dll
 usr/lib/wine/x86_64-windows/winusb.dll
 usr/lib/wine/x86_64-windows/winver.exe
 usr/lib/wine/x86_64-windows/wlanapi.dll
@@ -2405,6 +2410,7 @@ usr/lib32/wine/i386-windows/api-ms-win-core-winrt-error-l1-1-1.dll
 usr/lib32/wine/i386-windows/api-ms-win-core-winrt-errorprivate-l1-1-1.dll
 usr/lib32/wine/i386-windows/api-ms-win-core-winrt-l1-1-0.dll
 usr/lib32/wine/i386-windows/api-ms-win-core-winrt-registration-l1-1-0.dll
+usr/lib32/wine/i386-windows/api-ms-win-core-winrt-robuffer-l1-1-0.dll
 usr/lib32/wine/i386-windows/api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
 usr/lib32/wine/i386-windows/api-ms-win-core-winrt-string-l1-1-0.dll
 usr/lib32/wine/i386-windows/api-ms-win-core-winrt-string-l1-1-1.dll
@@ -3118,6 +3124,7 @@ usr/lib32/wine/i386-windows/windows.globalization.dll
 usr/lib32/wine/i386-windows/windows.media.devices.dll
 usr/lib32/wine/i386-windows/windows.media.speech.dll
 usr/lib32/wine/i386-windows/windows.networking.connectivity
+usr/lib32/wine/i386-windows/windows.networking.dll
 usr/lib32/wine/i386-windows/windowscodecs.dll
 usr/lib32/wine/i386-windows/windowscodecsext.dll
 usr/lib32/wine/i386-windows/winealsa.drv
@@ -3153,6 +3160,7 @@ usr/lib32/wine/i386-windows/winspool.drv
 usr/lib32/wine/i386-windows/winsta.dll
 usr/lib32/wine/i386-windows/wintab32.dll
 usr/lib32/wine/i386-windows/wintrust.dll
+usr/lib32/wine/i386-windows/wintypes.dll
 usr/lib32/wine/i386-windows/winusb.dll
 usr/lib32/wine/i386-windows/winver.exe
 usr/lib32/wine/i386-windows/wlanapi.dll

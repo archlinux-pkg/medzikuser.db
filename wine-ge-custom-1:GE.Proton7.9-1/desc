@@ -1,5 +1,5 @@
 %FILENAME%
-wine-ge-custom-1_GE.Proton7.8-1-x86_64.pkg.tar.xz
+wine-ge-custom-1_GE.Proton7.9-1-x86_64.pkg.tar.xz
 
 %NAME%
 wine-ge-custom
@@ -8,25 +8,25 @@ wine-ge-custom
 wine-ge-custom
 
 %VERSION%
-1:GE.Proton7.8-1
+1:GE.Proton7.9-1
 
 %DESC%
 A compatibility layer for running Windows programs - GloriousEggroll branch
 
 %CSIZE%
-58975308
+58988912
 
 %ISIZE%
-388278878
+388392379
 
 %MD5SUM%
-eacfa96be944e3260516d07303dd7799
+c52b4073d6ce74280cb3992a50d3c7cf
 
 %SHA256SUM%
-d9fa6703bb01c13756b1870ada41b29b0e3fd7bde35cb77872727cb6cabf7c54
+8bbd291ae0cf96c3c747f198fd2346f22842e8af326f7bfe29dbfaf8220e77d4
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJNra8ACgkQemZGpsFGkMAR8wv/bxv14wRa+QZuufsap+QNeLKkZz8NJNi1kssrYFrHkMGQRF+reES5kHgEv9CiZMLcdscPwOqZd24NId2QdwJujJ4DdNmRU3JUDlphWMyYSFtOmDr99Ph2QthHWBet40DyDHPKUfBgfCh8RpAVObvJbutjkTq8oDd2H7xmO5CZZlf7AXNuSlemb4ZWA+FNEuCKP7SYIu2Im5Y7JnVnJ/zB2zIj6k89aeAt/yMlG6OpdwZRBha4LaL2nrWud447/JJaMwgQm11EQRMemNUmpiLmBf0ZF8F1ZEUgiy1Lyb7xx1mlv2tbBOjQaRIBDAesJclDiNbb5o1QDYYQS97UGgGGyAlhknG+jEA+2cMfvi7g0eNVvamsjRyX9LDLA4AZR3/Uxebtz40EDHiyneQAFeZM1hF91IOzPmWkaz8XzixMVj3Df0I+IpSVGo0cLZiK9m8Feziv1CifhsyVA2QuPy0TmTcYMhdKJEDdOIEyTHBCGkMt5Y6yJXSsS6GDnYgGuzQ/
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJmaaoACgkQemZGpsFGkMCLXQwAma0a8L8SuF9h1AQfYzeX5pMuDB1mDJmRG4odcqkxM/yubFzj4XBuZtbxRgL1vBcZv0tdVztRLfzQWZXx2wHjcC0Jq3VHuzWWWeau3IDECDkGyKF+I/KDhhJzkzJFePRVPLvNTxg8tTsinthsoESNiw2xK2t7Bo16EechQ9T0D8lTxOvulOyazELQKWpTPfbx7gpKt3u5EeZnzEz4gSVbzq3+Df2v+SlagQOC1OiOU1Vko/qlSrRT0wml7+i5gMmts8TeqbMdZv2/l/NHnp/ykvjZLYL8wjsAw712cT2Y1qzC32AZpr1X650uM90k7ZFYKkeVvZs0RIudlpIkeyyc2wyBJ9miYdNJgJLBGTDHI6quALTIb14JQ86RT0sPFJBLm4TEnV+4+bQE4+cMLFafi7qTK5wXe5Zo/VGmS4Zf273dhBcOWH0BL926HV8EAs9iMtJRsJM1SakuH4ljFuFg5uuHNSV1tEe75YMKIK40CJGyuC/MCja2SxzAo/0Lc2lP
 
 %URL%
 https://github.com/GloriousEggroll/wine-ge-custom
@@ -38,7 +38,7 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1649254188
+1650875290
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
