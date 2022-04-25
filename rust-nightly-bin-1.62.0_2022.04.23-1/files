@@ -34151,6 +34151,7 @@ usr/share/doc/rust/html/unstable-book/library-features/const-format-args.html
 usr/share/doc/rust/html/unstable-book/library-features/const-heap.html
 usr/share/doc/rust/html/unstable-book/library-features/const-inherent-unchecked-arith.html
 usr/share/doc/rust/html/unstable-book/library-features/const-int-unchecked-arith.html
+usr/share/doc/rust/html/unstable-book/library-features/const-intoiterator-identity.html
 usr/share/doc/rust/html/unstable-book/library-features/const-intrinsic-copy.html
 usr/share/doc/rust/html/unstable-book/library-features/const-intrinsic-forget.html
 usr/share/doc/rust/html/unstable-book/library-features/const-intrinsic-raw-eq.html
