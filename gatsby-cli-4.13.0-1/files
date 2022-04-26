@@ -1029,9 +1029,12 @@ usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/trac
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js.map
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/
+usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/any-map.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/binary-search.d.ts
+usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/by-source.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/resolve.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/sort.d.ts
+usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/sourcemap-segment.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/strip-filename.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/trace-mapping.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/@jridgewell/trace-mapping/dist/types/types.d.ts
@@ -3828,6 +3831,8 @@ usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/README.md
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/index.js
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/node.abi102.glibc.node
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/node.abi102.musl.node
+usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/node.abi108.glibc.node
+usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/node.abi108.musl.node
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/node.abi83.musl.node
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/node.abi93.musl.node
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb-linux-x64/node.napi.glibc.node
@@ -3942,12 +3947,12 @@ usr/lib/node_modules/gatsby-cli/node_modules/lmdb/dict/dict2.txt
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/dist/
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/dist/index.cjs
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/dist/index.cjs.map
-usr/lib/node_modules/gatsby-cli/node_modules/lmdb/external.js
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/index.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/index.js
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/keys.js
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/level.js
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/mod.ts
+usr/lib/node_modules/gatsby-cli/node_modules/lmdb/native.js
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/open.js
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/package.json
 usr/lib/node_modules/gatsby-cli/node_modules/lmdb/read.js
@@ -5166,6 +5171,7 @@ usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/dist/
 usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/dist/index.js
 usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/dist/index.min.js
 usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/dist/node.cjs
+usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/dist/str.cjs
 usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/dist/test.js
 usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/index.d.ts
 usr/lib/node_modules/gatsby-cli/node_modules/msgpackr/index.js
