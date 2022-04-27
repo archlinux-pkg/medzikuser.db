@@ -1,5 +1,5 @@
 %FILENAME%
-linux-cachyos-5.17.4-3-x86_64.pkg.tar.xz
+linux-cachyos-5.17.5-1-x86_64.pkg.tar.xz
 
 %NAME%
 linux-cachyos
@@ -8,25 +8,25 @@ linux-cachyos
 linux-cachyos
 
 %VERSION%
-5.17.4-3
+5.17.5-1
 
 %DESC%
 The Linux CFS scheduler Kernel by CachyOS with other patches and improvements kernel and modules
 
 %CSIZE%
-111938320
+111844640
 
 %ISIZE%
-111407647
+111314361
 
 %MD5SUM%
-042172b05e883b0bcaac7e5c53f858f2
+a9e7bbe65340fd7d54674444be84d185
 
 %SHA256SUM%
-59846d59846d60af49612109cb4de145ea2a191c7c0e51bab4f18a653fac7bd0
+72914e7bd69d689af3c76b39123401f4826f07e4c0e80d8142db81bc6b8b6c26
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJmwuAACgkQemZGpsFGkMDtIgv+NnlTbkNsyUO7d/c8YrZY1Ao4YfQjDKDoegrE6WxG4WgmqaBVokd1WptA7+nBbpYbkL2M1+cFjIS3FkgfFAh83W8edr0LfDbxocUUVltuyR0Z8joDA96/8HE9xX35kC9LsvBg/ppknM0D9ApOCZjCsZun06CEMgBuatC1OHe5AShCrcFrDsu83Ed6yFYd6azl1qOevVNySxt5PgfQ7QJqIBFRnNWmHbfALbxDQD4onEvruxauNiXG+roXwop//nm0t9cuvdGBvOeEJb19beAsJ6ypti9rPLKyE9p8oI5id3qXpUnE5W72sRQspbVwG61gF1HsWcrxa538jBz1pHmxzFnG02W3ZJIdKwZmVYgzinmQ/FaNzuN6i6nKaXz3ySshxMY+JiPWihCTiBxAFdyY74KDWJkuQIho/Nb45YCWv2QwFFHsVox011gKszYvGgb5/2ERq4vCLDyJ41/EQPFy2td5gnVnv9Tp62xQSKRO6Kt4L1HpE1e0CCdRykI8UtQc
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJpazYACgkQemZGpsFGkMAP3wv/ZJFFdGE66y43hl+LxoQlIeQJq+uLXBLndy9JJX7GAsqTN02YYqGd5nEW2lNGZzKMuAnk0kCsTH9BozdSwaERQETiseFiJ+94cIbXRyPsI1q4T8KS00TXtHiUhsT4iUHUJKSixhnekdLfGRQtOrP2hpeqdffM/iFoJ7QhV+ug0D+t394cYWS3bOUBQZ7LjqY64odOpdGspf8FPQFlQB0aRHk1inNjYjeV9wGiYdO5TU5wJ+ou0eWck95sfVpyApP1M0SaEp/tMvTtrcM+VzUeUrIsv0RSuRB44gvSuZf/4qPERb/AUd7P3bCVbYla5aP/Y1o/kauEkl/vnpVXKkZdEt4srv15uRGUma2ViC0RJeDxGiwWyhnnbuKJ7cpHVkyqkPEYPAXUhJej83SohwNebJvyqC3rvPQCASkVvdel58lHjX0h0p7HQybPNYoMiU+R3c/j2qArdvALykwhC0rn7Z3Kf0MCk49ySfNh/uszBauskbim1hl1usD3UMRSvV/A
 
 %URL%
 https://github.com/CachyOS/linux-cachyos
@@ -38,7 +38,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1650896290
+1651070505
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
