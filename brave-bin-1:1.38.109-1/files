@@ -26,6 +26,7 @@ usr/lib/brave-bin/libGLESv2.so
 usr/lib/brave-bin/libvk_swiftshader.so
 usr/lib/brave-bin/libvulkan.so.1
 usr/lib/brave-bin/locales/
+usr/lib/brave-bin/locales/af.pak
 usr/lib/brave-bin/locales/am.pak
 usr/lib/brave-bin/locales/ar.pak
 usr/lib/brave-bin/locales/bg.pak
@@ -76,6 +77,7 @@ usr/lib/brave-bin/locales/te.pak
 usr/lib/brave-bin/locales/th.pak
 usr/lib/brave-bin/locales/tr.pak
 usr/lib/brave-bin/locales/uk.pak
+usr/lib/brave-bin/locales/ur.pak
 usr/lib/brave-bin/locales/vi.pak
 usr/lib/brave-bin/locales/zh-CN.pak
 usr/lib/brave-bin/locales/zh-TW.pak
@@ -91,6 +93,8 @@ usr/lib/brave-bin/resources.pak
 usr/lib/brave-bin/resources/
 usr/lib/brave-bin/resources/brave_extension/
 usr/lib/brave-bin/resources/brave_extension/_locales/
+usr/lib/brave-bin/resources/brave_extension/_locales/af/
+usr/lib/brave-bin/resources/brave_extension/_locales/af/messages.json
 usr/lib/brave-bin/resources/brave_extension/_locales/am/
 usr/lib/brave-bin/resources/brave_extension/_locales/am/messages.json
 usr/lib/brave-bin/resources/brave_extension/_locales/ar/
@@ -191,6 +195,8 @@ usr/lib/brave-bin/resources/brave_extension/_locales/tr/
 usr/lib/brave-bin/resources/brave_extension/_locales/tr/messages.json
 usr/lib/brave-bin/resources/brave_extension/_locales/uk/
 usr/lib/brave-bin/resources/brave_extension/_locales/uk/messages.json
+usr/lib/brave-bin/resources/brave_extension/_locales/ur/
+usr/lib/brave-bin/resources/brave_extension/_locales/ur/messages.json
 usr/lib/brave-bin/resources/brave_extension/_locales/vi/
 usr/lib/brave-bin/resources/brave_extension/_locales/vi/messages.json
 usr/lib/brave-bin/resources/brave_extension/_locales/zh_CN/
@@ -199,6 +205,8 @@ usr/lib/brave-bin/resources/brave_extension/_locales/zh_TW/
 usr/lib/brave-bin/resources/brave_extension/_locales/zh_TW/messages.json
 usr/lib/brave-bin/resources/brave_rewards/
 usr/lib/brave-bin/resources/brave_rewards/_locales/
+usr/lib/brave-bin/resources/brave_rewards/_locales/af/
+usr/lib/brave-bin/resources/brave_rewards/_locales/af/messages.json
 usr/lib/brave-bin/resources/brave_rewards/_locales/am/
 usr/lib/brave-bin/resources/brave_rewards/_locales/am/messages.json
 usr/lib/brave-bin/resources/brave_rewards/_locales/ar/
@@ -299,6 +307,8 @@ usr/lib/brave-bin/resources/brave_rewards/_locales/tr/
 usr/lib/brave-bin/resources/brave_rewards/_locales/tr/messages.json
 usr/lib/brave-bin/resources/brave_rewards/_locales/uk/
 usr/lib/brave-bin/resources/brave_rewards/_locales/uk/messages.json
+usr/lib/brave-bin/resources/brave_rewards/_locales/ur/
+usr/lib/brave-bin/resources/brave_rewards/_locales/ur/messages.json
 usr/lib/brave-bin/resources/brave_rewards/_locales/vi/
 usr/lib/brave-bin/resources/brave_rewards/_locales/vi/messages.json
 usr/lib/brave-bin/resources/brave_rewards/_locales/zh_CN/
