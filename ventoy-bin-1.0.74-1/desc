@@ -1,0 +1,62 @@
+%FILENAME%
+ventoy-bin-1.0.74-1-x86_64.pkg.tar.xz
+
+%NAME%
+ventoy-bin
+
+%BASE%
+ventoy-bin
+
+%VERSION%
+1.0.74-1
+
+%DESC%
+A new multiboot USB solution
+
+%CSIZE%
+15776580
+
+%ISIZE%
+18388340
+
+%MD5SUM%
+c7f110e92d84ed29d2cd2ca6543353c6
+
+%SHA256SUM%
+cedf3a62fb67c2469768e15438e029a983b995e50fe8e3b180fd58070580b919
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJqyckACgkQemZGpsFGkMAgYAwAiDdHv0vdSKSsM8MG+TVTqXHOitGU2Fp0CggplogcFQT4fWOUpFP4KMWRWKVPfhoKcFxadki/Kw4E0CiWzjgAI7lUZCCvNPjVvUIkeZj+gfxepDWCoOaFDkfX3KYYSnRQJW3gXl/fA+EF++oQlPeRCv8eLJ841Bvq9+eIql5llxqm1dSfpHrg9G1SpPrsrVqJlKT1MYyhT47sYht+rm1J2Tc9GqJjtKRG2CcdNHVt4Up86hN05Q+xZDRZGUus2YAhDQupmVAsksXLJlmSGHk6wzSkXJOC7msXkIE7XkArC3EUxcATQ/oRVFKnU8PEKJ5Ebenr5ny7XuIhUDiwHWWL7XITvJ2i1Zq+XlTMztV/luYZppgmIoh+tsoc1gib+P0dzxdfzlfJUNG2KGMcDnVwq9V3l5KOrEEOh2ax5kl1TWPXgblR9xbwbCOA9ifLM5skkUavVA0rYJjwOIwxzZEM/g3/UVek1nE+E9BLVsSsnPG49LOnNBbxO8PvfghvRLtz
+
+%URL%
+http://www.ventoy.net
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1651165600
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+ventoy
+
+%PROVIDES%
+ventoy
+
+%DEPENDS%
+bash
+util-linux
+xz
+dosfstools
+
+%OPTDEPENDS%
+gtk3: GTK3 GUI
+qt5-base: Qt5 GUI
+polkit: run GUI from application menu
+
