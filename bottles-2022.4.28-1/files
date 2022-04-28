@@ -104,6 +104,7 @@ usr/share/bottles/bottles/dialogs/envvars.py
 usr/share/bottles/bottles/dialogs/gamescope.py
 usr/share/bottles/bottles/dialogs/generic.py
 usr/share/bottles/bottles/dialogs/generic_cli.py
+usr/share/bottles/bottles/dialogs/journal.py
 usr/share/bottles/bottles/dialogs/launchoptions.py
 usr/share/bottles/bottles/dialogs/onboard.py
 usr/share/bottles/bottles/dialogs/rename.py
