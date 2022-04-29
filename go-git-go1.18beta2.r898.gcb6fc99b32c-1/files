@@ -12173,6 +12173,10 @@ usr/lib/go/test/fixedbugs/issue5259.dir/
 usr/lib/go/test/fixedbugs/issue5259.dir/bug.go
 usr/lib/go/test/fixedbugs/issue5259.dir/main.go
 usr/lib/go/test/fixedbugs/issue5259.go
+usr/lib/go/test/fixedbugs/issue52590.dir/
+usr/lib/go/test/fixedbugs/issue52590.dir/a.go
+usr/lib/go/test/fixedbugs/issue52590.dir/b.go
+usr/lib/go/test/fixedbugs/issue52590.go
 usr/lib/go/test/fixedbugs/issue5260.dir/
 usr/lib/go/test/fixedbugs/issue5260.dir/a.go
 usr/lib/go/test/fixedbugs/issue5260.dir/b.go
@@ -13106,6 +13110,10 @@ usr/lib/go/test/typeparam/issue51836.dir/a.go
 usr/lib/go/test/typeparam/issue51836.dir/aa.go
 usr/lib/go/test/typeparam/issue51836.dir/p.go
 usr/lib/go/test/typeparam/issue51836.go
+usr/lib/go/test/typeparam/issue52117.dir/
+usr/lib/go/test/typeparam/issue52117.dir/a.go
+usr/lib/go/test/typeparam/issue52117.dir/b.go
+usr/lib/go/test/typeparam/issue52117.go
 usr/lib/go/test/typeparam/issue52124.go
 usr/lib/go/test/typeparam/issue52228.go
 usr/lib/go/test/typeparam/list.go

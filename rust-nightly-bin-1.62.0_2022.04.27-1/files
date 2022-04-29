@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-a5d57be6394dba70.so
+usr/lib/librustc_driver-ea64a5f3bf69bca3.so
 usr/lib/libstd-202fc93d8ccaebf2.so
 usr/lib/libtest-f14110fc9206b650.so
 usr/lib/rustlib/
@@ -33077,6 +33077,8 @@ usr/share/doc/rust/html/std/os/windows/io/handle/
 usr/share/doc/rust/html/std/os/windows/io/handle/struct.BorrowedHandle.html
 usr/share/doc/rust/html/std/os/windows/io/handle/struct.HandleOrInvalid.html
 usr/share/doc/rust/html/std/os/windows/io/handle/struct.HandleOrNull.html
+usr/share/doc/rust/html/std/os/windows/io/handle/struct.InvalidHandleError.html
+usr/share/doc/rust/html/std/os/windows/io/handle/struct.NullHandleError.html
 usr/share/doc/rust/html/std/os/windows/io/handle/struct.OwnedHandle.html
 usr/share/doc/rust/html/std/os/windows/io/handle/trait.AsHandle.html
 usr/share/doc/rust/html/std/os/windows/io/index.html
@@ -33098,6 +33100,8 @@ usr/share/doc/rust/html/std/os/windows/io/struct.BorrowedHandle.html
 usr/share/doc/rust/html/std/os/windows/io/struct.BorrowedSocket.html
 usr/share/doc/rust/html/std/os/windows/io/struct.HandleOrInvalid.html
 usr/share/doc/rust/html/std/os/windows/io/struct.HandleOrNull.html
+usr/share/doc/rust/html/std/os/windows/io/struct.InvalidHandleError.html
+usr/share/doc/rust/html/std/os/windows/io/struct.NullHandleError.html
 usr/share/doc/rust/html/std/os/windows/io/struct.OwnedHandle.html
 usr/share/doc/rust/html/std/os/windows/io/struct.OwnedSocket.html
 usr/share/doc/rust/html/std/os/windows/io/trait.AsHandle.html
