@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-ea64a5f3bf69bca3.so
+usr/lib/librustc_driver-e6e14955104379b5.so
 usr/lib/libstd-202fc93d8ccaebf2.so
 usr/lib/libtest-f14110fc9206b650.so
 usr/lib/rustlib/
@@ -30928,6 +30928,7 @@ usr/share/doc/rust/html/src/alloc/collections/vec_deque/macros.rs.html
 usr/share/doc/rust/html/src/alloc/collections/vec_deque/mod.rs.html
 usr/share/doc/rust/html/src/alloc/collections/vec_deque/pair_slices.rs.html
 usr/share/doc/rust/html/src/alloc/collections/vec_deque/ring_slices.rs.html
+usr/share/doc/rust/html/src/alloc/collections/vec_deque/spec_extend.rs.html
 usr/share/doc/rust/html/src/alloc/ffi/
 usr/share/doc/rust/html/src/alloc/ffi/c_str.rs.html
 usr/share/doc/rust/html/src/alloc/ffi/mod.rs.html

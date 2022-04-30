@@ -14,6 +14,7 @@ usr/lib/chromium/libEGL.so
 usr/lib/chromium/libGLESv2.so
 usr/lib/chromium/libvk_swiftshader.so
 usr/lib/chromium/locales/
+usr/lib/chromium/locales/af.pak
 usr/lib/chromium/locales/am.pak
 usr/lib/chromium/locales/ar.pak
 usr/lib/chromium/locales/bg.pak
@@ -64,6 +65,7 @@ usr/lib/chromium/locales/te.pak
 usr/lib/chromium/locales/th.pak
 usr/lib/chromium/locales/tr.pak
 usr/lib/chromium/locales/uk.pak
+usr/lib/chromium/locales/ur.pak
 usr/lib/chromium/locales/vi.pak
 usr/lib/chromium/locales/zh-CN.pak
 usr/lib/chromium/locales/zh-TW.pak

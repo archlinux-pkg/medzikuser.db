@@ -12181,6 +12181,7 @@ usr/lib/go/test/fixedbugs/issue5260.dir/
 usr/lib/go/test/fixedbugs/issue5260.dir/a.go
 usr/lib/go/test/fixedbugs/issue5260.dir/b.go
 usr/lib/go/test/fixedbugs/issue5260.go
+usr/lib/go/test/fixedbugs/issue52612.go
 usr/lib/go/test/fixedbugs/issue5291.dir/
 usr/lib/go/test/fixedbugs/issue5291.dir/pkg1.go
 usr/lib/go/test/fixedbugs/issue5291.dir/prog.go
