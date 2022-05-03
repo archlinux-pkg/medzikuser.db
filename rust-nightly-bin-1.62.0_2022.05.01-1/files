@@ -28740,6 +28740,7 @@ usr/share/doc/rust/html/core/ops/struct.RangeFull.html
 usr/share/doc/rust/html/core/ops/struct.RangeInclusive.html
 usr/share/doc/rust/html/core/ops/struct.RangeTo.html
 usr/share/doc/rust/html/core/ops/struct.RangeToInclusive.html
+usr/share/doc/rust/html/core/ops/struct.Yeet.html
 usr/share/doc/rust/html/core/ops/trait.Add.html
 usr/share/doc/rust/html/core/ops/trait.AddAssign.html
 usr/share/doc/rust/html/core/ops/trait.BitAnd.html
@@ -28779,6 +28780,7 @@ usr/share/doc/rust/html/core/ops/trait.Sub.html
 usr/share/doc/rust/html/core/ops/trait.SubAssign.html
 usr/share/doc/rust/html/core/ops/trait.Try.html
 usr/share/doc/rust/html/core/ops/try_trait/
+usr/share/doc/rust/html/core/ops/try_trait/struct.Yeet.html
 usr/share/doc/rust/html/core/ops/try_trait/trait.FromResidual.html
 usr/share/doc/rust/html/core/ops/try_trait/trait.Residual.html
 usr/share/doc/rust/html/core/ops/try_trait/trait.Try.html
@@ -32785,6 +32787,7 @@ usr/share/doc/rust/html/std/ops/struct.RangeFull.html
 usr/share/doc/rust/html/std/ops/struct.RangeInclusive.html
 usr/share/doc/rust/html/std/ops/struct.RangeTo.html
 usr/share/doc/rust/html/std/ops/struct.RangeToInclusive.html
+usr/share/doc/rust/html/std/ops/struct.Yeet.html
 usr/share/doc/rust/html/std/ops/trait.Add.html
 usr/share/doc/rust/html/std/ops/trait.AddAssign.html
 usr/share/doc/rust/html/std/ops/trait.BitAnd.html
@@ -34042,6 +34045,7 @@ usr/share/doc/rust/html/unstable-book/language-features/used-with-arg.html
 usr/share/doc/rust/html/unstable-book/language-features/wasm-abi.html
 usr/share/doc/rust/html/unstable-book/language-features/wasm-target-feature.html
 usr/share/doc/rust/html/unstable-book/language-features/with-negative-coherence.html
+usr/share/doc/rust/html/unstable-book/language-features/yeet-expr.html
 usr/share/doc/rust/html/unstable-book/library-features.html
 usr/share/doc/rust/html/unstable-book/library-features/
 usr/share/doc/rust/html/unstable-book/library-features/absolute-path.html
@@ -34393,6 +34397,7 @@ usr/share/doc/rust/html/unstable-book/library-features/try-find.html
 usr/share/doc/rust/html/unstable-book/library-features/try-reserve-2.html
 usr/share/doc/rust/html/unstable-book/library-features/try-reserve-kind.html
 usr/share/doc/rust/html/unstable-book/library-features/try-trait-v2-residual.html
+usr/share/doc/rust/html/unstable-book/library-features/try-trait-v2-yeet.html
 usr/share/doc/rust/html/unstable-book/library-features/try-trait-v2.html
 usr/share/doc/rust/html/unstable-book/library-features/type-name-of-val.html
 usr/share/doc/rust/html/unstable-book/library-features/unchecked-math.html
@@ -34422,6 +34427,7 @@ usr/share/doc/rust/html/unstable-book/library-features/windows-stdio.html
 usr/share/doc/rust/html/unstable-book/library-features/wrapping-int-impl.html
 usr/share/doc/rust/html/unstable-book/library-features/wrapping-next-power-of-two.html
 usr/share/doc/rust/html/unstable-book/library-features/write-all-vectored.html
+usr/share/doc/rust/html/unstable-book/library-features/yeet-desugar-details.html
 usr/share/doc/rust/html/unstable-book/mark.min.js
 usr/share/doc/rust/html/unstable-book/print.html
 usr/share/doc/rust/html/unstable-book/searcher.js

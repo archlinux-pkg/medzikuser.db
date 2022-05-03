@@ -31,6 +31,7 @@ usr/lib/go/api/next/
 usr/lib/go/api/next/30715.txt
 usr/lib/go/api/next/35044.txt
 usr/lib/go/api/next/42710.txt
+usr/lib/go/api/next/43724.txt
 usr/lib/go/api/next/45628.txt
 usr/lib/go/api/next/45754.txt
 usr/lib/go/api/next/46057.txt
@@ -1003,7 +1004,6 @@ usr/lib/go/pkg/linux_amd64/internal/bytealg.a
 usr/lib/go/pkg/linux_amd64/internal/cfg.a
 usr/lib/go/pkg/linux_amd64/internal/cpu.a
 usr/lib/go/pkg/linux_amd64/internal/diff.a
-usr/lib/go/pkg/linux_amd64/internal/execabs.a
 usr/lib/go/pkg/linux_amd64/internal/fmtsort.a
 usr/lib/go/pkg/linux_amd64/internal/fuzz.a
 usr/lib/go/pkg/linux_amd64/internal/goarch.a
@@ -6867,9 +6867,6 @@ usr/lib/go/src/internal/diff/testdata/long.txt
 usr/lib/go/src/internal/diff/testdata/same.txt
 usr/lib/go/src/internal/diff/testdata/start.txt
 usr/lib/go/src/internal/diff/testdata/triv.txt
-usr/lib/go/src/internal/execabs/
-usr/lib/go/src/internal/execabs/execabs.go
-usr/lib/go/src/internal/execabs/execabs_test.go
 usr/lib/go/src/internal/fmtsort/
 usr/lib/go/src/internal/fmtsort/export_test.go
 usr/lib/go/src/internal/fmtsort/sort.go
@@ -7927,6 +7924,7 @@ usr/lib/go/src/os/example_test.go
 usr/lib/go/src/os/exec.go
 usr/lib/go/src/os/exec/
 usr/lib/go/src/os/exec/bench_test.go
+usr/lib/go/src/os/exec/dot_test.go
 usr/lib/go/src/os/exec/env_test.go
 usr/lib/go/src/os/exec/example_test.go
 usr/lib/go/src/os/exec/exec.go
