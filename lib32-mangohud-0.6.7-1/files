@@ -10,3 +10,4 @@ usr/share/licenses/lib32-mangohud/LICENSE
 usr/share/vulkan/
 usr/share/vulkan/implicit_layer.d/
 usr/share/vulkan/implicit_layer.d/MangoHud.x86.json
+usr/share/vulkan/implicit_layer.d/libMangoApp.x86.json
