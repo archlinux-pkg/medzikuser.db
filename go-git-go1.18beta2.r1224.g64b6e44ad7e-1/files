@@ -39,6 +39,7 @@ usr/lib/go/api/next/46059.txt
 usr/lib/go/api/next/46121.txt
 usr/lib/go/api/next/46229.txt
 usr/lib/go/api/next/47005.txt
+usr/lib/go/api/next/48409.txt
 usr/lib/go/api/next/50340.txt
 usr/lib/go/api/next/50599.txt
 usr/lib/go/api/next/50601.txt
@@ -728,6 +729,7 @@ usr/lib/go/pkg/linux_amd64/cmd/internal/dwarf.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/edit.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/gcprog.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/goobj.a
+usr/lib/go/pkg/linux_amd64/cmd/internal/notsha256.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/arm.a
@@ -909,6 +911,10 @@ usr/lib/go/pkg/linux_amd64/crypto/elliptic/internal/fiat.a
 usr/lib/go/pkg/linux_amd64/crypto/elliptic/internal/nistec.a
 usr/lib/go/pkg/linux_amd64/crypto/hmac.a
 usr/lib/go/pkg/linux_amd64/crypto/internal/
+usr/lib/go/pkg/linux_amd64/crypto/internal/boring.a
+usr/lib/go/pkg/linux_amd64/crypto/internal/boring/
+usr/lib/go/pkg/linux_amd64/crypto/internal/boring/bbig.a
+usr/lib/go/pkg/linux_amd64/crypto/internal/boring/sig.a
 usr/lib/go/pkg/linux_amd64/crypto/internal/randutil.a
 usr/lib/go/pkg/linux_amd64/crypto/internal/subtle.a
 usr/lib/go/pkg/linux_amd64/crypto/md5.a
@@ -1338,6 +1344,7 @@ usr/lib/go/src/cmd/addr2line/addr2line_test.go
 usr/lib/go/src/cmd/addr2line/main.go
 usr/lib/go/src/cmd/api/
 usr/lib/go/src/cmd/api/goapi.go
+usr/lib/go/src/cmd/api/goapi_boring_test.go
 usr/lib/go/src/cmd/api/goapi_test.go
 usr/lib/go/src/cmd/api/run.go
 usr/lib/go/src/cmd/api/testdata/
@@ -1868,6 +1875,7 @@ usr/lib/go/src/cmd/compile/internal/test/global_test.go
 usr/lib/go/src/cmd/compile/internal/test/iface_test.go
 usr/lib/go/src/cmd/compile/internal/test/inl_test.go
 usr/lib/go/src/cmd/compile/internal/test/inst_test.go
+usr/lib/go/src/cmd/compile/internal/test/intrinsics_test.go
 usr/lib/go/src/cmd/compile/internal/test/issue50182_test.go
 usr/lib/go/src/cmd/compile/internal/test/lang_test.go
 usr/lib/go/src/cmd/compile/internal/test/logic_test.go
@@ -2261,6 +2269,7 @@ usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51658.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue51877.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue52031.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue52401.go
+usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue52529.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/fixedbugs/issue6977.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/manual.go
 usr/lib/go/src/cmd/compile/internal/types2/testdata/spec/
@@ -2390,6 +2399,7 @@ usr/lib/go/src/cmd/go/
 usr/lib/go/src/cmd/go/alldocs.go
 usr/lib/go/src/cmd/go/export_test.go
 usr/lib/go/src/cmd/go/go11.go
+usr/lib/go/src/cmd/go/go_boring_test.go
 usr/lib/go/src/cmd/go/go_test.go
 usr/lib/go/src/cmd/go/go_unix_test.go
 usr/lib/go/src/cmd/go/go_windows_test.go
@@ -3053,6 +3063,7 @@ usr/lib/go/src/cmd/go/testdata/script/issue36000.txt
 usr/lib/go/src/cmd/go/testdata/script/ldflag.txt
 usr/lib/go/src/cmd/go/testdata/script/link_external_undef.txt
 usr/lib/go/src/cmd/go/testdata/script/link_matching_actionid.txt
+usr/lib/go/src/cmd/go/testdata/script/link_syso_deps.txt
 usr/lib/go/src/cmd/go/testdata/script/link_syso_issue33139.txt
 usr/lib/go/src/cmd/go/testdata/script/linkname.txt
 usr/lib/go/src/cmd/go/testdata/script/list_all_gobuild.txt
@@ -3693,6 +3704,17 @@ usr/lib/go/src/cmd/internal/metadata/
 usr/lib/go/src/cmd/internal/metadata/main.go
 usr/lib/go/src/cmd/internal/moddeps/
 usr/lib/go/src/cmd/internal/moddeps/moddeps_test.go
+usr/lib/go/src/cmd/internal/notsha256/
+usr/lib/go/src/cmd/internal/notsha256/example_test.go
+usr/lib/go/src/cmd/internal/notsha256/sha256.go
+usr/lib/go/src/cmd/internal/notsha256/sha256_test.go
+usr/lib/go/src/cmd/internal/notsha256/sha256block.go
+usr/lib/go/src/cmd/internal/notsha256/sha256block_386.s
+usr/lib/go/src/cmd/internal/notsha256/sha256block_amd64.go
+usr/lib/go/src/cmd/internal/notsha256/sha256block_amd64.s
+usr/lib/go/src/cmd/internal/notsha256/sha256block_decl.go
+usr/lib/go/src/cmd/internal/notsha256/sha256block_generic.go
+usr/lib/go/src/cmd/internal/notsha256/sha256block_ppc64x.s
 usr/lib/go/src/cmd/internal/obj/
 usr/lib/go/src/cmd/internal/obj/abi_string.go
 usr/lib/go/src/cmd/internal/obj/addrtype_string.go
@@ -4320,6 +4342,7 @@ usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_386.s
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_amd64.s
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_arm.s
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_arm64.s
+usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_loong64.s
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_mips64x.s
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_mipsx.s
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s
@@ -4407,6 +4430,7 @@ usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_gc_386.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_gc_arm.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_gccgo_386.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_gccgo_arm.go
+usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_loong64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_mips64x.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_mipsx.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/syscall_linux_ppc.go
@@ -4451,6 +4475,7 @@ usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_386.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_arm.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go
+usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_loong64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_mips.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_mips64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zerrors_linux_mips64le.go
@@ -4500,6 +4525,7 @@ usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_386.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go
+usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_loong64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_mips.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go
@@ -4537,6 +4563,7 @@ usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_386.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_amd64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_arm.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_arm64.go
+usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_loong64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_mips.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64le.go
@@ -4572,6 +4599,7 @@ usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_386.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_arm.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go
+usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_loong64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_mips.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go
 usr/lib/go/src/cmd/vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go
@@ -4996,6 +5024,10 @@ usr/lib/go/src/crypto/aes/gcm_ppc64le.s
 usr/lib/go/src/crypto/aes/gcm_s390x.go
 usr/lib/go/src/crypto/aes/modes.go
 usr/lib/go/src/crypto/aes/modes_test.go
+usr/lib/go/src/crypto/boring/
+usr/lib/go/src/crypto/boring/boring.go
+usr/lib/go/src/crypto/boring/boring_test.go
+usr/lib/go/src/crypto/boring/notboring_test.go
 usr/lib/go/src/crypto/cipher/
 usr/lib/go/src/crypto/cipher/benchmark_test.go
 usr/lib/go/src/crypto/cipher/cbc.go
@@ -5035,6 +5067,7 @@ usr/lib/go/src/crypto/dsa/
 usr/lib/go/src/crypto/dsa/dsa.go
 usr/lib/go/src/crypto/dsa/dsa_test.go
 usr/lib/go/src/crypto/ecdsa/
+usr/lib/go/src/crypto/ecdsa/boring.go
 usr/lib/go/src/crypto/ecdsa/ecdsa.go
 usr/lib/go/src/crypto/ecdsa/ecdsa_noasm.go
 usr/lib/go/src/crypto/ecdsa/ecdsa_s390x.go
@@ -5043,6 +5076,7 @@ usr/lib/go/src/crypto/ecdsa/ecdsa_s390x_test.go
 usr/lib/go/src/crypto/ecdsa/ecdsa_test.go
 usr/lib/go/src/crypto/ecdsa/equal_test.go
 usr/lib/go/src/crypto/ecdsa/example_test.go
+usr/lib/go/src/crypto/ecdsa/notboring.go
 usr/lib/go/src/crypto/ecdsa/testdata/
 usr/lib/go/src/crypto/ecdsa/testdata/SigVer.rsp.bz2
 usr/lib/go/src/crypto/ed25519/
@@ -5125,6 +5159,36 @@ usr/lib/go/src/crypto/hmac/
 usr/lib/go/src/crypto/hmac/hmac.go
 usr/lib/go/src/crypto/hmac/hmac_test.go
 usr/lib/go/src/crypto/internal/
+usr/lib/go/src/crypto/internal/boring/
+usr/lib/go/src/crypto/internal/boring/Dockerfile
+usr/lib/go/src/crypto/internal/boring/LICENSE
+usr/lib/go/src/crypto/internal/boring/aes.go
+usr/lib/go/src/crypto/internal/boring/bbig/
+usr/lib/go/src/crypto/internal/boring/bbig/big.go
+usr/lib/go/src/crypto/internal/boring/boring.go
+usr/lib/go/src/crypto/internal/boring/boring_test.go
+usr/lib/go/src/crypto/internal/boring/build.sh
+usr/lib/go/src/crypto/internal/boring/cache.go
+usr/lib/go/src/crypto/internal/boring/cache_test.go
+usr/lib/go/src/crypto/internal/boring/doc.go
+usr/lib/go/src/crypto/internal/boring/ecdsa.go
+usr/lib/go/src/crypto/internal/boring/fipstls/
+usr/lib/go/src/crypto/internal/boring/fipstls/stub.s
+usr/lib/go/src/crypto/internal/boring/fipstls/tls.go
+usr/lib/go/src/crypto/internal/boring/goboringcrypto.h
+usr/lib/go/src/crypto/internal/boring/hmac.go
+usr/lib/go/src/crypto/internal/boring/notboring.go
+usr/lib/go/src/crypto/internal/boring/rand.go
+usr/lib/go/src/crypto/internal/boring/rsa.go
+usr/lib/go/src/crypto/internal/boring/sha.go
+usr/lib/go/src/crypto/internal/boring/sig/
+usr/lib/go/src/crypto/internal/boring/sig/sig.go
+usr/lib/go/src/crypto/internal/boring/sig/sig_amd64.s
+usr/lib/go/src/crypto/internal/boring/sig/sig_other.s
+usr/lib/go/src/crypto/internal/boring/stub.s
+usr/lib/go/src/crypto/internal/boring/syso/
+usr/lib/go/src/crypto/internal/boring/syso/goboringcrypto_linux_amd64.syso
+usr/lib/go/src/crypto/internal/boring/syso/syso.go
 usr/lib/go/src/crypto/internal/randutil/
 usr/lib/go/src/crypto/internal/randutil/randutil.go
 usr/lib/go/src/crypto/internal/subtle/
@@ -5163,8 +5227,11 @@ usr/lib/go/src/crypto/rc4/
 usr/lib/go/src/crypto/rc4/rc4.go
 usr/lib/go/src/crypto/rc4/rc4_test.go
 usr/lib/go/src/crypto/rsa/
+usr/lib/go/src/crypto/rsa/boring.go
+usr/lib/go/src/crypto/rsa/boring_test.go
 usr/lib/go/src/crypto/rsa/equal_test.go
 usr/lib/go/src/crypto/rsa/example_test.go
+usr/lib/go/src/crypto/rsa/notboring.go
 usr/lib/go/src/crypto/rsa/pkcs1v15.go
 usr/lib/go/src/crypto/rsa/pkcs1v15_test.go
 usr/lib/go/src/crypto/rsa/pss.go
@@ -5174,9 +5241,11 @@ usr/lib/go/src/crypto/rsa/rsa_test.go
 usr/lib/go/src/crypto/rsa/testdata/
 usr/lib/go/src/crypto/rsa/testdata/pss-vect.txt.bz2
 usr/lib/go/src/crypto/sha1/
+usr/lib/go/src/crypto/sha1/boring.go
 usr/lib/go/src/crypto/sha1/example_test.go
 usr/lib/go/src/crypto/sha1/fallback_test.go
 usr/lib/go/src/crypto/sha1/issue15617_test.go
+usr/lib/go/src/crypto/sha1/notboring.go
 usr/lib/go/src/crypto/sha1/sha1.go
 usr/lib/go/src/crypto/sha1/sha1_test.go
 usr/lib/go/src/crypto/sha1/sha1block.go
@@ -5225,12 +5294,17 @@ usr/lib/go/src/crypto/tls/
 usr/lib/go/src/crypto/tls/alert.go
 usr/lib/go/src/crypto/tls/auth.go
 usr/lib/go/src/crypto/tls/auth_test.go
+usr/lib/go/src/crypto/tls/boring.go
+usr/lib/go/src/crypto/tls/boring_test.go
 usr/lib/go/src/crypto/tls/cipher_suites.go
 usr/lib/go/src/crypto/tls/common.go
 usr/lib/go/src/crypto/tls/common_string.go
 usr/lib/go/src/crypto/tls/conn.go
 usr/lib/go/src/crypto/tls/conn_test.go
 usr/lib/go/src/crypto/tls/example_test.go
+usr/lib/go/src/crypto/tls/fipsonly/
+usr/lib/go/src/crypto/tls/fipsonly/fipsonly.go
+usr/lib/go/src/crypto/tls/fipsonly/fipsonly_test.go
 usr/lib/go/src/crypto/tls/generate_cert.go
 usr/lib/go/src/crypto/tls/handshake_client.go
 usr/lib/go/src/crypto/tls/handshake_client_test.go
@@ -5246,6 +5320,7 @@ usr/lib/go/src/crypto/tls/key_agreement.go
 usr/lib/go/src/crypto/tls/key_schedule.go
 usr/lib/go/src/crypto/tls/key_schedule_test.go
 usr/lib/go/src/crypto/tls/link_test.go
+usr/lib/go/src/crypto/tls/notboring.go
 usr/lib/go/src/crypto/tls/prf.go
 usr/lib/go/src/crypto/tls/prf_test.go
 usr/lib/go/src/crypto/tls/testdata/
@@ -5374,6 +5449,8 @@ usr/lib/go/src/crypto/tls/ticket.go
 usr/lib/go/src/crypto/tls/tls.go
 usr/lib/go/src/crypto/tls/tls_test.go
 usr/lib/go/src/crypto/x509/
+usr/lib/go/src/crypto/x509/boring.go
+usr/lib/go/src/crypto/x509/boring_test.go
 usr/lib/go/src/crypto/x509/cert_pool.go
 usr/lib/go/src/crypto/x509/cert_pool_test.go
 usr/lib/go/src/crypto/x509/example_test.go
@@ -5385,6 +5462,7 @@ usr/lib/go/src/crypto/x509/internal/macos/corefoundation.s
 usr/lib/go/src/crypto/x509/internal/macos/security.go
 usr/lib/go/src/crypto/x509/internal/macos/security.s
 usr/lib/go/src/crypto/x509/name_constraints_test.go
+usr/lib/go/src/crypto/x509/notboring.go
 usr/lib/go/src/crypto/x509/parser.go
 usr/lib/go/src/crypto/x509/parser_test.go
 usr/lib/go/src/crypto/x509/pem_decrypt.go
@@ -6450,6 +6528,7 @@ usr/lib/go/src/go/types/testdata/fixedbugs/issue51658.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue51877.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue52031.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue52401.go
+usr/lib/go/src/go/types/testdata/fixedbugs/issue52529.go
 usr/lib/go/src/go/types/testdata/fixedbugs/issue6977.go
 usr/lib/go/src/go/types/testdata/manual.go
 usr/lib/go/src/go/types/testdata/spec/
@@ -8575,6 +8654,8 @@ usr/lib/go/src/runtime/mfinal.go
 usr/lib/go/src/runtime/mfinal_test.go
 usr/lib/go/src/runtime/mfixalloc.go
 usr/lib/go/src/runtime/mgc.go
+usr/lib/go/src/runtime/mgclimit.go
+usr/lib/go/src/runtime/mgclimit_test.go
 usr/lib/go/src/runtime/mgcmark.go
 usr/lib/go/src/runtime/mgcpacer.go
 usr/lib/go/src/runtime/mgcpacer_test.go
@@ -8835,6 +8916,7 @@ usr/lib/go/src/runtime/runtime-lldb_test.go
 usr/lib/go/src/runtime/runtime.go
 usr/lib/go/src/runtime/runtime1.go
 usr/lib/go/src/runtime/runtime2.go
+usr/lib/go/src/runtime/runtime_boring.go
 usr/lib/go/src/runtime/runtime_linux_test.go
 usr/lib/go/src/runtime/runtime_mmap_test.go
 usr/lib/go/src/runtime/runtime_test.go
@@ -9863,6 +9945,7 @@ usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_linux_mips64x.go
 usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_linux_noinit.go
 usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_linux_ppc64x.go
 usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_linux_s390x.go
+usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_loong64.go
 usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_mips64x.go
 usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_mipsx.go
 usr/lib/go/src/vendor/golang.org/x/sys/cpu/cpu_netbsd_arm64.go
@@ -10105,6 +10188,7 @@ usr/lib/go/test/codegen/issue33580.go
 usr/lib/go/test/codegen/issue38554.go
 usr/lib/go/test/codegen/issue42610.go
 usr/lib/go/test/codegen/issue48054.go
+usr/lib/go/test/codegen/issue52635.go
 usr/lib/go/test/codegen/logic.go
 usr/lib/go/test/codegen/mapaccess.go
 usr/lib/go/test/codegen/maps.go
@@ -13109,6 +13193,7 @@ usr/lib/go/test/typeparam/issue51836.dir/a.go
 usr/lib/go/test/typeparam/issue51836.dir/aa.go
 usr/lib/go/test/typeparam/issue51836.dir/p.go
 usr/lib/go/test/typeparam/issue51836.go
+usr/lib/go/test/typeparam/issue52026.go
 usr/lib/go/test/typeparam/issue52117.dir/
 usr/lib/go/test/typeparam/issue52117.dir/a.go
 usr/lib/go/test/typeparam/issue52117.dir/b.go
