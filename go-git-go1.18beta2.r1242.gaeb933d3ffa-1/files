@@ -44,7 +44,9 @@ usr/lib/go/api/next/50340.txt
 usr/lib/go/api/next/50599.txt
 usr/lib/go/api/next/50601.txt
 usr/lib/go/api/next/50674.txt
+usr/lib/go/api/next/50860.txt
 usr/lib/go/api/next/51082.txt
+usr/lib/go/api/next/51115.txt
 usr/lib/go/api/next/51414.txt
 usr/lib/go/api/next/51644.txt
 usr/lib/go/api/next/51684.txt
@@ -1616,6 +1618,7 @@ usr/lib/go/src/cmd/compile/internal/objw/objw.go
 usr/lib/go/src/cmd/compile/internal/objw/prog.go
 usr/lib/go/src/cmd/compile/internal/pkginit/
 usr/lib/go/src/cmd/compile/internal/pkginit/init.go
+usr/lib/go/src/cmd/compile/internal/pkginit/initAsanGlobals.go
 usr/lib/go/src/cmd/compile/internal/pkginit/initorder.go
 usr/lib/go/src/cmd/compile/internal/ppc64/
 usr/lib/go/src/cmd/compile/internal/ppc64/galign.go
@@ -3054,7 +3057,7 @@ usr/lib/go/src/cmd/go/testdata/script/install_cgo_excluded.txt
 usr/lib/go/src/cmd/go/testdata/script/install_cleans_build.txt
 usr/lib/go/src/cmd/go/testdata/script/install_cmd_gobin.txt
 usr/lib/go/src/cmd/go/testdata/script/install_cross_gobin.txt
-usr/lib/go/src/cmd/go/testdata/script/install_msan_and_race_require_cgo.txt
+usr/lib/go/src/cmd/go/testdata/script/install_msan_and_race_and_asan_require_cgo.txt
 usr/lib/go/src/cmd/go/testdata/script/install_rebuild_gopath.txt
 usr/lib/go/src/cmd/go/testdata/script/install_rebuild_removed.txt
 usr/lib/go/src/cmd/go/testdata/script/install_relative_gobin_fail.txt
@@ -3330,6 +3333,7 @@ usr/lib/go/src/cmd/go/testdata/script/mod_retract_rationale.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_retract_rename.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_retract_replace.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_retract_versions.txt
+usr/lib/go/src/cmd/go/testdata/script/mod_run_issue52331.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_run_nonmain.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_run_path.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_run_pkg_version.txt
@@ -6161,6 +6165,7 @@ usr/lib/go/src/go/parser/testdata/resolution/typeparams.go2
 usr/lib/go/src/go/parser/testdata/set.go2
 usr/lib/go/src/go/parser/testdata/slices.go2
 usr/lib/go/src/go/parser/testdata/sort.go2
+usr/lib/go/src/go/parser/testdata/tparams.go2
 usr/lib/go/src/go/parser/testdata/typeparams.src
 usr/lib/go/src/go/parser/testdata/typeset.go2
 usr/lib/go/src/go/printer/
@@ -8213,6 +8218,7 @@ usr/lib/go/src/reflect/example_test.go
 usr/lib/go/src/reflect/export_test.go
 usr/lib/go/src/reflect/float32reg_generic.go
 usr/lib/go/src/reflect/float32reg_ppc64x.s
+usr/lib/go/src/reflect/float32reg_riscv64.s
 usr/lib/go/src/reflect/internal/
 usr/lib/go/src/reflect/internal/example1/
 usr/lib/go/src/reflect/internal/example1/example.go
@@ -8221,6 +8227,7 @@ usr/lib/go/src/reflect/internal/example2/example.go
 usr/lib/go/src/reflect/makefunc.go
 usr/lib/go/src/reflect/set_test.go
 usr/lib/go/src/reflect/stubs_ppc64x.go
+usr/lib/go/src/reflect/stubs_riscv64.go
 usr/lib/go/src/reflect/swapper.go
 usr/lib/go/src/reflect/tostring_test.go
 usr/lib/go/src/reflect/type.go
@@ -8864,6 +8871,7 @@ usr/lib/go/src/runtime/race0.go
 usr/lib/go/src/runtime/race_amd64.s
 usr/lib/go/src/runtime/race_arm64.s
 usr/lib/go/src/runtime/race_ppc64le.s
+usr/lib/go/src/runtime/race_s390x.s
 usr/lib/go/src/runtime/rand_test.go
 usr/lib/go/src/runtime/rdebug.go
 usr/lib/go/src/runtime/relax_stub.go
@@ -9291,6 +9299,7 @@ usr/lib/go/src/sync/atomic/atomic_test.go
 usr/lib/go/src/sync/atomic/doc.go
 usr/lib/go/src/sync/atomic/example_test.go
 usr/lib/go/src/sync/atomic/race.s
+usr/lib/go/src/sync/atomic/type.go
 usr/lib/go/src/sync/atomic/value.go
 usr/lib/go/src/sync/atomic/value_test.go
 usr/lib/go/src/sync/cond.go
@@ -12723,6 +12732,7 @@ usr/lib/go/test/print.out
 usr/lib/go/test/printbig.go
 usr/lib/go/test/printbig.out
 usr/lib/go/test/prove.go
+usr/lib/go/test/prove_constant_folding.go
 usr/lib/go/test/range.go
 usr/lib/go/test/recover.go
 usr/lib/go/test/recover1.go
