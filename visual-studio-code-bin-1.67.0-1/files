@@ -282,6 +282,11 @@ opt/visual-studio-code/resources/app/extensions/github-authentication/dist/nls.m
 opt/visual-studio-code/resources/app/extensions/github-authentication/dist/nls.metadata.json
 opt/visual-studio-code/resources/app/extensions/github-authentication/images/
 opt/visual-studio-code/resources/app/extensions/github-authentication/images/icon.png
+opt/visual-studio-code/resources/app/extensions/github-authentication/media/
+opt/visual-studio-code/resources/app/extensions/github-authentication/media/auth.css
+opt/visual-studio-code/resources/app/extensions/github-authentication/media/favicon.ico
+opt/visual-studio-code/resources/app/extensions/github-authentication/media/icon.png
+opt/visual-studio-code/resources/app/extensions/github-authentication/media/index.html
 opt/visual-studio-code/resources/app/extensions/github-authentication/package.json
 opt/visual-studio-code/resources/app/extensions/github-authentication/package.nls.json
 opt/visual-studio-code/resources/app/extensions/github/
@@ -296,6 +301,20 @@ opt/visual-studio-code/resources/app/extensions/github/images/icon.png
 opt/visual-studio-code/resources/app/extensions/github/markdown.css
 opt/visual-studio-code/resources/app/extensions/github/package.json
 opt/visual-studio-code/resources/app/extensions/github/package.nls.json
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE.md
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/a.md
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/b.md
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/x.txt
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/docs/
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE.md
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/a.md
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/b.md
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/x.txt
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/some-markdown.md
+opt/visual-studio-code/resources/app/extensions/github/testWorkspace/x.txt
 opt/visual-studio-code/resources/app/extensions/go/
 opt/visual-studio-code/resources/app/extensions/go/language-configuration.json
 opt/visual-studio-code/resources/app/extensions/go/package.json
@@ -577,6 +596,7 @@ opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/nl
 opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/nls.metadata.json
 opt/visual-studio-code/resources/app/extensions/microsoft-authentication/media/
 opt/visual-studio-code/resources/app/extensions/microsoft-authentication/media/auth.css
+opt/visual-studio-code/resources/app/extensions/microsoft-authentication/media/favicon.ico
 opt/visual-studio-code/resources/app/extensions/microsoft-authentication/media/icon.png
 opt/visual-studio-code/resources/app/extensions/microsoft-authentication/media/index.html
 opt/visual-studio-code/resources/app/extensions/microsoft-authentication/package.json
@@ -717,6 +737,7 @@ opt/visual-studio-code/resources/app/extensions/ms-vscode.references-view/media/
 opt/visual-studio-code/resources/app/extensions/ms-vscode.references-view/package.json
 opt/visual-studio-code/resources/app/extensions/ms-vscode.vscode-js-profile-table/
 opt/visual-studio-code/resources/app/extensions/ms-vscode.vscode-js-profile-table/README.md
+opt/visual-studio-code/resources/app/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt
 opt/visual-studio-code/resources/app/extensions/ms-vscode.vscode-js-profile-table/ci.yml
 opt/visual-studio-code/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/
 opt/visual-studio-code/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js
@@ -893,8 +914,6 @@ opt/visual-studio-code/resources/app/extensions/powershell/
 opt/visual-studio-code/resources/app/extensions/powershell/language-configuration.json
 opt/visual-studio-code/resources/app/extensions/powershell/package.json
 opt/visual-studio-code/resources/app/extensions/powershell/package.nls.json
-opt/visual-studio-code/resources/app/extensions/powershell/snippets/
-opt/visual-studio-code/resources/app/extensions/powershell/snippets/powershell.code-snippets
 opt/visual-studio-code/resources/app/extensions/powershell/syntaxes/
 opt/visual-studio-code/resources/app/extensions/powershell/syntaxes/powershell.tmLanguage.json
 opt/visual-studio-code/resources/app/extensions/pug/
@@ -1274,9 +1293,6 @@ opt/visual-studio-code/resources/app/out/vs/code/node/cliProcessMain.js
 opt/visual-studio-code/resources/app/out/vs/code/node/cliProcessMain.nls.js
 opt/visual-studio-code/resources/app/out/vs/loader.js
 opt/visual-studio-code/resources/app/out/vs/platform/
-opt/visual-studio-code/resources/app/out/vs/platform/driver/
-opt/visual-studio-code/resources/app/out/vs/platform/driver/node/
-opt/visual-studio-code/resources/app/out/vs/platform/driver/node/driver.js
 opt/visual-studio-code/resources/app/out/vs/platform/environment/
 opt/visual-studio-code/resources/app/out/vs/platform/environment/node/
 opt/visual-studio-code/resources/app/out/vs/platform/environment/node/userDataPath.js
@@ -1367,6 +1383,8 @@ opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/
 opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/browser/
 opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/browser/media/
 opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-env.zsh
+opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-profile.zsh
 opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration.ps1
 opt/visual-studio-code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration.zsh
 opt/visual-studio-code/resources/app/out/vs/workbench/contrib/webview/
