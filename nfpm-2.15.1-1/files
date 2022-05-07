@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/nfpm
+usr/share/
+usr/share/licenses/
+usr/share/licenses/nfpm/
+usr/share/licenses/nfpm/LICENSE
