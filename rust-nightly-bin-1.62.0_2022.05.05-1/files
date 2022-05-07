@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-aa21f888deb763cb.so
+usr/lib/librustc_driver-e20246b811bd4269.so
 usr/lib/libstd-202fc93d8ccaebf2.so
 usr/lib/libtest-f14110fc9206b650.so
 usr/lib/rustlib/
@@ -33922,6 +33922,7 @@ usr/share/doc/rust/html/unstable-book/language-features/const-try.html
 usr/share/doc/rust/html/unstable-book/language-features/crate-visibility-modifier.html
 usr/share/doc/rust/html/unstable-book/language-features/custom-inner-attributes.html
 usr/share/doc/rust/html/unstable-book/language-features/custom-test-frameworks.html
+usr/share/doc/rust/html/unstable-book/language-features/debugger-visualizer.html
 usr/share/doc/rust/html/unstable-book/language-features/decl-macro.html
 usr/share/doc/rust/html/unstable-book/language-features/default-alloc-error-handler.html
 usr/share/doc/rust/html/unstable-book/language-features/default-type-parameter-fallback.html
@@ -34078,7 +34079,6 @@ usr/share/doc/rust/html/unstable-book/library-features/binary-heap-as-slice.html
 usr/share/doc/rust/html/unstable-book/library-features/binary-heap-drain-sorted.html
 usr/share/doc/rust/html/unstable-book/library-features/binary-heap-into-iter-sorted.html
 usr/share/doc/rust/html/unstable-book/library-features/binary-heap-retain.html
-usr/share/doc/rust/html/unstable-book/library-features/bool-to-option.html
 usr/share/doc/rust/html/unstable-book/library-features/bound-as-ref.html
 usr/share/doc/rust/html/unstable-book/library-features/bound-map.html
 usr/share/doc/rust/html/unstable-book/library-features/box-into-boxed-slice.html

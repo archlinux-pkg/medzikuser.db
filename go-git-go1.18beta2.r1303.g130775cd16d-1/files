@@ -3381,6 +3381,7 @@ usr/lib/go/src/cmd/go/testdata/script/mod_tidy_replace.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_tidy_replace_old.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_tidy_sum.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_tidy_symlink_issue35941.txt
+usr/lib/go/src/cmd/go/testdata/script/mod_tidy_temp.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_tidy_too_new.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_tidy_version.txt
 usr/lib/go/src/cmd/go/testdata/script/mod_update_sum_readonly.txt
@@ -3505,6 +3506,7 @@ usr/lib/go/src/cmd/go/testdata/script/test_no_run_example.txt
 usr/lib/go/src/cmd/go/testdata/script/test_no_tests.txt
 usr/lib/go/src/cmd/go/testdata/script/test_overlay.txt
 usr/lib/go/src/cmd/go/testdata/script/test_parallel_number.txt
+usr/lib/go/src/cmd/go/testdata/script/test_ppc64_linker_funcs.txt
 usr/lib/go/src/cmd/go/testdata/script/test_profile.txt
 usr/lib/go/src/cmd/go/testdata/script/test_race.txt
 usr/lib/go/src/cmd/go/testdata/script/test_race_cover_mode_issue20435.txt
@@ -12262,6 +12264,7 @@ usr/lib/go/test/fixedbugs/issue52278.go
 usr/lib/go/test/fixedbugs/issue5231.go
 usr/lib/go/test/fixedbugs/issue52438.go
 usr/lib/go/test/fixedbugs/issue5244.go
+usr/lib/go/test/fixedbugs/issue52535.go
 usr/lib/go/test/fixedbugs/issue5259.dir/
 usr/lib/go/test/fixedbugs/issue5259.dir/bug.go
 usr/lib/go/test/fixedbugs/issue5259.dir/main.go
@@ -13214,6 +13217,7 @@ usr/lib/go/test/typeparam/issue52117.dir/b.go
 usr/lib/go/test/typeparam/issue52117.go
 usr/lib/go/test/typeparam/issue52124.go
 usr/lib/go/test/typeparam/issue52228.go
+usr/lib/go/test/typeparam/issue52241.go
 usr/lib/go/test/typeparam/list.go
 usr/lib/go/test/typeparam/list2.go
 usr/lib/go/test/typeparam/listimp.dir/
