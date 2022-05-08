@@ -1,5 +1,5 @@
 %FILENAME%
-ungoogled-chromium-101.0.4951.54-1-x86_64.pkg.tar.xz
+ungoogled-chromium-101.0.4951.54-2-x86_64.pkg.tar.xz
 
 %NAME%
 ungoogled-chromium
@@ -8,25 +8,25 @@ ungoogled-chromium
 ungoogled-chromium
 
 %VERSION%
-101.0.4951.54-1
+101.0.4951.54-2
 
 %DESC%
 A lightweight approach to removing Google web service dependency
 
 %CSIZE%
-82059648
+82058112
 
 %ISIZE%
-274653474
+274654690
 
 %MD5SUM%
-bcc8018b949de2d54e4a2f49fef3924c
+1d7ba1adaa6a8139781cdd554be1ec8c
 
 %SHA256SUM%
-7ab89eeb729533ec90288e017a28752907a0743d01f0d7ce25f9e0219bfcd91e
+decddf6cd0258f205727d0d02f7bebe8d195fb156cebb048b5dd347a65f527f5
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJzY6QACgkQemZGpsFGkMBdGQwAnR6z5JBYrY2lCisTCqVtJW470vn5Ou7jV3bSQNGtp5j46i2mlxP2iGVUAosqD2mAbUhN1QUYac22/TVvlxHdW1GiAYmQHPBY+cODi5z5Kro3T/7V6XbrNdnugQmg5JwlZySa0YykUnXfeLKgyWJgO3sOCsoA/d4lxCOfXjphI9LLVznrPwGo51eNwyu+V4LEmv9JB7slBN4BAMFBlwEElbOMx2zGtOQI8V4j7Iay99BY1GOtUq/gStXwanD7QdDUH6NOOqdnr4Fex4d3aCerQOlhm6NDERyynfkBsseZ29LA1fKBtW1KCmbNDg9bcp1akCzPwvzNFaOCN5GA9v4RkL80GDGv2Y2A/Oh7G9gw6htD7ggXZxf1t6df8xkZ9VlEntYOs5gDRTpRgZ9ho29+UNwd5fYAxPYAHRK5Q/Ma1QvDbWY8htboA1YRzAydVvWqv3BFr50aMYREGPhMcPvp8dB/+Z1BA/yv8lSwKaXV0mJ5piHsP0tuErTiZz1H6Gwe
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJ3qfEACgkQemZGpsFGkMDLXQwAtRT+gs+H+KwKycG+Z4f62zvf3KJtpw+Ao3vhoOO7vSEQkOKngQD/63qOg2inpM3tccBzJZQsLSNqqYwXZi2pvl09ds1d0DXetQMD+QWjBHipZRmrs+/MXTDkGAO7n6pJiQp+AuriG03iOLMcudCWorZ29ztjdynD80wiS0y9Tjqso8mYxlZLyxypsbFevOb7/hlet1tt4RMBhhZDMcPmSUo7Ec1WN4bT/kub79Nna+EEE8hmgM650a/UVSLlMFXDlr3V8V0YPZoURODm0XtWzVn+EK1J/6AenvtbObHXxqSLu00qVGouo/ZQloTj+O/M3WJbV7TCMR5LxRF6+C/SXUnTD8HIpHr3AfTXNeCqYH7ugWxacKsL0Q9UVnXGWQcqsA0Dz6OQ89VutNhbzjQtJoixPwciBHbc9XkkYK2I+OOGeAOoFSbDOKkZCmNLnsWlfLwCikaid7wtFcWscrGDos8R9IGq3aR4PVHBLL7bE2smswAypAvsER+Yhc8k40Fy
 
 %URL%
 https://github.com/Eloston/ungoogled-chromium
@@ -38,7 +38,7 @@ BSD
 x86_64
 
 %BUILDDATE%
-1651668257
+1651953300
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
