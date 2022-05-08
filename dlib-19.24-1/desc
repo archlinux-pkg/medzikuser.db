@@ -1,0 +1,62 @@
+%FILENAME%
+dlib-19.24-1-x86_64.pkg.tar.xz
+
+%NAME%
+dlib
+
+%BASE%
+dlib
+
+%VERSION%
+19.24-1
+
+%DESC%
+A general purpose cross-platform C++ library designed using contract programming and modern C++ techniques
+
+%CSIZE%
+2351716
+
+%ISIZE%
+15421829
+
+%MD5SUM%
+a2b0c7609be06a5b718605d3c4ede85d
+
+%SHA256SUM%
+95dee69b2c2a94047faab3481234c2e10de719544b5794bd61c46772f6006e7c
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJ39tsACgkQemZGpsFGkMAwEgwAuwjRHZ/rCcUltu1IoDGOu04mwYsIhYVa8oyS8s57KJUKdK//WMld+hIfH35xZ52xKnPpfSgxg31qVILuREdfHniBAGSQquxE6S9Nc1Vc0ZP6EEvouRsACEUmfDDXcNoHfI+RFvA8QQllWfWpM7J3a9+QMjPDUUUzGyqa37SYKLMUIXVXvRH0UANjE1qyGPCxJ7lyE7YZNfQRm2W+mhK7GOBcG+qR9waMNMONskzyIh0BCUlWUIzZHkO5gd+Xz16UiUJOmwwBSSl7UZQwEPN+5JjM77AzjDCgINlCjFw+ikjAxlgsHWcjvQO0e/zUmPa59ee8GgpJo1cjMg6/dE2pilIV6wrHu758CYHxUK7P4mghGAihrZomo8cDIYZ7cj2S+UxuIVzF9eRl1Q3kRVuY07Xs9iqfAR7mrs/+i2JQ2HRBWSG5eWQ2420+AKUX4irtyG67LnRcurb+W/+opUouvqchD+Q41Ri8yA0rS4p+BEQITRQJ0+vOtlLktLOcPbyR
+
+%URL%
+http://dlib.net
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1652029008
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%DEPENDS%
+cblas
+lapack
+blas
+libjpeg-turbo
+libpng
+libx11
+
+%OPTDEPENDS%
+giflib: for GIF support
+libwebp: for WebP support
+sqlite: for sqlite support
+
+%MAKEDEPENDS%
+cmake
+ninja
+

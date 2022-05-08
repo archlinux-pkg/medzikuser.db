@@ -95,6 +95,7 @@ usr/include/dlib/cmake_utils/check_if_sse4_instructions_executable_on_host.cmake
 usr/include/dlib/cmake_utils/find_blas.cmake
 usr/include/dlib/cmake_utils/find_libjpeg.cmake
 usr/include/dlib/cmake_utils/find_libpng.cmake
+usr/include/dlib/cmake_utils/find_libwebp.cmake
 usr/include/dlib/cmake_utils/set_compiler_specific_options.cmake
 usr/include/dlib/cmake_utils/tell_visual_studio_to_use_static_runtime.cmake
 usr/include/dlib/cmake_utils/test_for_avx/
@@ -218,7 +219,6 @@ usr/include/dlib/dnn/layers.h
 usr/include/dlib/dnn/layers_abstract.h
 usr/include/dlib/dnn/loss.h
 usr/include/dlib/dnn/loss_abstract.h
-usr/include/dlib/dnn/misc.h
 usr/include/dlib/dnn/solvers.h
 usr/include/dlib/dnn/solvers_abstract.h
 usr/include/dlib/dnn/trainer.h
@@ -226,6 +226,8 @@ usr/include/dlib/dnn/trainer_abstract.h
 usr/include/dlib/dnn/utilities.h
 usr/include/dlib/dnn/utilities_abstract.h
 usr/include/dlib/dnn/validation.h
+usr/include/dlib/dnn/visitors.h
+usr/include/dlib/dnn/visitors_abstract.h
 usr/include/dlib/enable_if.h
 usr/include/dlib/entropy_decoder.h
 usr/include/dlib/entropy_decoder/
@@ -401,6 +403,8 @@ usr/include/dlib/image_loader/load_image.h
 usr/include/dlib/image_loader/load_image_abstract.h
 usr/include/dlib/image_loader/png_loader.h
 usr/include/dlib/image_loader/png_loader_abstract.h
+usr/include/dlib/image_loader/webp_loader.h
+usr/include/dlib/image_loader/webp_loader_abstract.h
 usr/include/dlib/image_processing.h
 usr/include/dlib/image_processing/
 usr/include/dlib/image_processing/box_overlap_testing.h
@@ -446,6 +450,8 @@ usr/include/dlib/image_saver/save_jpeg.h
 usr/include/dlib/image_saver/save_jpeg_abstract.h
 usr/include/dlib/image_saver/save_png.h
 usr/include/dlib/image_saver/save_png_abstract.h
+usr/include/dlib/image_saver/save_webp.h
+usr/include/dlib/image_saver/save_webp_abstract.h
 usr/include/dlib/image_transforms.h
 usr/include/dlib/image_transforms/
 usr/include/dlib/image_transforms/assign_image.h
@@ -1109,7 +1115,7 @@ usr/lib/cmake/dlib/dlib.cmake
 usr/lib/cmake/dlib/dlibConfig.cmake
 usr/lib/cmake/dlib/dlibConfigVersion.cmake
 usr/lib/libdlib.so
-usr/lib/libdlib.so.19.23.0
+usr/lib/libdlib.so.19.24.0
 usr/lib/pkgconfig/
 usr/lib/pkgconfig/dlib-1.pc
 usr/share/
