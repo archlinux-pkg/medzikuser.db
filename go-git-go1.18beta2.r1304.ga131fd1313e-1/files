@@ -5013,7 +5013,7 @@ usr/lib/go/src/crypto/aes/aes_gcm.go
 usr/lib/go/src/crypto/aes/aes_test.go
 usr/lib/go/src/crypto/aes/asm_amd64.s
 usr/lib/go/src/crypto/aes/asm_arm64.s
-usr/lib/go/src/crypto/aes/asm_ppc64le.s
+usr/lib/go/src/crypto/aes/asm_ppc64x.s
 usr/lib/go/src/crypto/aes/asm_s390x.s
 usr/lib/go/src/crypto/aes/block.go
 usr/lib/go/src/crypto/aes/cbc_ppc64le.go
