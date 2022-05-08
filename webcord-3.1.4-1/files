@@ -358,6 +358,7 @@ usr/lib/webcord/node_modules/@fontsource/source-code-pro/cyrillic-ext-900.css
 usr/lib/webcord/node_modules/@fontsource/source-code-pro/cyrillic-ext.css
 usr/lib/webcord/node_modules/@fontsource/source-code-pro/cyrillic.css
 usr/lib/webcord/node_modules/@fontsource/source-code-pro/files/
+usr/lib/webcord/node_modules/@fontsource/source-code-pro/files/file-list.json
 usr/lib/webcord/node_modules/@fontsource/source-code-pro/files/source-code-pro-all-200-italic.woff
 usr/lib/webcord/node_modules/@fontsource/source-code-pro/files/source-code-pro-all-200-normal.woff
 usr/lib/webcord/node_modules/@fontsource/source-code-pro/files/source-code-pro-all-300-italic.woff
@@ -735,6 +736,7 @@ usr/lib/webcord/node_modules/@fontsource/ubuntu/cyrillic-ext-700.css
 usr/lib/webcord/node_modules/@fontsource/ubuntu/cyrillic-ext.css
 usr/lib/webcord/node_modules/@fontsource/ubuntu/cyrillic.css
 usr/lib/webcord/node_modules/@fontsource/ubuntu/files/
+usr/lib/webcord/node_modules/@fontsource/ubuntu/files/file-list.json
 usr/lib/webcord/node_modules/@fontsource/ubuntu/files/ubuntu-all-300-italic.woff
 usr/lib/webcord/node_modules/@fontsource/ubuntu/files/ubuntu-all-300-normal.woff
 usr/lib/webcord/node_modules/@fontsource/ubuntu/files/ubuntu-all-400-italic.woff
@@ -2291,6 +2293,11 @@ usr/lib/webcord/node_modules/is-plain-object/dist/is-plain-object.js
 usr/lib/webcord/node_modules/is-plain-object/dist/is-plain-object.mjs
 usr/lib/webcord/node_modules/is-plain-object/is-plain-object.d.ts
 usr/lib/webcord/node_modules/is-plain-object/package.json
+usr/lib/webcord/node_modules/lru-cache/
+usr/lib/webcord/node_modules/lru-cache/LICENSE
+usr/lib/webcord/node_modules/lru-cache/README.md
+usr/lib/webcord/node_modules/lru-cache/index.js
+usr/lib/webcord/node_modules/lru-cache/package.json
 usr/lib/webcord/node_modules/marked/
 usr/lib/webcord/node_modules/marked/LICENSE.md
 usr/lib/webcord/node_modules/marked/README.md
@@ -2366,12 +2373,6 @@ usr/lib/webcord/node_modules/semver/internal/debug.js
 usr/lib/webcord/node_modules/semver/internal/identifiers.js
 usr/lib/webcord/node_modules/semver/internal/parse-options.js
 usr/lib/webcord/node_modules/semver/internal/re.js
-usr/lib/webcord/node_modules/semver/node_modules/
-usr/lib/webcord/node_modules/semver/node_modules/lru-cache/
-usr/lib/webcord/node_modules/semver/node_modules/lru-cache/LICENSE
-usr/lib/webcord/node_modules/semver/node_modules/lru-cache/README.md
-usr/lib/webcord/node_modules/semver/node_modules/lru-cache/index.js
-usr/lib/webcord/node_modules/semver/node_modules/lru-cache/package.json
 usr/lib/webcord/node_modules/semver/package.json
 usr/lib/webcord/node_modules/semver/preload.js
 usr/lib/webcord/node_modules/semver/range.bnf
@@ -2481,6 +2482,12 @@ usr/lib/webcord/node_modules/ws/lib/websocket-server.js
 usr/lib/webcord/node_modules/ws/lib/websocket.js
 usr/lib/webcord/node_modules/ws/package.json
 usr/lib/webcord/node_modules/ws/wrapper.mjs
+usr/lib/webcord/node_modules/yallist/
+usr/lib/webcord/node_modules/yallist/LICENSE
+usr/lib/webcord/node_modules/yallist/README.md
+usr/lib/webcord/node_modules/yallist/iterator.js
+usr/lib/webcord/node_modules/yallist/package.json
+usr/lib/webcord/node_modules/yallist/yallist.js
 usr/lib/webcord/package.json
 usr/lib/webcord/run.sh
 usr/lib/webcord/sources/
@@ -2512,6 +2519,7 @@ usr/lib/webcord/sources/app/main/windows/main.js
 usr/lib/webcord/sources/app/main/windows/settings.js
 usr/lib/webcord/sources/app/renderer/
 usr/lib/webcord/sources/app/renderer/modules/
+usr/lib/webcord/sources/app/renderer/modules/api.js
 usr/lib/webcord/sources/app/renderer/modules/capturer.js
 usr/lib/webcord/sources/app/renderer/modules/cosmetic.js
 usr/lib/webcord/sources/app/renderer/preload/
