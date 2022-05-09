@@ -1,0 +1,56 @@
+%FILENAME%
+dracula-gtk-theme-v3.0-2-any.pkg.tar.xz
+
+%NAME%
+dracula-gtk-theme
+
+%BASE%
+dracula-gtk-theme
+
+%VERSION%
+v3.0-2
+
+%DESC%
+Dark theme for GTK
+
+%CSIZE%
+404864
+
+%ISIZE%
+3803342
+
+%MD5SUM%
+c4f5fdc381fa3dc574a522e17a554f4a
+
+%SHA256SUM%
+daba1807fc22d6b81a9b128b3f749deb411b95ecaa24ce9305e9dfb5f55e82de
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJ5OCYACgkQemZGpsFGkMCXHQwA4hSgxIFF4K95woEDw7FIG6k9VG+eKKBfXKCAn8jWkiQ55hVzJySWmpzFJ8Sm/EVBi4mP212SudYCSsLnNFHnKhf1AqBfo18Tly8zVKUGxDfLlvixpoAQZZm9V6uLMv2hEqPWE4twNe0OYbzrZ1m9D8J5fg2CX6rqwetBGYlcAMJjISHFAtTwKKzaKpYBMAyg3s9sdQghLZvwQ0R91ReCbP9Z/FpVp8nZTl6TFlUEsOaiLs0z1SAOm7T8+EZS4rD306DjR7EV0M6qf0Xk/CZK9R92u7l4jqvSqa3WvwRa9ALNAiCf5BMwEeTh4X4BNoVuRDv4I2Y1yo6RQujZ6hd5CeXIbBlVI67vXAtLrurcU8Hadwyv82xyKT0VLIO2jG+h4h5YdKUI3GzkGkRK/ozDYi9D+LIAYVoouKdbjFRUxL74DLDxmjhoVP0sp/V7CpH0CsbWTu4DFRsCMl+QyKwPz9VfCv4FCNuo4ppt8QWH5nIwv/E0UIbJOxgFuJqmarAn
+
+%URL%
+https://github.com/dracula/gtk
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1652111335
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+dracula-gtk-theme
+
+%PROVIDES%
+dracula-gtk-theme
+
+%OPTDEPENDS%
+ttf-roboto: primary font face defined
+ttf-ubuntu-font-family: secondary font face defined
+cantarell-fonts: tertiary font face defined
+
