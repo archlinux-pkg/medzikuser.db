@@ -1294,6 +1294,7 @@ usr/lib/go/src/archive/zip/testdata/readme.notzip
 usr/lib/go/src/archive/zip/testdata/readme.zip
 usr/lib/go/src/archive/zip/testdata/subdir.zip
 usr/lib/go/src/archive/zip/testdata/symlink.zip
+usr/lib/go/src/archive/zip/testdata/test-prefix.zip
 usr/lib/go/src/archive/zip/testdata/test-trailing-junk.zip
 usr/lib/go/src/archive/zip/testdata/test.zip
 usr/lib/go/src/archive/zip/testdata/time-22738.zip
@@ -12280,6 +12281,7 @@ usr/lib/go/test/fixedbugs/issue5260.go
 usr/lib/go/test/fixedbugs/issue52612.go
 usr/lib/go/test/fixedbugs/issue52673.go
 usr/lib/go/test/fixedbugs/issue52701.go
+usr/lib/go/test/fixedbugs/issue52748.go
 usr/lib/go/test/fixedbugs/issue5291.dir/
 usr/lib/go/test/fixedbugs/issue5291.dir/pkg1.go
 usr/lib/go/test/fixedbugs/issue5291.dir/prog.go
