@@ -5907,6 +5907,7 @@ usr/lib/go/src/go/doc/comment/testdata/blank.txt
 usr/lib/go/src/go/doc/comment/testdata/code.txt
 usr/lib/go/src/go/doc/comment/testdata/code2.txt
 usr/lib/go/src/go/doc/comment/testdata/code3.txt
+usr/lib/go/src/go/doc/comment/testdata/crash1.txt
 usr/lib/go/src/go/doc/comment/testdata/doclink.txt
 usr/lib/go/src/go/doc/comment/testdata/doclink2.txt
 usr/lib/go/src/go/doc/comment/testdata/doclink3.txt
@@ -8191,6 +8192,7 @@ usr/lib/go/src/path/filepath/path_unix.go
 usr/lib/go/src/path/filepath/path_windows.go
 usr/lib/go/src/path/filepath/path_windows_test.go
 usr/lib/go/src/path/filepath/symlink.go
+usr/lib/go/src/path/filepath/symlink_plan9.go
 usr/lib/go/src/path/filepath/symlink_unix.go
 usr/lib/go/src/path/filepath/symlink_windows.go
 usr/lib/go/src/path/match.go
@@ -12282,6 +12284,9 @@ usr/lib/go/test/fixedbugs/issue52612.go
 usr/lib/go/test/fixedbugs/issue52673.go
 usr/lib/go/test/fixedbugs/issue52701.go
 usr/lib/go/test/fixedbugs/issue52748.go
+usr/lib/go/test/fixedbugs/issue52788.go
+usr/lib/go/test/fixedbugs/issue52788a.go
+usr/lib/go/test/fixedbugs/issue52788a.out
 usr/lib/go/test/fixedbugs/issue5291.dir/
 usr/lib/go/test/fixedbugs/issue5291.dir/pkg1.go
 usr/lib/go/test/fixedbugs/issue5291.dir/prog.go
