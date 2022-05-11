@@ -1,5 +1,5 @@
 %FILENAME%
-linux-bore-5.17.6-1-x86_64.pkg.tar.xz
+linux-bore-5.17.6-4-x86_64.pkg.tar.xz
 
 %NAME%
 linux-bore
@@ -8,25 +8,25 @@ linux-bore
 linux-bore
 
 %VERSION%
-5.17.6-1
+5.17.6-4
 
 %DESC%
 The Linux BORE scheduler Kernel by CachyOS with other patches and improvements kernel and modules
 
 %CSIZE%
-111960800
+70544404
 
 %ISIZE%
-111426253
+70357070
 
 %MD5SUM%
-cf0d15e3385cdfbef8f0aa2819c59c3d
+972c9b3ed4af35dacb6fa4188e7f9b9f
 
 %SHA256SUM%
-b63907a5bc2cb8108d1b2cc5d006fea3d0215e42f16cad3c045226de45ebe2ab
+a1bbdf82f774104b4157dc1ff2b9f9e1db7516596fce978c3ef02f0faf28e239
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJ482oACgkQemZGpsFGkMDLygv9GNU1Qy1APfEtwY4QU/NhUw1HM/M2Ln0SxwoAtNcnEO5U67ttuGgfuONumKbk2EJyVYgCvkCIh5Q6ByNNMhuMQg1NqopYc0dlSYrqL7YWE6TznzsMrZhLCr0Eq5OzS98+GNQNki7PgpTGo5chECcy7l32kYRqkCQgyJP9lhtz200oYVuFai2JyM+rBOVdZpFxT9lea4axlXH95E3s9PPyEUdofjPeVs6YvHH8NMOH0Xqo6XXSXGcOAEXrlPu1J7l5jDbl+8/sx21mCmD5VoC+Hi31DH8kyjmDYhWRrokxwaU3Vwz4biLyryl8jAy9Wo940g/N2Rcaphs4Mx0p86KCFrRWbQIAqWgtfqHOGnL93UGzFQuEm1rdhiRfKFPuwF+VIVwuzpyEqCFf4OULApnzg6GW8kNEijCV+qYOJbgLUcGY0V3sdZkMddgycuhF2OIkJhWB+D4HGACn3aQyBY2eGx82SyWAhrZo+nsDcuaIEkos6FNj1WMRYw9GQahDgdkX
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJ70wsACgkQemZGpsFGkMCwbgv+O4JzHnET+FE40bpjmkWu+61hOjCHj4VW1Sg9wu13/Vlqp0e502lymSYyfK/6sIL5XMoXqCueQKpDeRFiKOpCYPFESXQ+t8pH4+VOLvOUXnFhnySzY4ilL17Aakp4CsMeeklsen4tVq9yVWYl8f1wFaEIQLOytXEI2DuwH7IhLK2pu7sVzHTiF+MzTZFiERgdr+4wY7i2kUxg2nG1eqeyPbcbxfpHOL7hR27SiI0K3MRvpvObZYq7JjPF0AuXvpOW62b1ix8ZnJ48ebQ4UKwUMmVFrX1XCDVmqRuV+wnXVWE1sabqP7YoHqw8P0Lvy0wifv5K5yqzwOmcCfHp2y3n89y2sqr/ItyaeCja/4O9DAoPznQ2mDl4kDifDyUDyiPW45mevmypaZDbu/AUKk7O0NxuY+2cxdzZtFwk89gJ44PCWeg2HqZs6QtyroNbDDPI7lnfWnya/Km+disI/SehvsR7a6tWaTJsaM5XjIsZx2RMe6lZ/WUstN2ll+UmttgK
 
 %URL%
 https://github.com/CachyOS/linux-cachyos
@@ -38,7 +38,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1652088022
+1652276513
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
