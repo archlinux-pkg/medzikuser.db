@@ -82,7 +82,7 @@ opt/intellij-idea-ultimate-edition/lib/asm-commons-7.1.jar
 opt/intellij-idea-ultimate-edition/lib/asm-tree-7.1.jar
 opt/intellij-idea-ultimate-edition/lib/asm-util-7.1.jar
 opt/intellij-idea-ultimate-edition/lib/async-profiler.jar
-opt/intellij-idea-ultimate-edition/lib/build-marker-IU-221.5080.210
+opt/intellij-idea-ultimate-edition/lib/build-marker-IU-221.5591.52
 opt/intellij-idea-ultimate-edition/lib/byte-buddy-agent.jar
 opt/intellij-idea-ultimate-edition/lib/cds/
 opt/intellij-idea-ultimate-edition/lib/cds/classesLogAgent.jar
@@ -372,8 +372,8 @@ opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/helpers/protractor
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/helpers/protractor-intellij/lib/protractor-intellij-tree.js
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/helpers/protractor-intellij/lib/protractor-intellij-util.js
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/js/
-opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/js/js-predefined-ffdd448c697d-504ef523a7eb.ijx
-opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/js/js-predefined-ffdd448c697d-504ef523a7eb.txt
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/js/js-predefined-ffdd448c697d-47665b447afd.ijx
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/js/js-predefined-ffdd448c697d-47665b447afd.txt
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/browser.d.ts
@@ -430,6 +430,12 @@ opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServices
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2021.promise.d.ts
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2021.string.d.ts
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2021.weakref.d.ts
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2022.array.d.ts
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2022.d.ts
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2022.error.d.ts
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2022.full.d.ts
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2022.object.d.ts
+opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2022.string.d.ts
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts
 opt/intellij-idea-ultimate-edition/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.esnext.d.ts
@@ -1467,8 +1473,15 @@ opt/intellij-idea-ultimate-edition/plugins/microservices-ui/lib/microservices-ui
 opt/intellij-idea-ultimate-edition/plugins/package-checker/
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/client-0.3.3.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/commons-codec-1.10.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/commons-logging-1.2.jar
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/gson-2.8.9.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/httpasyncclient-4.1.4.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/httpclient-4.5.6.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/httpcore-4.4.14.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/httpcore-nio-4.4.14.jar
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/kotlinx-html-jvm-0.7.3.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/ktor-client-apache-jvm-1.6.7.jar
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/ktor-client-cio-jvm-1.6.7.jar
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/ktor-client-core-jvm-1.6.7.jar
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/ktor-client-gson-jvm-1.6.7.jar
@@ -1482,7 +1495,7 @@ opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/ktor-utils-jvm-1.
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/model-0.3.2.jar
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/okhttp-2.7.5.jar
 opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/okio-1.6.0.jar
-opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/package-checker-0.7.19.jar
+opt/intellij-idea-ultimate-edition/plugins/package-checker/lib/package-checker-0.7.27.jar
 opt/intellij-idea-ultimate-edition/plugins/packageSearch/
 opt/intellij-idea-ultimate-edition/plugins/packageSearch/lib/
 opt/intellij-idea-ultimate-edition/plugins/packageSearch/lib/packageSearch.jar
