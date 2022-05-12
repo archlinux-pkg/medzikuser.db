@@ -29908,6 +29908,7 @@ usr/share/doc/rust/html/implementors/std/os/windows/io/raw/trait.IntoRawSocket.j
 usr/share/doc/rust/html/implementors/std/os/windows/io/socket/
 usr/share/doc/rust/html/implementors/std/os/windows/io/socket/trait.AsSocket.js
 usr/share/doc/rust/html/implementors/std/os/windows/process/
+usr/share/doc/rust/html/implementors/std/os/windows/process/trait.ChildExt.js
 usr/share/doc/rust/html/implementors/std/os/windows/process/trait.CommandExt.js
 usr/share/doc/rust/html/implementors/std/os/windows/process/trait.ExitStatusExt.js
 usr/share/doc/rust/html/implementors/std/process/
@@ -32951,6 +32952,7 @@ usr/share/doc/rust/html/std/os/windows/prelude/sidebar-items1.62.0.js
 usr/share/doc/rust/html/std/os/windows/process/
 usr/share/doc/rust/html/std/os/windows/process/index.html
 usr/share/doc/rust/html/std/os/windows/process/sidebar-items1.62.0.js
+usr/share/doc/rust/html/std/os/windows/process/trait.ChildExt.html
 usr/share/doc/rust/html/std/os/windows/process/trait.CommandExt.html
 usr/share/doc/rust/html/std/os/windows/process/trait.ExitStatusExt.html
 usr/share/doc/rust/html/std/os/windows/raw/
@@ -34267,6 +34269,7 @@ usr/share/doc/rust/html/unstable-book/library-features/windows-file-type-ext.htm
 usr/share/doc/rust/html/unstable-book/library-features/windows-handle.html
 usr/share/doc/rust/html/unstable-book/library-features/windows-net.html
 usr/share/doc/rust/html/unstable-book/library-features/windows-process-extensions-force-quotes.html
+usr/share/doc/rust/html/unstable-book/library-features/windows-process-extensions-main-thread-handle.html
 usr/share/doc/rust/html/unstable-book/library-features/windows-stdio.html
 usr/share/doc/rust/html/unstable-book/library-features/wrapping-int-impl.html
 usr/share/doc/rust/html/unstable-book/library-features/wrapping-next-power-of-two.html

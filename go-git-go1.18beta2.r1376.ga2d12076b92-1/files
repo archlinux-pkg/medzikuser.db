@@ -638,6 +638,7 @@ usr/lib/go/pkg/linux_amd64/cmd/asm/internal/lex.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/abi.a
+usr/lib/go/pkg/linux_amd64/cmd/compile/internal/abt.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/amd64.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/arm.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/arm64.a
@@ -741,6 +742,7 @@ usr/lib/go/pkg/linux_amd64/cmd/internal/obj.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/arm.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/arm64.a
+usr/lib/go/pkg/linux_amd64/cmd/internal/obj/loong64.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/mips.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/ppc64.a
 usr/lib/go/pkg/linux_amd64/cmd/internal/obj/riscv.a
@@ -1467,6 +1469,9 @@ usr/lib/go/src/cmd/compile/doc.go
 usr/lib/go/src/cmd/compile/internal/
 usr/lib/go/src/cmd/compile/internal/abi/
 usr/lib/go/src/cmd/compile/internal/abi/abiutils.go
+usr/lib/go/src/cmd/compile/internal/abt/
+usr/lib/go/src/cmd/compile/internal/abt/avlint32.go
+usr/lib/go/src/cmd/compile/internal/abt/avlint32_test.go
 usr/lib/go/src/cmd/compile/internal/amd64/
 usr/lib/go/src/cmd/compile/internal/amd64/galign.go
 usr/lib/go/src/cmd/compile/internal/amd64/ggen.go
@@ -1691,6 +1696,8 @@ usr/lib/go/src/cmd/compile/internal/ssa/gen/ARM.rules
 usr/lib/go/src/cmd/compile/internal/ssa/gen/ARM64.rules
 usr/lib/go/src/cmd/compile/internal/ssa/gen/ARM64Ops.go
 usr/lib/go/src/cmd/compile/internal/ssa/gen/ARMOps.go
+usr/lib/go/src/cmd/compile/internal/ssa/gen/LOONG64.rules
+usr/lib/go/src/cmd/compile/internal/ssa/gen/LOONG64Ops.go
 usr/lib/go/src/cmd/compile/internal/ssa/gen/MIPS.rules
 usr/lib/go/src/cmd/compile/internal/ssa/gen/MIPS64.rules
 usr/lib/go/src/cmd/compile/internal/ssa/gen/MIPS64Ops.go
@@ -1749,6 +1756,7 @@ usr/lib/go/src/cmd/compile/internal/ssa/rewriteAMD64splitload.go
 usr/lib/go/src/cmd/compile/internal/ssa/rewriteARM.go
 usr/lib/go/src/cmd/compile/internal/ssa/rewriteARM64.go
 usr/lib/go/src/cmd/compile/internal/ssa/rewriteCond_test.go
+usr/lib/go/src/cmd/compile/internal/ssa/rewriteLOONG64.go
 usr/lib/go/src/cmd/compile/internal/ssa/rewriteMIPS.go
 usr/lib/go/src/cmd/compile/internal/ssa/rewriteMIPS64.go
 usr/lib/go/src/cmd/compile/internal/ssa/rewritePPC64.go
@@ -3755,6 +3763,13 @@ usr/lib/go/src/cmd/internal/obj/ld.go
 usr/lib/go/src/cmd/internal/obj/line.go
 usr/lib/go/src/cmd/internal/obj/line_test.go
 usr/lib/go/src/cmd/internal/obj/link.go
+usr/lib/go/src/cmd/internal/obj/loong64/
+usr/lib/go/src/cmd/internal/obj/loong64/a.out.go
+usr/lib/go/src/cmd/internal/obj/loong64/anames.go
+usr/lib/go/src/cmd/internal/obj/loong64/asm.go
+usr/lib/go/src/cmd/internal/obj/loong64/cnames.go
+usr/lib/go/src/cmd/internal/obj/loong64/list.go
+usr/lib/go/src/cmd/internal/obj/loong64/obj.go
 usr/lib/go/src/cmd/internal/obj/mips/
 usr/lib/go/src/cmd/internal/obj/mips/a.out.go
 usr/lib/go/src/cmd/internal/obj/mips/anames.go
@@ -9234,6 +9249,7 @@ usr/lib/go/src/runtime/vdso_linux_arm64.go
 usr/lib/go/src/runtime/vdso_linux_mips64x.go
 usr/lib/go/src/runtime/vdso_linux_ppc64x.go
 usr/lib/go/src/runtime/vdso_linux_riscv64.go
+usr/lib/go/src/runtime/vdso_linux_s390x.go
 usr/lib/go/src/runtime/vlop_386.s
 usr/lib/go/src/runtime/vlop_arm.s
 usr/lib/go/src/runtime/vlop_arm_test.go
@@ -12260,6 +12276,7 @@ usr/lib/go/test/fixedbugs/issue50372.go
 usr/lib/go/test/fixedbugs/issue50439.go
 usr/lib/go/test/fixedbugs/issue5056.go
 usr/lib/go/test/fixedbugs/issue50671.go
+usr/lib/go/test/fixedbugs/issue50672.go
 usr/lib/go/test/fixedbugs/issue50854.go
 usr/lib/go/test/fixedbugs/issue5089.go
 usr/lib/go/test/fixedbugs/issue5105.dir/
