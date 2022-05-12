@@ -213,7 +213,6 @@ usr/bin/apksigner
 usr/bin/bcc_compat
 usr/bin/d8
 usr/bin/dexdump
-usr/bin/dx
 usr/bin/llvm-rs-cc
 usr/bin/mainDexClasses
 usr/bin/split-select
