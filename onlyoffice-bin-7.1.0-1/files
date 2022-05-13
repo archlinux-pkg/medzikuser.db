@@ -116,9 +116,9 @@ opt/onlyoffice/desktopeditors/converter/empty/zh-CN/
 opt/onlyoffice/desktopeditors/converter/empty/zh-CN/new.docx
 opt/onlyoffice/desktopeditors/converter/empty/zh-CN/new.pptx
 opt/onlyoffice/desktopeditors/converter/empty/zh-CN/new.xlsx
-opt/onlyoffice/desktopeditors/converter/fonts.log
 opt/onlyoffice/desktopeditors/converter/icudtl.dat
 opt/onlyoffice/desktopeditors/converter/libDjVuFile.so
+opt/onlyoffice/desktopeditors/converter/libDocxRenderer.so
 opt/onlyoffice/desktopeditors/converter/libEpubFile.so
 opt/onlyoffice/desktopeditors/converter/libFb2File.so
 opt/onlyoffice/desktopeditors/converter/libHtmlFile2.so
@@ -422,7 +422,7 @@ opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49D
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/scripts/
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/scripts/youtube.js
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/translations/
-opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/translations/cs-CZ.json
+opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/translations/cs-CS.json
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/translations/de-DE.json
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/translations/es-ES.json
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{38E022EA-AD92-45FC-B22B-49DF39746DB4}/translations/fr-FR.json
@@ -501,7 +501,7 @@ opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/scripts/
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/scripts/translate.js
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/translations/
-opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/translations/cs-CZ.json
+opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/translations/cs-CS.json
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/translations/de-DE.json
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/translations/es-ES.json
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/translations/fr-FR.json
@@ -509,6 +509,7 @@ opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/vendor/
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/vendor/google/
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/vendor/google/google.js
+opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/vendor/google/widjet.js
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/vendor/select2-4.0.6-rc.1/
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/vendor/select2-4.0.6-rc.1/LICENSE.md
 opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/{7327FC95-16DA-41D9-9AF2-0E7F449F6800}/vendor/select2-4.0.6-rc.1/README.md
@@ -1145,6 +1146,16 @@ opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/eraser.png
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/eraser.svg
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/eraser_2x.cur
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/eraser_2x.png
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grab.cur
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grab.png
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grab.svg
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grab_2x.cur
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grab_2x.png
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grabbing.cur
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grabbing.png
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grabbing.svg
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grabbing_2x.cur
+opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/grabbing_2x.png
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/marker_format.cur
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/marker_format.png
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/Images/cursors/marker_format.svg
@@ -1306,6 +1317,13 @@ opt/onlyoffice/desktopeditors/editors/sdkjs/common/spell/spell/spell.js
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/spell/spell/spell.js.mem
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/spell/spell/spell.wasm
 opt/onlyoffice/desktopeditors/editors/sdkjs/common/spell/spell/spell_ie.js
+opt/onlyoffice/desktopeditors/editors/sdkjs/pdf/
+opt/onlyoffice/desktopeditors/editors/sdkjs/pdf/src/
+opt/onlyoffice/desktopeditors/editors/sdkjs/pdf/src/engine/
+opt/onlyoffice/desktopeditors/editors/sdkjs/pdf/src/engine/drawingfile.js
+opt/onlyoffice/desktopeditors/editors/sdkjs/pdf/src/engine/drawingfile.js.mem
+opt/onlyoffice/desktopeditors/editors/sdkjs/pdf/src/engine/drawingfile.wasm
+opt/onlyoffice/desktopeditors/editors/sdkjs/pdf/src/engine/drawingfile_ie.js
 opt/onlyoffice/desktopeditors/editors/sdkjs/slide/
 opt/onlyoffice/desktopeditors/editors/sdkjs/slide/sdk-all-min.js
 opt/onlyoffice/desktopeditors/editors/sdkjs/slide/sdk-all.js
@@ -1523,6 +1541,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/app.js
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/index.html
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/az.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/be.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/bg.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/ca.json
@@ -1533,6 +1552,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/en.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/es.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/fr.json
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/gl.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/hu.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/it.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/forms/locale/ja.json
@@ -1560,6 +1580,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/app.js
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/index.html
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/index_loader.html
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/az.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/be.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/bg.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/ca.json
@@ -1571,6 +1592,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/e
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/es.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/fi.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/fr.json
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/gl.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/hu.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/id.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/documenteditor/main/locale/it.json
@@ -7075,6 +7097,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/inde
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/index.reporter.html
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/index_loader.html
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/az.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/be.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/bg.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/ca.json
@@ -7086,6 +7109,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/loca
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/es.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/fi.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/fr.json
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/gl.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/hu.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/id.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/locale/it.json
@@ -8119,6 +8143,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/reso
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/en/images/connectors_secondshape.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/en/images/constantproportions.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/en/images/constantproportionsactivated.png
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/en/images/convertequation.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/en/images/copy.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/en/images/copypastewindow.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/en/images/copystyle.png
@@ -9328,6 +9353,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/reso
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/fr/images/connectors_secondshape.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/fr/images/constantproportions.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/fr/images/constantproportionsactivated.png
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/fr/images/convertequation.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/fr/images/copy.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/fr/images/copypastewindow.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/presentationeditor/main/resources/help/fr/images/copystyle.png
@@ -11380,6 +11406,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/index
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/index_internal.html
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/index_loader.html
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/az.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/be.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/bg.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/ca.json
@@ -11391,6 +11418,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/local
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/es.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/fi.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/fr.json
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/gl.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/hu.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/id.json
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/locale/it.json
@@ -14301,6 +14329,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resou
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/en/images/constantproportions.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/en/images/constantproportionsactivated.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/en/images/convert.png
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/en/images/convertequation.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/en/images/converttorange.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/en/images/copy.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/en/images/copypastewindow.png
@@ -17737,6 +17766,7 @@ opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resou
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/fr/images/constantproportions.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/fr/images/constantproportionsactivated.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/fr/images/convert.png
+opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/fr/images/convertequation.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/fr/images/converttorange.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/fr/images/copy.png
 opt/onlyoffice/desktopeditors/editors/web-apps/apps/spreadsheeteditor/main/resources/help/fr/images/copypastewindow.png
@@ -22658,6 +22688,8 @@ opt/onlyoffice/desktopeditors/fonts/Carlito-Regular.ttf
 opt/onlyoffice/desktopeditors/fonts/Comic_Sans_MS.ttf
 opt/onlyoffice/desktopeditors/fonts/Comic_Sans_MS_Bold.ttf
 opt/onlyoffice/desktopeditors/fonts/LICENSE.txt
+opt/onlyoffice/desktopeditors/fonts/LICENSE/
+opt/onlyoffice/desktopeditors/fonts/LICENSE/OpenSymbol.txt
 opt/onlyoffice/desktopeditors/fonts/OpenSans-Bold.ttf
 opt/onlyoffice/desktopeditors/fonts/OpenSans-BoldItalic.ttf
 opt/onlyoffice/desktopeditors/fonts/OpenSans-ExtraBold.ttf
@@ -22673,6 +22705,7 @@ opt/onlyoffice/desktopeditors/fonts/caladea-bold.ttf
 opt/onlyoffice/desktopeditors/fonts/caladea-bolditalic.ttf
 opt/onlyoffice/desktopeditors/fonts/caladea-italic.ttf
 opt/onlyoffice/desktopeditors/fonts/caladea-regular.ttf
+opt/onlyoffice/desktopeditors/fonts/opens___.ttf
 opt/onlyoffice/desktopeditors/iconengines/
 opt/onlyoffice/desktopeditors/iconengines/libqsvgicon.so
 opt/onlyoffice/desktopeditors/icudtl.dat
@@ -22856,6 +22889,9 @@ usr/bin/onlyoffice-desktopeditors
 usr/share/
 usr/share/applications/
 usr/share/applications/onlyoffice-desktopeditors.desktop
+usr/share/doc/
+usr/share/doc/onlyoffice-desktopeditors/
+usr/share/doc/onlyoffice-desktopeditors/changelog.Debian.gz
 usr/share/icons/
 usr/share/icons/hicolor/
 usr/share/icons/hicolor/128x128/
