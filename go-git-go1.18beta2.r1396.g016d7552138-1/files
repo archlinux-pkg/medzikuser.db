@@ -655,6 +655,7 @@ usr/lib/go/pkg/linux_amd64/cmd/compile/internal/inline.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/ir.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/liveness.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/logopt.a
+usr/lib/go/pkg/linux_amd64/cmd/compile/internal/loong64.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/mips.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/mips64.a
 usr/lib/go/pkg/linux_amd64/cmd/compile/internal/noder.a
@@ -707,6 +708,7 @@ usr/lib/go/pkg/linux_amd64/cmd/go/internal/modfetch.a
 usr/lib/go/pkg/linux_amd64/cmd/go/internal/modfetch/
 usr/lib/go/pkg/linux_amd64/cmd/go/internal/modfetch/codehost.a
 usr/lib/go/pkg/linux_amd64/cmd/go/internal/modget.a
+usr/lib/go/pkg/linux_amd64/cmd/go/internal/modindex.a
 usr/lib/go/pkg/linux_amd64/cmd/go/internal/modinfo.a
 usr/lib/go/pkg/linux_amd64/cmd/go/internal/modload.a
 usr/lib/go/pkg/linux_amd64/cmd/go/internal/mvs.a
@@ -1585,6 +1587,10 @@ usr/lib/go/src/cmd/compile/internal/logopt/escape.go
 usr/lib/go/src/cmd/compile/internal/logopt/escape_bootstrap.go
 usr/lib/go/src/cmd/compile/internal/logopt/log_opts.go
 usr/lib/go/src/cmd/compile/internal/logopt/logopt_test.go
+usr/lib/go/src/cmd/compile/internal/loong64/
+usr/lib/go/src/cmd/compile/internal/loong64/galign.go
+usr/lib/go/src/cmd/compile/internal/loong64/ggen.go
+usr/lib/go/src/cmd/compile/internal/loong64/ssa.go
 usr/lib/go/src/cmd/compile/internal/mips/
 usr/lib/go/src/cmd/compile/internal/mips/galign.go
 usr/lib/go/src/cmd/compile/internal/mips/ggen.go
@@ -2601,6 +2607,11 @@ usr/lib/go/src/cmd/go/internal/modfetch/zip_sum_test/zip_sum_test.go
 usr/lib/go/src/cmd/go/internal/modget/
 usr/lib/go/src/cmd/go/internal/modget/get.go
 usr/lib/go/src/cmd/go/internal/modget/query.go
+usr/lib/go/src/cmd/go/internal/modindex/
+usr/lib/go/src/cmd/go/internal/modindex/build.go
+usr/lib/go/src/cmd/go/internal/modindex/build_read.go
+usr/lib/go/src/cmd/go/internal/modindex/syslist.go
+usr/lib/go/src/cmd/go/internal/modindex/syslist_test.go
 usr/lib/go/src/cmd/go/internal/modinfo/
 usr/lib/go/src/cmd/go/internal/modinfo/info.go
 usr/lib/go/src/cmd/go/internal/modload/
@@ -12324,6 +12335,7 @@ usr/lib/go/test/fixedbugs/issue52748.go
 usr/lib/go/test/fixedbugs/issue52788.go
 usr/lib/go/test/fixedbugs/issue52788a.go
 usr/lib/go/test/fixedbugs/issue52788a.out
+usr/lib/go/test/fixedbugs/issue52841.go
 usr/lib/go/test/fixedbugs/issue5291.dir/
 usr/lib/go/test/fixedbugs/issue5291.dir/pkg1.go
 usr/lib/go/test/fixedbugs/issue5291.dir/prog.go
