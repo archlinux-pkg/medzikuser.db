@@ -1389,6 +1389,7 @@ usr/lib/go/src/cmd/asm/internal/arch/
 usr/lib/go/src/cmd/asm/internal/arch/arch.go
 usr/lib/go/src/cmd/asm/internal/arch/arm.go
 usr/lib/go/src/cmd/asm/internal/arch/arm64.go
+usr/lib/go/src/cmd/asm/internal/arch/loong64.go
 usr/lib/go/src/cmd/asm/internal/arch/mips.go
 usr/lib/go/src/cmd/asm/internal/arch/ppc64.go
 usr/lib/go/src/cmd/asm/internal/arch/riscv64.go
@@ -5032,7 +5033,7 @@ usr/lib/go/src/crypto/aes/asm_arm64.s
 usr/lib/go/src/crypto/aes/asm_ppc64x.s
 usr/lib/go/src/crypto/aes/asm_s390x.s
 usr/lib/go/src/crypto/aes/block.go
-usr/lib/go/src/crypto/aes/cbc_ppc64le.go
+usr/lib/go/src/crypto/aes/cbc_ppc64x.go
 usr/lib/go/src/crypto/aes/cbc_s390x.go
 usr/lib/go/src/crypto/aes/cipher.go
 usr/lib/go/src/crypto/aes/cipher_asm.go
@@ -13267,6 +13268,8 @@ usr/lib/go/test/typeparam/issue51836.dir/aa.go
 usr/lib/go/test/typeparam/issue51836.dir/p.go
 usr/lib/go/test/typeparam/issue51836.go
 usr/lib/go/test/typeparam/issue51840.go
+usr/lib/go/test/typeparam/issue51909.go
+usr/lib/go/test/typeparam/issue51925.go
 usr/lib/go/test/typeparam/issue52026.go
 usr/lib/go/test/typeparam/issue52117.dir/
 usr/lib/go/test/typeparam/issue52117.dir/a.go

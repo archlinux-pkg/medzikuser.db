@@ -28296,6 +28296,7 @@ usr/share/doc/rust/html/core/intrinsics/fn.prefetch_write_instruction.html
 usr/share/doc/rust/html/core/intrinsics/fn.ptr_guaranteed_eq.html
 usr/share/doc/rust/html/core/intrinsics/fn.ptr_guaranteed_ne.html
 usr/share/doc/rust/html/core/intrinsics/fn.ptr_offset_from.html
+usr/share/doc/rust/html/core/intrinsics/fn.ptr_offset_from_unsigned.html
 usr/share/doc/rust/html/core/intrinsics/fn.raw_eq.html
 usr/share/doc/rust/html/core/intrinsics/fn.rintf32.html
 usr/share/doc/rust/html/core/intrinsics/fn.rintf64.html
@@ -32198,6 +32199,7 @@ usr/share/doc/rust/html/std/intrinsics/fn.prefetch_write_instruction.html
 usr/share/doc/rust/html/std/intrinsics/fn.ptr_guaranteed_eq.html
 usr/share/doc/rust/html/std/intrinsics/fn.ptr_guaranteed_ne.html
 usr/share/doc/rust/html/std/intrinsics/fn.ptr_offset_from.html
+usr/share/doc/rust/html/std/intrinsics/fn.ptr_offset_from_unsigned.html
 usr/share/doc/rust/html/std/intrinsics/fn.raw_eq.html
 usr/share/doc/rust/html/std/intrinsics/fn.rintf32.html
 usr/share/doc/rust/html/std/intrinsics/fn.rintf64.html
@@ -34010,6 +34012,7 @@ usr/share/doc/rust/html/unstable-book/library-features/const-ptr-as-ref.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-is-null.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-offset-from.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-read.html
+usr/share/doc/rust/html/unstable-book/library-features/const-ptr-sub-ptr.html
 usr/share/doc/rust/html/unstable-book/library-features/const-ptr-write.html
 usr/share/doc/rust/html/unstable-book/library-features/const-raw-ptr-comparison.html
 usr/share/doc/rust/html/unstable-book/library-features/const-replace.html
@@ -34174,6 +34177,7 @@ usr/share/doc/rust/html/unstable-book/library-features/ptr-as-uninit.html
 usr/share/doc/rust/html/unstable-book/library-features/ptr-const-cast.html
 usr/share/doc/rust/html/unstable-book/library-features/ptr-internals.html
 usr/share/doc/rust/html/unstable-book/library-features/ptr-metadata.html
+usr/share/doc/rust/html/unstable-book/library-features/ptr-sub-ptr.html
 usr/share/doc/rust/html/unstable-book/library-features/ptr-to-from-bits.html
 usr/share/doc/rust/html/unstable-book/library-features/pub-crate-should-not-need-unstable-attr.html
 usr/share/doc/rust/html/unstable-book/library-features/raw-os-nonzero.html
