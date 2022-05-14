@@ -1,6 +1,7 @@
 %FILES%
 etc/
 etc/pihole/
+etc/pihole/dhcp.leases
 etc/pihole/pihole-FTL.conf
 etc/pihole/pihole-FTL.db
 usr/
