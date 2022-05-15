@@ -9,7 +9,7 @@ usr/bin/rustc
 usr/bin/rustdoc
 usr/lib/
 usr/lib/libLLVM-14-rust-1.62.0-nightly.so
-usr/lib/librustc_driver-56242c895220c3ec.so
+usr/lib/librustc_driver-3a280b26b15e2fbc.so
 usr/lib/libstd-977ece543e1e3d2f.so
 usr/lib/libtest-386a1bcb4f83db35.so
 usr/lib/rustlib/
@@ -30641,12 +30641,12 @@ usr/share/doc/rust/html/rustc/platform-support.html
 usr/share/doc/rust/html/rustc/platform-support/
 usr/share/doc/rust/html/rustc/platform-support/TEMPLATE.html
 usr/share/doc/rust/html/rustc/platform-support/aarch64-apple-ios-sim.html
-usr/share/doc/rust/html/rustc/platform-support/aarch64-unknown-none-hermitkernel.html
 usr/share/doc/rust/html/rustc/platform-support/armv7-unknown-linux-uclibceabi.html
 usr/share/doc/rust/html/rustc/platform-support/armv7-unknown-linux-uclibceabihf.html
 usr/share/doc/rust/html/rustc/platform-support/kmc-solid.html
 usr/share/doc/rust/html/rustc/platform-support/m68k-unknown-linux-gnu.html
 usr/share/doc/rust/html/rustc/platform-support/mips64-openwrt-linux-musl.html
+usr/share/doc/rust/html/rustc/platform-support/nvptx64-nvidia-cuda.html
 usr/share/doc/rust/html/rustc/platform-support/openbsd.html
 usr/share/doc/rust/html/rustc/platform-support/wasm64-unknown-unknown.html
 usr/share/doc/rust/html/rustc/platform-support/x86_64-unknown-none.html
@@ -34068,6 +34068,7 @@ usr/share/doc/rust/html/unstable-book/library-features/error-reporter.html
 usr/share/doc/rust/html/unstable-book/library-features/error-type-id.html
 usr/share/doc/rust/html/unstable-book/library-features/exact-size-is-empty.html
 usr/share/doc/rust/html/unstable-book/library-features/exit-status-error.html
+usr/share/doc/rust/html/unstable-book/library-features/exitcode-exit-method.html
 usr/share/doc/rust/html/unstable-book/library-features/extend-one.html
 usr/share/doc/rust/html/unstable-book/library-features/fd-read.html
 usr/share/doc/rust/html/unstable-book/library-features/fd.html

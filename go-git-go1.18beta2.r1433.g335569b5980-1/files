@@ -31,6 +31,7 @@ usr/lib/go/api/next/
 usr/lib/go/api/next/30715.txt
 usr/lib/go/api/next/35044.txt
 usr/lib/go/api/next/42710.txt
+usr/lib/go/api/next/43401.txt
 usr/lib/go/api/next/43724.txt
 usr/lib/go/api/next/45628.txt
 usr/lib/go/api/next/45754.txt
@@ -1435,6 +1436,10 @@ usr/lib/go/src/cmd/asm/internal/asm/testdata/avx512enc/avx512pf.s
 usr/lib/go/src/cmd/asm/internal/asm/testdata/avx512enc/gfni_avx512f.s
 usr/lib/go/src/cmd/asm/internal/asm/testdata/avx512enc/vpclmulqdq_avx512f.s
 usr/lib/go/src/cmd/asm/internal/asm/testdata/buildtagerror.s
+usr/lib/go/src/cmd/asm/internal/asm/testdata/loong64.s
+usr/lib/go/src/cmd/asm/internal/asm/testdata/loong64enc1.s
+usr/lib/go/src/cmd/asm/internal/asm/testdata/loong64enc2.s
+usr/lib/go/src/cmd/asm/internal/asm/testdata/loong64enc3.s
 usr/lib/go/src/cmd/asm/internal/asm/testdata/mips.s
 usr/lib/go/src/cmd/asm/internal/asm/testdata/mips64.s
 usr/lib/go/src/cmd/asm/internal/asm/testdata/ppc64.s
@@ -12337,6 +12342,7 @@ usr/lib/go/test/fixedbugs/issue52788.go
 usr/lib/go/test/fixedbugs/issue52788a.go
 usr/lib/go/test/fixedbugs/issue52788a.out
 usr/lib/go/test/fixedbugs/issue52841.go
+usr/lib/go/test/fixedbugs/issue52907.go
 usr/lib/go/test/fixedbugs/issue5291.dir/
 usr/lib/go/test/fixedbugs/issue5291.dir/pkg1.go
 usr/lib/go/test/fixedbugs/issue5291.dir/prog.go
