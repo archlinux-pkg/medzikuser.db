@@ -1,5 +1,5 @@
 %FILENAME%
-chromium-no-extras-101.0.4951.54-1-x86_64.pkg.tar.xz
+chromium-no-extras-101.0.4951.64-1-x86_64.pkg.tar.xz
 
 %NAME%
 chromium-no-extras
@@ -8,25 +8,25 @@ chromium-no-extras
 chromium-no-extras
 
 %VERSION%
-101.0.4951.54-1
+101.0.4951.64-1
 
 %DESC%
 Chromium without hangout services, widevine, pipewire, or chromedriver
 
 %CSIZE%
-83648436
+83856644
 
 %ISIZE%
-280223109
+280789777
 
 %MD5SUM%
-e8091de3679bdd58974cdf7cee6d6efb
+d6dcc4b693b698c2aea12ff6f578974c
 
 %SHA256SUM%
-9cac3a95b591c4c7c61b9f3310d928a8b696c66ee39abe8706ae7dc1aa0f3324
+0799ab21992000c5536d87c1781f0032aadc913bdd5456d582f7b38f5341fab9
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJx6tkACgkQemZGpsFGkMDLwgv/en4YeLCrPm8bmuaesi9WnR8Bb8aXpMHwPEy4wW0W1slEfPlIVcIc4rkY9OciX37EUc5j066PRhs0RYYuuosTxutkMEQ2TvJ/bRPF/WgM6qgPSYzmNIDl+KmALB7nSLuCkSEzMwtbBmQe+78t2h0UE8wvVWHbnSh2GAjCz3F18hpazvoB4q2i1r+sVaVTV9lCXXvX3jYIHPPtNflvxYUlWfuFh/svl7zJRqMCWycQcoHBLMHeFAL5hRiFhF3n05/aR5ybKIr0uO9OF+q1c/joOByre7dcJtMY474fmnaDKT6YQPxTCzoDGbQ3w1rvwnxqegINUL5qNjI1pCjYborkcZSqFMRzo2uD0Iz2bkSDjSDlpUnhzOwnGvbq+dgzWvxzxXBF9fkBDg7lV8171vvPIetLjEbxRv+lCr9m7cwfplPyTcr6i/Iqp7wfPoRo413j+W0Hx3ot60vI7mfCQuWMDN6CG2uQ4Ga0dII3EjMylUra3M809JrBU5P5bZ2urodz
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmKA1BcACgkQemZGpsFGkMB/PwwA1UeNLatHxZ7q1eavzrj+GHDBS4ex67kdNgjwueOya+mlps6z067uQlNPVX1zyojNNifBYXkstk1KvQq3yYKEsP3dqz0mZBTiyw73XT4hmY6rPk2gHrUg3uLMQTGdsIusn7rV/PlIJ7lm8eDdn2AlIMwdfaIPh2ybz7eWayrNdvN+JSp9tH10IZOaUHAwAdYI0pYWETy2NiG7VQng5LQ2oUAUr4QqgzqwrwVpRfqRrNtaXn2C4dtQPugQ/QMnze+/hWiGZmxgvLDckP5KMj1aIY4NJBwTq6Il34VgcyFqW8eWeuKA4e2nYjOxQrQUQivnoAAtpLGgbPbbM/XdRfNkaWceiChNdNa3yQEcCvCU+5j3FihT8XeJEQKwmAmWxZ3JT6cm8Hy4Ojq1C5oZTGkWQeW7VzhOJGBDPEotpQbZOmYroyOllOXS1VgiI/dtUHXB5pcLQr8VBgztUVb4xFPhcniTnwQfQWbciP+2IIqSjdtMhyRsvtRyRmRKgH+kfbYz
 
 %URL%
 https://www.chromium.org/Home
@@ -38,7 +38,7 @@ BSD
 x86_64
 
 %BUILDDATE%
-1651574343
+1652554959
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>
@@ -47,7 +47,7 @@ MedzikUser <nivua1fn@duck.com>
 chromium
 
 %PROVIDES%
-chromium=101.0.4951.54
+chromium=101.0.4951.64
 
 %DEPENDS%
 gtk3
