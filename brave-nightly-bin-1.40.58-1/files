@@ -12,6 +12,7 @@ opt/brave.com/brave-nightly/brave-browser-nightly
 opt/brave.com/brave-nightly/brave_100_percent.pak
 opt/brave.com/brave-nightly/brave_200_percent.pak
 opt/brave.com/brave-nightly/brave_resources.pak
+opt/brave.com/brave-nightly/chrome-management-service
 opt/brave.com/brave-nightly/chrome-sandbox
 opt/brave.com/brave-nightly/chrome_100_percent.pak
 opt/brave.com/brave-nightly/chrome_200_percent.pak
@@ -305,9 +306,6 @@ opt/brave.com/brave-nightly/resources/brave_rewards/_locales/zh_CN/
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/zh_CN/messages.json
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/zh_TW/
 opt/brave.com/brave-nightly/resources/brave_rewards/_locales/zh_TW/messages.json
-opt/brave.com/brave-nightly/swiftshader/
-opt/brave.com/brave-nightly/swiftshader/libEGL.so
-opt/brave.com/brave-nightly/swiftshader/libGLESv2.so
 opt/brave.com/brave-nightly/v8_context_snapshot.bin
 opt/brave.com/brave-nightly/vk_swiftshader_icd.json
 opt/brave.com/brave-nightly/xdg-mime
