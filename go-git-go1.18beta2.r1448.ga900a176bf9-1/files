@@ -8335,6 +8335,7 @@ usr/lib/go/src/runtime/asan/asan.go
 usr/lib/go/src/runtime/asan0.go
 usr/lib/go/src/runtime/asan_amd64.s
 usr/lib/go/src/runtime/asan_arm64.s
+usr/lib/go/src/runtime/asan_riscv64.s
 usr/lib/go/src/runtime/asm.s
 usr/lib/go/src/runtime/asm_386.s
 usr/lib/go/src/runtime/asm_amd64.h
