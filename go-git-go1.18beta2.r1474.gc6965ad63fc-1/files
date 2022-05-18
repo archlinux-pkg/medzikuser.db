@@ -40,7 +40,9 @@ usr/lib/go/api/next/46059.txt
 usr/lib/go/api/next/46121.txt
 usr/lib/go/api/next/46229.txt
 usr/lib/go/api/next/47005.txt
+usr/lib/go/api/next/47579.txt
 usr/lib/go/api/next/48409.txt
+usr/lib/go/api/next/50062.txt
 usr/lib/go/api/next/50340.txt
 usr/lib/go/api/next/50599.txt
 usr/lib/go/api/next/50601.txt
@@ -50,6 +52,7 @@ usr/lib/go/api/next/51082.txt
 usr/lib/go/api/next/51115.txt
 usr/lib/go/api/next/51414.txt
 usr/lib/go/api/next/51644.txt
+usr/lib/go/api/next/51682.txt
 usr/lib/go/api/next/51684.txt
 usr/lib/go/api/next/51868.txt
 usr/lib/go/bin/
@@ -413,6 +416,8 @@ usr/lib/go/misc/cgo/testplugin/testdata/issue44956/base/base.go
 usr/lib/go/misc/cgo/testplugin/testdata/issue44956/main.go
 usr/lib/go/misc/cgo/testplugin/testdata/issue44956/plugin1.go
 usr/lib/go/misc/cgo/testplugin/testdata/issue44956/plugin2.go
+usr/lib/go/misc/cgo/testplugin/testdata/issue52937/
+usr/lib/go/misc/cgo/testplugin/testdata/issue52937/main.go
 usr/lib/go/misc/cgo/testplugin/testdata/method/
 usr/lib/go/misc/cgo/testplugin/testdata/method/main.go
 usr/lib/go/misc/cgo/testplugin/testdata/method/plugin.go
@@ -774,6 +779,7 @@ usr/lib/go/pkg/linux_amd64/cmd/link/internal/loader.a
 usr/lib/go/pkg/linux_amd64/cmd/link/internal/loadmacho.a
 usr/lib/go/pkg/linux_amd64/cmd/link/internal/loadpe.a
 usr/lib/go/pkg/linux_amd64/cmd/link/internal/loadxcoff.a
+usr/lib/go/pkg/linux_amd64/cmd/link/internal/loong64.a
 usr/lib/go/pkg/linux_amd64/cmd/link/internal/mips.a
 usr/lib/go/pkg/linux_amd64/cmd/link/internal/mips64.a
 usr/lib/go/pkg/linux_amd64/cmd/link/internal/ppc64.a
@@ -4059,6 +4065,10 @@ usr/lib/go/src/cmd/link/internal/loadpe/
 usr/lib/go/src/cmd/link/internal/loadpe/ldpe.go
 usr/lib/go/src/cmd/link/internal/loadxcoff/
 usr/lib/go/src/cmd/link/internal/loadxcoff/ldxcoff.go
+usr/lib/go/src/cmd/link/internal/loong64/
+usr/lib/go/src/cmd/link/internal/loong64/asm.go
+usr/lib/go/src/cmd/link/internal/loong64/l.go
+usr/lib/go/src/cmd/link/internal/loong64/obj.go
 usr/lib/go/src/cmd/link/internal/mips/
 usr/lib/go/src/cmd/link/internal/mips/asm.go
 usr/lib/go/src/cmd/link/internal/mips/l.go
@@ -4190,6 +4200,15 @@ usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/driver_focus.g
 usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/fetch.go
 usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/flags.go
 usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/flamegraph.go
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/common.css
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/common.js
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/flamegraph.html
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/graph.html
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/header.html
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/plaintext.html
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/source.html
+usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/html/top.html
 usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/interactive.go
 usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/options.go
 usr/lib/go/src/cmd/vendor/github.com/google/pprof/internal/driver/settings.go
@@ -5216,7 +5235,6 @@ usr/lib/go/src/crypto/internal/nistec/p256_asm_ppc64le.s
 usr/lib/go/src/crypto/internal/nistec/p256_asm_s390x.s
 usr/lib/go/src/crypto/internal/nistec/p256_asm_table.bin
 usr/lib/go/src/crypto/internal/nistec/p256_asm_table_test.go
-usr/lib/go/src/crypto/internal/nistec/p256_s390x.go
 usr/lib/go/src/crypto/internal/nistec/p384.go
 usr/lib/go/src/crypto/internal/nistec/p521.go
 usr/lib/go/src/crypto/internal/randutil/
@@ -6908,6 +6926,7 @@ usr/lib/go/src/internal/bytealg/compare_amd64.s
 usr/lib/go/src/internal/bytealg/compare_arm.s
 usr/lib/go/src/internal/bytealg/compare_arm64.s
 usr/lib/go/src/internal/bytealg/compare_generic.go
+usr/lib/go/src/internal/bytealg/compare_loong64.s
 usr/lib/go/src/internal/bytealg/compare_mips64x.s
 usr/lib/go/src/internal/bytealg/compare_mipsx.s
 usr/lib/go/src/internal/bytealg/compare_native.go
@@ -6928,6 +6947,7 @@ usr/lib/go/src/internal/bytealg/equal_amd64.s
 usr/lib/go/src/internal/bytealg/equal_arm.s
 usr/lib/go/src/internal/bytealg/equal_arm64.s
 usr/lib/go/src/internal/bytealg/equal_generic.go
+usr/lib/go/src/internal/bytealg/equal_loong64.s
 usr/lib/go/src/internal/bytealg/equal_mips64x.s
 usr/lib/go/src/internal/bytealg/equal_mipsx.s
 usr/lib/go/src/internal/bytealg/equal_native.go
@@ -6950,6 +6970,7 @@ usr/lib/go/src/internal/bytealg/indexbyte_amd64.s
 usr/lib/go/src/internal/bytealg/indexbyte_arm.s
 usr/lib/go/src/internal/bytealg/indexbyte_arm64.s
 usr/lib/go/src/internal/bytealg/indexbyte_generic.go
+usr/lib/go/src/internal/bytealg/indexbyte_loong64.s
 usr/lib/go/src/internal/bytealg/indexbyte_mips64x.s
 usr/lib/go/src/internal/bytealg/indexbyte_mipsx.s
 usr/lib/go/src/internal/bytealg/indexbyte_native.go
@@ -6971,6 +6992,7 @@ usr/lib/go/src/internal/cpu/cpu_arm64_freebsd.go
 usr/lib/go/src/internal/cpu/cpu_arm64_hwcap.go
 usr/lib/go/src/internal/cpu/cpu_arm64_linux.go
 usr/lib/go/src/internal/cpu/cpu_arm64_other.go
+usr/lib/go/src/internal/cpu/cpu_loong64.go
 usr/lib/go/src/internal/cpu/cpu_mips.go
 usr/lib/go/src/internal/cpu/cpu_mips64x.go
 usr/lib/go/src/internal/cpu/cpu_mipsle.go
@@ -7039,6 +7061,7 @@ usr/lib/go/src/internal/goarch/goarch_386.go
 usr/lib/go/src/internal/goarch/goarch_amd64.go
 usr/lib/go/src/internal/goarch/goarch_arm.go
 usr/lib/go/src/internal/goarch/goarch_arm64.go
+usr/lib/go/src/internal/goarch/goarch_loong64.go
 usr/lib/go/src/internal/goarch/goarch_mips.go
 usr/lib/go/src/internal/goarch/goarch_mips64.go
 usr/lib/go/src/internal/goarch/goarch_mips64le.go
@@ -9061,6 +9084,7 @@ usr/lib/go/src/runtime/stubs_amd64.go
 usr/lib/go/src/runtime/stubs_arm.go
 usr/lib/go/src/runtime/stubs_arm64.go
 usr/lib/go/src/runtime/stubs_linux.go
+usr/lib/go/src/runtime/stubs_loong64.go
 usr/lib/go/src/runtime/stubs_mips64x.go
 usr/lib/go/src/runtime/stubs_mipsx.go
 usr/lib/go/src/runtime/stubs_nonlinux.go
@@ -9232,6 +9256,7 @@ usr/lib/go/src/runtime/timestub2.go
 usr/lib/go/src/runtime/tls_arm.s
 usr/lib/go/src/runtime/tls_arm64.h
 usr/lib/go/src/runtime/tls_arm64.s
+usr/lib/go/src/runtime/tls_loong64.s
 usr/lib/go/src/runtime/tls_mips64x.s
 usr/lib/go/src/runtime/tls_mipsx.s
 usr/lib/go/src/runtime/tls_ppc64x.s
