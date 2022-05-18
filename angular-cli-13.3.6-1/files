@@ -4519,16 +4519,10 @@ usr/lib/node_modules/@angular/cli/node_modules/inquirer/node_modules/tslib/tslib
 usr/lib/node_modules/@angular/cli/node_modules/inquirer/node_modules/tslib/tslib.js
 usr/lib/node_modules/@angular/cli/node_modules/inquirer/package.json
 usr/lib/node_modules/@angular/cli/node_modules/ip/
-usr/lib/node_modules/@angular/cli/node_modules/ip/.jscsrc
-usr/lib/node_modules/@angular/cli/node_modules/ip/.jshintrc
-usr/lib/node_modules/@angular/cli/node_modules/ip/.npmignore
-usr/lib/node_modules/@angular/cli/node_modules/ip/.travis.yml
 usr/lib/node_modules/@angular/cli/node_modules/ip/README.md
 usr/lib/node_modules/@angular/cli/node_modules/ip/lib/
 usr/lib/node_modules/@angular/cli/node_modules/ip/lib/ip.js
 usr/lib/node_modules/@angular/cli/node_modules/ip/package.json
-usr/lib/node_modules/@angular/cli/node_modules/ip/test/
-usr/lib/node_modules/@angular/cli/node_modules/ip/test/api-test.js
 usr/lib/node_modules/@angular/cli/node_modules/is-core-module/
 usr/lib/node_modules/@angular/cli/node_modules/is-core-module/.eslintrc
 usr/lib/node_modules/@angular/cli/node_modules/is-core-module/.nycrc
@@ -6180,6 +6174,7 @@ usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/h
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/lru-cache/
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/lru-cache/LICENSE
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/lru-cache/README.md
+usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/lru-cache/index.d.ts
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/lru-cache/index.js
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/lru-cache/package.json
 usr/lib/node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/make-fetch-happen/
