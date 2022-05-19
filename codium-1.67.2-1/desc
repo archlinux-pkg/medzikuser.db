@@ -1,5 +1,5 @@
 %FILENAME%
-codium-1.67.1-1-x86_64.pkg.tar.xz
+codium-1.67.2-1-x86_64.pkg.tar.xz
 
 %NAME%
 codium
@@ -8,25 +8,25 @@ codium
 codium
 
 %VERSION%
-1.67.1-1
+1.67.2-1
 
 %DESC%
 Free/Libre Open Source Software Binaries of VSCode without MS branding/telemetry/licensing
 
 %CSIZE%
-14883008
+14890448
 
 %ISIZE%
-89780728
+89780771
 
 %MD5SUM%
-9b2ad7f10f5cc677fa3e0c56ee9d946d
+fe0a33f49a7666377e0fb6a1383c03a2
 
 %SHA256SUM%
-425655f3420a8c8729ecd4cc101a3a5b304ed632dd4385035ed0019c0a100960
+89c852adc60d83a81918ee722cac5ebef118f7e90f7b951e83cb2ed9a0473853
 
 %PGPSIG%
-iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmJ7ErQACgkQemZGpsFGkMBo7AwAjeNzHEb1YSuA4G5TMx1RzzkvoUy3LUMZWFbyOW9EKuVRA6bQ7vhk3yqv35A6+fR0SCNRuklHnDPPHpYGkdbjR1PqWTf3+843NFfSHH6iFc0Mq+xed88xRL3k6aecoiKdh076SsBgOfQsqpF26d6FIXbTEBlS3oQy5Jei/vB1i5Pe4Qw78c6swrpCce+PL1qbgfhi8CIPypztb3fykBLxahU8tMkgUteVzq8hJNJ2w6CFvxeH3fyLaQIGe6AaDeJcg1oXdWO/rdyn1cBzni6dcS64rqYVUdttSt9EhWjkqf4Zalyi1LQb+NnVDKp/4mOCOOSmZIAJlHWbheEwP5iR/14dr/kuhvt7bwjdGR21B8K+rmbfwl4wCGb0zD+2Sf5/8tpHc75gpZ3wBXWSC0HXH5cfNQlJ7/+cMQEsvlls1oMIgJK5wdiDKShsqL2ul9ceh8Xo5MeP3/9frC4WYeh0/FH9b9/7hXjJ58EMgwYGTx59BZAYsGIKbVhCql2/+pOq
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmKFn2MACgkQemZGpsFGkMDCUwv/c4dL2x9mWQDCIQqzkKWepayI//5FpkGl//xFEHrCu6h5gosN3Wggck/tQs5Yz4hxBQL2dQ6izwTRNjC+1QPrZKLcedikQLhXMiwgbQPm/em02Z/m0HaeGdCNvfBa/eLEzJ1boPR2hgnHnu8bQE3aSDi3ioP7PBGirW7fj6kBNVqyCdYYdut+lMytb7FVtkgtMUEOOd4/2Qj/tmSsBU/D/ecVDaq6nXtxrITo/SGzOiI0/evTmjcpFvl71BzlnGXoprlO0qW2KMkvLJYfRnAjQNKZoyEwh+FKG/amIiix9JdE9ss9YGq0XfYKTi0qKbyQSLEBJ7dvu1XsF25beqjWSkBfxkAS+kru3Nc9/tC7RcghefN5VrDXGWmtyxI2oxRcys9JT5DGWxwtLl7FmOyuosQ34LVFNEFDWKugfGVMbjg8zk8J5ORM1+wBOta0TssBybpqFTE0W/JtCnPDCM5WmarrmI6eDwKhJZFN/ECUNJGDWLI84nSvlNkCjuZSeGgt
 
 %URL%
 https://github.com/VSCodium/vscodium
@@ -38,7 +38,7 @@ MIT
 x86_64
 
 %BUILDDATE%
-1652232019
+1652923328
 
 %PACKAGER%
 MedzikUser <nivua1fn@duck.com>

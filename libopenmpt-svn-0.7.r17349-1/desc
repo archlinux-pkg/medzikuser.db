@@ -1,0 +1,79 @@
+%FILENAME%
+libopenmpt-svn-0.7.r17349-1-x86_64.pkg.tar.xz
+
+%NAME%
+libopenmpt-svn
+
+%BASE%
+libopenmpt-svn
+
+%VERSION%
+0.7.r17349-1
+
+%DESC%
+Library to decode tracked music files (modules) into a raw PCM audio stream (svn version)
+
+%CSIZE%
+752816
+
+%ISIZE%
+2231328
+
+%MD5SUM%
+807e5e016f3c7781a2379ecb0c7e21cf
+
+%SHA256SUM%
+8a1ebdadc8a37910e85516773b5e239b253dbe71718321e36041aab69e592b7c
+
+%PGPSIG%
+iQGzBAABCgAdFiEEbVE1DUfFT3F+EWZ8emZGpsFGkMAFAmKFkjIACgkQemZGpsFGkMBOTQv9HMHoo44AeJEZC+BoWBXdsMmiU5dn4DPF6ajQNl3plllnYTS4PbpXlF0BBKr9/JFsJ00o47JZfS/PR+oO+KBVp8aTVRI484SEWlthIdwaTMbczKYT0UcxLIGFyh4YUTXzzXhyCbHxTJIBJUfMGWiEBiKHjtOg5TR3Cy7kAE1hYyXmkJ/YgAgWYOqz5K3ioOGzW0VbsBS58OEe0ysxoWvEm09UJGkc0sTqJ5bPZrLxxzmtpvnkjXTT+5fkR0QewJYNz7dTwnPrjEVdA2W5AjMOlhTEhS5UBVkRSy/sjjfUUPI2O4iECyevyFsFd0RnUn7McO/ajw4cNGPyjFNsrMDokLoSCLZb637wBqrcFhjhvpsFmn8Qt7t/qNsL79ZjZfl8f5c2uxmSPwhsk+2K9f1PqIOElhOS/dQbaCo9+HkEEA5G6cTzZcsl2wpZALKO5HrrzHyoHrnnmCfk0Bh2lzzZfv9W9R2NHS1I1V1OXhX9knkR0cw7uRIOWvVXCTczCXMV
+
+%URL%
+https://lib.openmpt.org/libopenmpt/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1652920433
+
+%PACKAGER%
+MedzikUser <nivua1fn@duck.com>
+
+%CONFLICTS%
+libopenmpt
+openmpt123
+
+%PROVIDES%
+libopenmpt
+openmpt123
+openmpt123-svn
+
+%DEPENDS%
+libvorbis
+mpg123
+zlib
+
+%OPTDEPENDS%
+flac: for openmpt123 player
+libpulse: for openmpt123 player
+libsndfile: for openmpt123 player
+portaudio: for openmpt123 player
+sdl2: for openmpt123 player
+
+%MAKEDEPENDS%
+subversion
+doxygen
+flac
+help2man
+libpulse
+libsndfile
+libvorbis
+mpg123
+portaudio
+sdl2
+zlib
+
